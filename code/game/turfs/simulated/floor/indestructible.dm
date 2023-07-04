@@ -295,3 +295,13 @@
 	opacity = TRUE
 	explosion_block = 2
 	mouse_opacity = MOUSE_OPACITY_ICON
+
+//Dune event turfs
+/turf/simulated/floor/indestructible/dune_sand
+	name = "dune sand"
+	icon = 'icons/misc/arakis.dmi'
+	icon_state = "sand_orange"
+	footstep = FOOTSTEP_SAND
+	barefootstep = FOOTSTEP_SAND
+	clawfootstep = FOOTSTEP_SAND
+	heavyfootstep = FOOTSTEP_GENERIC_HEAVY

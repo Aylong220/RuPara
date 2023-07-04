@@ -3,6 +3,7 @@
 	prefix = "_maps/map_files/RandomRuins/SpaceRuins/"
 	cost = 1
 
+/*
 /datum/map_template/ruin/space/zoo
 	id = "zoo"
 	suffix = "abandonedzoo.dmm"
@@ -376,4 +377,5 @@
 	Immediately after the described events, the 'fortress' protocol was activated at the facility"
 	cost = 6 // 200x200 station in asteroid belt, has self destruct system and may spawn secret documents or 8 lvl tech
 	allow_duplicates = FALSE
+*/
 */
