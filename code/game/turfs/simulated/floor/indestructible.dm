@@ -300,8 +300,13 @@
 /turf/simulated/floor/indestructible/dune_sand
 	name = "dune sand"
 	icon = 'icons/misc/arakis.dmi'
-	icon_state = "sand_orange"
+	icon_state = "sand"
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
+
+/turf/simulated/floor/indestructible/dune_sand/dug
+	name = "sand dug"
+	icon_state = "sand_dug"
+
