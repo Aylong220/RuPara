@@ -22,8 +22,8 @@
 /obj/item/card/id/ussp_general
 	name = "ussp general ID card"
 	desc = "An ID straight from Ussp."
-	icon_state = "centcom"
-	item_state = "centcomm-id"
+	icon_state = "ussp"
+	item_state = "ussp"
 	registered_name = "Central Command"
 	assignment = "General"
 	access = list(USSP_BAR, USSP_SECURITY, USSP_COMAND)

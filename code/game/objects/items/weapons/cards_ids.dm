@@ -793,7 +793,7 @@
 
 /obj/item/card/id/nanotrasen
 	name = "nanotrasen ID card"
-	icon_state = "nanotrasen"
+	icon_state = "ntrep"
 	item_state = "nt-id"
 
 /obj/item/card/id/prisoner
@@ -811,30 +811,37 @@
 
 /obj/item/card/id/prisoner/one
 	name = "Prisoner #13-001"
+	icon_state = "prisonerone"
 	registered_name = "Prisoner #13-001"
 
 /obj/item/card/id/prisoner/two
 	name = "Prisoner #13-002"
+	icon_state = "prisonertwo"
 	registered_name = "Prisoner #13-002"
 
 /obj/item/card/id/prisoner/three
 	name = "Prisoner #13-003"
+	icon_state = "prisonerthree"
 	registered_name = "Prisoner #13-003"
 
 /obj/item/card/id/prisoner/four
 	name = "Prisoner #13-004"
+	icon_state = "prisonerfour"
 	registered_name = "Prisoner #13-004"
 
 /obj/item/card/id/prisoner/five
 	name = "Prisoner #13-005"
+	icon_state = "prisonerfive"
 	registered_name = "Prisoner #13-005"
 
 /obj/item/card/id/prisoner/six
 	name = "Prisoner #13-006"
+	icon_state = "prisonersix"
 	registered_name = "Prisoner #13-006"
 
 /obj/item/card/id/prisoner/seven
 	name = "Prisoner #13-007"
+	icon_state = "prisonerseven"
 	registered_name = "Prisoner #13-007"
 
 /obj/item/card/id/prisoner/random
@@ -847,7 +854,7 @@
 /obj/item/card/id/salvage_captain
 	name = "Captain's ID"
 	registered_name = "Captain"
-	icon_state = "centcom"
+	icon_state = "captain"
 	desc = "Finders, keepers."
 	access = list(ACCESS_SALVAGE_CAPTAIN)
 
@@ -968,7 +975,7 @@
 /obj/item/card/id/qm
 	name = "Quartmaster ID"
 	registered_name = "QM"
-	icon_state = "qm"
+	icon_state = "quartermaster"
 	item_state = "qm-id"
 	desc = "Glory to cargonia!"
 	access = list(ACCESS_MAINT_TUNNELS, ACCESS_MAILSORTING, ACCESS_CARGO, ACCESS_CARGO_BOT, ACCESS_QM, ACCESS_MINT, ACCESS_MINING, ACCESS_MINING_STATION, ACCESS_MINERAL_STOREROOM)
@@ -976,7 +983,7 @@
 /obj/item/card/id/genetics
 	name = "Genetics ID"
 	registered_name = "Genetics"
-	icon_state = "genetics"
+	icon_state = "geneticist"
 	item_state = "genetics-id"
 	access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_CHEMISTRY, ACCESS_VIROLOGY, ACCESS_GENETICS, ACCESS_RESEARCH, ACCESS_MINERAL_STOREROOM)
 
@@ -990,7 +997,7 @@
 /obj/item/card/id/iaa
 	name = "IAA ID"
 	registered_name = "IAA"
-	icon_state = "IAA"
+	icon_state = "internalaffairsagent"
 	item_state = "iaa-id"
 	access = list(ACCESS_LAWYER, ACCESS_COURT, ACCESS_SEC_DOORS, ACCESS_MAINT_TUNNELS, ACCESS_RESEARCH, ACCESS_MEDICAL, ACCESS_CONSTRUCTION, ACCESS_MAILSORTING)
 
