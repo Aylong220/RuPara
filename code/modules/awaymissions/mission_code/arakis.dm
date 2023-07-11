@@ -1,13 +1,16 @@
 /area/arrakis
-	name = "\improper Arrakis Landsite"
+	name = "\improper Arrakis"
 	icon_state = "syndie-ship"
 	requires_power = TRUE
-	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
+	has_gravity = TRUE
+	always_unpowered = TRUE
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
+	ambientsounds = DESERT_SOUNDS
+	there_can_be_many = TRUE
 	nad_allowed = TRUE
 
 /area/arrakis/outside
 	name = "\improper Arrakis Dunes"
-	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
 	icon_state = "syndie-outside"
 
 /area/arrakis/rock

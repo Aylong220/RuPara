@@ -301,10 +301,20 @@
 	name = "dune sand"
 	icon = 'icons/misc/arakis.dmi'
 	icon_state = "sand"
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
+
+/turf/simulated/floor/indestructible/dune_sand/Initialize(mapload)
+	. = ..()
+	icon_state = pick("sand", "sand1", "sand2", "sand3", "sand4")
+
+/turf/simulated/floor/indestructible/dune_sand/smooth
+	icon_state = "smooth"
+	smooth = SMOOTH_MORE | SMOOTH_BORDER
+	canSmoothWith = list(/turf/simulated/floor/indestructible/dune_sand, /turf/simulated/floor/indestructible/dune_sand/smooth)
 
 /turf/simulated/floor/indestructible/dune_sand/dug
 	name = "sand dug"

@@ -33,6 +33,12 @@
 /obj/effect/decal/snow/sand/surround
 	icon_state = "gravsnow_surround"
 
+/obj/effect/decal/snow/real_sand/edge
+	icon_state = "sand_corner"
+
+/obj/effect/decal/snow/real_sand/surround
+	icon_state = "sand_surround"
+
 /obj/effect/decal/leaves
 	name = "fall leaves"
 	density = FALSE
