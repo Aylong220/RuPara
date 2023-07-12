@@ -494,7 +494,7 @@
 		if(!L.client.played)
 			SEND_SOUND(L, sound(sound, repeat = FALSE, wait = FALSE, volume = 25 * L.client.prefs.get_channel_volume(CHANNEL_AMBIENCE), channel = CHANNEL_AMBIENCE))
 			L.client.played = TRUE
-			addtimer(CALLBACK(L.client, TYPE_PROC_REF(/client, ResetAmbiencePlayed)), 300)
+			addtimer(CALLBACK(L.client, TYPE_PROC_REF(/client, ResetAmbiencePlayed)), 3 MINUTES)
 
 /**
   * Reset the played var to false on the client
