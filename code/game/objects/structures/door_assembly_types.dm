@@ -211,6 +211,15 @@
 	noglass = TRUE
 	material_type = /obj/item/stack/sheet/plasteel
 
+/obj/structure/door_assembly/door_assembly_secret
+	name = "high security secret airlock assembly"
+	icon = 'icons/obj/doors/airlocks/highsec/highsec.dmi'
+	base_name = "secret airlock"
+	overlays_file = null
+	airlock_type = /obj/machinery/door/airlock/highsecurity/secret
+	noglass = TRUE
+	material_type = /obj/item/stack/sheet/plasteel
+
 /obj/structure/door_assembly/door_assembly_vault
 	name = "vault door assembly"
 	icon = 'icons/obj/doors/airlocks/vault/vault.dmi'

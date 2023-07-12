@@ -563,6 +563,13 @@
 
 	add_fingerprint(user)
 
+/obj/machinery/door/airlock/highsecurity/secret
+	name = "reinforced wall"
+	desc = "Effectively impervious to conventional methods of destruction."
+	icon = 'icons/obj/doors/airlocks/highsec/secret.dmi'
+	overlays_file = null
+	assemblytype = null
+	normal_integrity = INDESTRUCTIBLE
 
 /obj/machinery/door/airlock/highsecurity/red/welder_act(mob/user, obj/item/I)
 	if(shock_user(user, 75))

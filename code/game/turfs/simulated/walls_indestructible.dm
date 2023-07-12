@@ -180,6 +180,7 @@
 	/obj/machinery/door/airlock/shuttle,
 	/obj/machinery/door/airlock/multi_tile/glass,
 	/obj/machinery/door/airlock/external,
+	/obj/machinery/door/airlock/highsecurity/secret,
 	/turf/simulated/wall/rust,
 	/turf/simulated/wall/r_wall/rust,
 	/turf/simulated/wall/r_wall/coated,
@@ -195,33 +196,6 @@
 	name = "reinforced wall"
 	icon = 'icons/turf/walls/rusty_reinforced_wall.dmi'
 	icon_state = "r_wall"
-	canSmoothWith = list(
-	/obj/structure/window/full/basic,
-	/obj/structure/window/full/reinforced,
-	/obj/structure/window/full/reinforced/tinted,
-	/obj/structure/window/full/reinforced/polarized,
-	/obj/structure/window/full/plasmabasic,
-	/obj/structure/window/full/plasmareinforced,
-	/turf/simulated/wall,
-	/turf/simulated/wall/r_wall,
-	/obj/structure/falsewall,
-	/obj/structure/falsewall/reinforced,
-	/obj/structure/falsewall/clockwork,
-	/obj/machinery/door/airlock,
-	/obj/machinery/door/airlock/centcom,
-	/obj/machinery/door/airlock/shuttle,
-	/obj/machinery/door/airlock/multi_tile/glass,
-	/obj/machinery/door/airlock/external,
-	/turf/simulated/wall/rust,
-	/turf/simulated/wall/r_wall/rust,
-	/turf/simulated/wall/r_wall/coated,
-	/turf/simulated/wall/indestructible,
-	/turf/simulated/wall/indestructible/metal,
-	/turf/simulated/wall/indestructible/rusted,
-	/turf/simulated/wall/indestructible/reinforced,
-	/turf/simulated/wall/indestructible/reinforced/rusted,
-	/turf/simulated/wall/indestructible/fakeglass)
-	smooth = SMOOTH_TRUE
 
 /turf/simulated/wall/indestructible/wood
 	name = "wooden wall"

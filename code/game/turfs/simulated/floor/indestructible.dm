@@ -301,7 +301,6 @@
 	name = "dune sand"
 	icon = 'icons/misc/arakis.dmi'
 	icon_state = "sand"
-	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
@@ -320,3 +319,7 @@
 	name = "sand dug"
 	icon_state = "sand_dug"
 
+/turf/simulated/floor/indestructible/brick
+	name = "brick floor"
+	icon = 'icons/misc/arakis.dmi'
+	icon_state = "brick"
