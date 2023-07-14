@@ -102,6 +102,43 @@
 	T.light_range = light_range
 	. = ..()
 
+/obj/effect/mapping_helpers/machinery
+	icon = 'icons/effects/mapping_helpers.dmi'
+	icon_state = ""
+	layer = BELOW_MOB_LAYER
+	late = TRUE
+
+/obj/effect/mapping_helpers/machinery/Initialize(mapload)
+	. = ..()
+	if(!mapload)
+		log_world("[src] spawned outside of mapload!")
+		return
+
+	if(!(locate(/obj/machinery) in get_turf(src)))
+		log_world("[src] failed to find any machinery [AREACOORD(src)]")
+
+	for(var/obj/machinery/M in get_turf(src))
+		payload(M)
+
+	return INITIALIZE_HINT_QDEL
+
+/obj/effect/mapping_helpers/machinery/proc/payload(obj/machinery/payload)
+	return
+
+/obj/effect/mapping_helpers/machinery/damaged
+	name = "damaged machinery helper"
+	icon_state = "blocker"
+
+/obj/effect/mapping_helpers/machinery/destroyed
+	name = "damaged machinery helper"
+	icon_state = "removal"
+
+/obj/effect/mapping_helpers/machinery/damaged/payload(obj/machinery/M)
+    M.take_damage(M.obj_integrity - M.integrity_failure)
+
+/obj/effect/mapping_helpers/machinery/destroyed/payload(obj/machinery/M)
+    M.take_damage(M.obj_integrity)
+
 // Used by mapmerge2 to denote the existence of a merge conflict (or when it has to complete a "best intent" merge where it dumps the movable contents of an old key and a new key on the same tile).
 // We define it explicitly here to ensure that it shows up on the highest possible plane (while giving off a verbose icon) to aide mappers in resolving these conflicts.
 // DO NOT USE THIS IN NORMAL MAPPING!!! Linters WILL fail.
