@@ -296,5 +296,5 @@
 	color = "#D9742B"
 	icon = 'icons/turf/walls/rock.dmi'
 	icon_state = "rock"
-	canSmoothWith = list(/turf/simulated/wall/indestructible/dune_rock)
+	canSmoothWith = list(/turf/simulated/wall/indestructible/rock/dune_rock)
 	smooth = SMOOTH_TRUE
