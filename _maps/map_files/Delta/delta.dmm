@@ -40033,6 +40033,7 @@
 /obj/structure/safe/floor,
 /obj/item/melee/cultblade,
 /obj/item/restraints/legcuffs/bola/cult,
+/obj/item/whetstone/cult,
 /obj/item/stack/sheet/runed_metal{
 	amount = 50
 	},
@@ -61589,15 +61590,15 @@
 	},
 /area/atmos)
 "ihp" = (
+/obj/structure/spacepoddoor{
+	luminosity = 3
+	},
 /obj/machinery/door/poddoor{
 	density = 0;
 	icon_state = "open";
 	id_tag = "Brig_lockdown";
 	name = "Brig Lockdown";
 	opacity = 0
-	},
-/obj/structure/spacepoddoor{
-	luminosity = 3
 	},
 /obj/machinery/door/poddoor/multi_tile/two_tile_ver{
 	id_tag = "secpilot";
@@ -117966,6 +117967,10 @@
 	},
 /obj/item/storage/box/buck{
 	pixel_y = 3
+	},
+/obj/item/storage/box/slug{
+	pixel_x = -3;
+	pixel_y = 6
 	},
 /obj/machinery/camera{
 	c_tag = "Secure Armory East";
@@ -175708,7 +175713,7 @@ bBM
 bBM
 brF
 nyK
-dmq
+bBM
 nyK
 dkw
 bBM
