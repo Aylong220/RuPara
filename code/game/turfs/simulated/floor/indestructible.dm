@@ -297,18 +297,117 @@
 	mouse_opacity = MOUSE_OPACITY_ICON
 
 //Dune event turfs
+
+/turf/simulated/floor/indestructible/brick
+	name = "brick floor"
+	icon = 'icons/misc/desert.dmi'
+	icon_state = "brick"
+	baseturf = /turf/simulated/floor/indestructible/dune_sand
+
 /turf/simulated/floor/indestructible/dune_sand
 	name = "dune sand"
-	icon = 'icons/misc/arakis.dmi'
+	icon = 'icons/misc/desert.dmi'
 	icon_state = "sand"
+	baseturf = /turf/simulated/floor/indestructible/dune_sand/dug
+	temperature = 325
+	planetary_atmos = TRUE
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
-	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
+	heavyfootstep = FOOTSTEP_SAND
+	var/environment_type = "sand"
+	var/obj/item/stack/digResult = /obj/item/stack/ore/glass
+	var/floor_variance = 5
+	var/dug
 
 /turf/simulated/floor/indestructible/dune_sand/Initialize(mapload)
+	var/proper_name = name
 	. = ..()
-	icon_state = pick("sand", "sand1", "sand2", "sand3", "sand4")
+	name = proper_name
+	if(prob(floor_variance))
+		icon_state = "[environment_type][rand(1,4)]"
+
+/turf/simulated/floor/indestructible/dune_sand/proc/getDug()
+	new digResult(src, 5)
+	icon_plating = "[environment_type]_dug"
+	icon_state = "[environment_type]_dug"
+	dug = TRUE
+
+/turf/simulated/floor/indestructible/dune_sand/proc/can_dig(mob/user)
+	if(!dug)
+		return TRUE
+	if(user)
+		to_chat(user, "<span class='notice'>Looks like someone has dug here already.</span>")
+
+/turf/simulated/floor/indestructible/dune_sand/try_replace_tile(obj/item/stack/tile/T, mob/user, params)
+	return
+
+/turf/simulated/floor/indestructible/dune_sand/burn_tile()
+	return
+
+/turf/simulated/floor/indestructible/dune_sand/MakeSlippery(wet_setting)
+	return
+
+/turf/simulated/floor/indestructible/dune_sand/MakeDry(wet_setting)
+	return
+
+/turf/simulated/floor/indestructible/dune_sand/remove_plating()
+	return
+
+/turf/simulated/floor/crowbar_act(mob/user, obj/item/I)
+	return
+
+/turf/simulated/floor/indestructible/dune_sand/ex_act(severity)
+	if(!can_dig())
+		return
+	switch(severity)
+		if(3)
+			return
+		if(2)
+			if(prob(20))
+				getDug()
+		if(1)
+			getDug()
+
+/turf/simulated/floor/indestructible/dune_sand/attackby(obj/item/I, mob/user, params)
+	//note that this proc does not call ..()
+	if(!I|| !user)
+		return FALSE
+
+	if((istype(I, /obj/item/shovel) || istype(I, /obj/item/pickaxe)))
+		if(!can_dig(user))
+			return TRUE
+
+		var/turf/T = get_turf(user)
+		if(!istype(T))
+			return
+
+		to_chat(user, "<span class='notice'>You start digging...</span>")
+
+		playsound(src, I.usesound, 50, TRUE)
+		if(do_after(user, 40 * I.toolspeed * gettoolspeedmod(user), target = src))
+			if(!can_dig(user))
+				return TRUE
+			to_chat(user, "<span class='notice'>You dig a hole.</span>")
+			getDug()
+			return TRUE
+
+	else if(istype(I, /obj/item/storage/bag/ore))
+		var/obj/item/storage/bag/ore/S = I
+		if(S.pickup_all_on_tile)
+			for(var/obj/item/stack/ore/O in contents)
+				O.attackby(I, user)
+				return
+
+	else if(istype(I, /obj/item/stack/tile))
+		var/obj/item/stack/tile/Z = I
+		if(!Z.use(1))
+			return
+		if(istype(Z, /obj/item/stack/tile/plasteel)) // Turn asteroid floors into plating by default
+			ChangeTurf(/turf/simulated/floor/plating, keep_icon = FALSE)
+		else
+			ChangeTurf(Z.turf_type, keep_icon = FALSE)
+		playsound(src, 'sound/weapons/Genhit.ogg', 50, 1)
 
 /turf/simulated/floor/indestructible/dune_sand/smooth
 	icon_state = "smooth"
@@ -318,8 +417,3 @@
 /turf/simulated/floor/indestructible/dune_sand/dug
 	name = "sand dug"
 	icon_state = "sand_dug"
-
-/turf/simulated/floor/indestructible/brick
-	name = "brick floor"
-	icon = 'icons/misc/arakis.dmi'
-	icon_state = "brick"

@@ -57,6 +57,14 @@
 	pixel_y = 0
 	pixel_x = -32
 	icon = 'icons/obj/flora/jungletreesmall.dmi'
+/obj/structure/flora/tree/cactus
+	icon = 'icons/misc/desert2.dmi'
+	icon_state = "cactus1"
+	pixel_x = 0
+
+/obj/structure/flora/cactus/Initialize(mapload)
+	. = ..()
+	icon_state = pick("cactus1","cactus2","cactus3")
 
 //grass
 /obj/structure/flora/grass
@@ -86,7 +94,6 @@
 /obj/structure/flora/grass/both/Initialize(mapload)
 	. = ..()
 	icon_state = "snowgrassall[rand(1, 3)]"
-
 
 //bushes
 /obj/structure/flora/bush
