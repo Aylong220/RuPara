@@ -291,9 +291,10 @@
 	smooth = SMOOTH_TRUE
 
 //Dune event walls
-/turf/simulated/wall/indestructible/orange_rock
+/turf/simulated/wall/indestructible/rock/dune_rock
 	name = "dune rock"
-	icon = 'icons/turf/walls/orange_rock.dmi'
+	color = "#D9742B"
+	icon = 'icons/turf/walls/rock.dmi'
 	icon_state = "rock"
-	canSmoothWith = list(/turf/simulated/wall/indestructible/orange_rock)
+	canSmoothWith = list(/turf/simulated/wall/indestructible/dune_rock)
 	smooth = SMOOTH_TRUE
