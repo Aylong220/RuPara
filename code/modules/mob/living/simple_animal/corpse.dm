@@ -56,6 +56,7 @@
 	mob_name = "Pirate"
 	hair_style = "bald"
 	facial_hair_style = "shaved"
+	mob_color = "#D2B48C"
 	outfit = /datum/outfit/piratecorpse
 
 /datum/outfit/piratecorpse
@@ -112,3 +113,16 @@
 	suit = /obj/item/clothing/suit/wizrobe
 	shoes = /obj/item/clothing/shoes/sandal
 	head = /obj/item/clothing/head/wizard
+
+/obj/effect/mob_spawn/human/corpse/miner
+	name = "Труп шахтёра"
+	hair_style = "bangs"
+	facial_hair_style = "dwarf beard"
+	outfit = /datum/outfit/miner
+
+/datum/outfit/miner
+	name = "Труп шахтёра"
+	uniform = /obj/item/clothing/under/rank/miner/lavaland
+	shoes = /obj/item/clothing/shoes/workboots/mining
+	mask = /obj/item/clothing/mask/gas
+	back = /obj/item/storage/backpack/explorer

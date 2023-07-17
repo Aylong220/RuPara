@@ -1,6 +1,6 @@
 /datum/map/cyberiad
 	name = "Cyberiad"
-	map_path = "_maps/map_files/cyberiad/cyberiad.dmm"
+	map_path = "_maps/map_files/generic/arrakis.dmm"
 
 	station_name  = "NSS Cyberiad"
 	station_short = "Cyberiad"
