@@ -239,8 +239,6 @@
 /obj/item/reagent_containers/glass/bottle/nutrient/New()
 	..()
 	add_lid()
-	pixel_x = rand(-5, 5)
-	pixel_y = rand(-5, 5)
 
 /obj/item/reagent_containers/glass/bottle/nutrient/on_reagent_change()
 	. = ..()
@@ -281,6 +279,13 @@
 	if(!is_open_container())
 		add_overlay("lid_jug")
 
+/obj/item/reagent_containers/glass/bottle/nutrient/fuel
+	name = "канистра с топливом"
+	desc = "Содержит в себе топливо. Пить не рекомендуется."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "plastic_jug"
+	possible_transfer_amounts = list(1,2,5,10,20,40,80,100)
+	list_reagents = list("fuel" = 100)
 
 /obj/item/reagent_containers/glass/bottle/nutrient/ez
 	name = "jug of E-Z-Nutrient"
