@@ -132,6 +132,10 @@
 	req_access = list(ACCESS_SYNDICATE)
 	report_power_alarm = FALSE
 
+/obj/machinery/power/apc/unpowered
+	name = "\improper Unpowered APC"
+	operating = 0
+
 /obj/item/apc_electronics
 	name = "power control module"
 	desc = "Heavy-duty switching circuits for power control."

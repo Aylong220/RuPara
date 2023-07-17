@@ -100,7 +100,7 @@
 	icon_state = "desert_science"
 
 /area/arrakis/bunker/medbay
-	name = "\improper Arrakis Vault Janitor"
+	name = "\improper Arrakis Vault Medbay"
 	icon_state = "desert_medbay"
 
 /area/arrakis/bunker/kitchen

@@ -1140,6 +1140,23 @@
 	resistance_flags = FIRE_PROOF
 	refill_canister = /obj/item/vending_refill/medical
 
+/obj/machinery/vending/medical/small
+	products = list(
+		/obj/item/reagent_containers/syringe = 5,
+		/obj/item/reagent_containers/syringe/insulin = 5,
+		/obj/item/reagent_containers/syringe/calomel = 4,
+		/obj/item/reagent_containers/syringe/antiviral = 2,
+		/obj/item/reagent_containers/food/pill/patch/styptic = 2,
+		/obj/item/reagent_containers/food/pill/patch/silver_sulf = 2,
+		/obj/item/reagent_containers/food/pill/mutadone = 2,
+		/obj/item/stack/medical/bruise_pack = 5,
+		/obj/item/stack/medical/ointment = 5,
+		/obj/item/reagent_containers/glass/bottle/charcoal = 2,
+		/obj/item/reagent_containers/glass/bottle/oculine = 1,
+		/obj/item/reagent_containers/glass/bottle/epinephrine = 2,
+		/obj/item/reagent_containers/glass/bottle/diphenhydramine = 2,
+		/obj/item/healthanalyzer = 2)
+
 /obj/machinery/vending/medical/syndicate_access
 	name = "\improper SyndiMed Plus"
 	icon_state = "syndi-big-med"
@@ -1163,7 +1180,7 @@
 	icon_state = "wallmed"
 	icon_deny = "wallmed-deny"
 	density = FALSE //It is wall-mounted, and thus, not dense. --Superxpdude
-	products = list(/obj/item/stack/medical/bruise_pack = 2, /obj/item/stack/medical/ointment = 2, /obj/item/reagent_containers/hypospray/autoinjector = 4, /obj/item/healthanalyzer = 1)
+	products = list(, /obj/item/reagent_containers/hypospray/autoinjector = 4, /obj/item/healthanalyzer = 1)
 	contraband = list(/obj/item/reagent_containers/syringe/charcoal = 4, /obj/item/reagent_containers/syringe/antiviral = 4, /obj/item/reagent_containers/food/pill/tox = 1)
 	armor = list(melee = 100, bullet = 100, laser = 100, energy = 100, bomb = 0, bio = 0, rad = 0, fire = 100, acid = 50)
 	resistance_flags = FIRE_PROOF

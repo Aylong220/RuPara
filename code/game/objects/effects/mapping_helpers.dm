@@ -65,21 +65,44 @@
 
 /obj/effect/mapping_helpers/airlock
 	layer = DOOR_HELPER_LAYER
+	late = TRUE
+	var/list/blacklist = list(/obj/machinery/door/firedoor, /obj/machinery/door/poddoor, /obj/machinery/door/unpowered)
+
+/obj/effect/mapping_helpers/airlock/Initialize(mapload)
+	. = ..()
+	if(!mapload)
+		log_world("[src] spawned outside of mapload!")
+		return
+
+	if(!(locate(/obj/machinery/door) in get_turf(src)))
+		log_world("[src] failed to find an airlock at [AREACOORD(src)]")
+
+	for(var/obj/machinery/door/D in get_turf(src))
+		if(!is_type_in_list(D, blacklist))
+			payload(D)
+
+	return INITIALIZE_HINT_QDEL
+
+/obj/effect/mapping_helpers/airlock/proc/payload(obj/machinery/door/airlock/payload)
+	return
 
 /obj/effect/mapping_helpers/airlock/unres
 	name = "airlock unresctricted side helper"
 	icon_state = "airlock_unres_helper"
 
-/obj/effect/mapping_helpers/airlock/unres/Initialize(mapload)
-	if(!mapload)
-		log_world("### MAP WARNING, [src] spawned outside of mapload!")
-		return
-	var/obj/machinery/door/airlock/airlock = locate(/obj/machinery/door/airlock) in src.loc
-	if(airlock)
-		airlock.unres_sides ^= dir
+/obj/effect/mapping_helpers/airlock/unres/payload(obj/machinery/door/airlock)
+	airlock.unres_sides ^= dir
+	airlock.update_icon()
+
+/obj/effect/mapping_helpers/airlock/locked
+	name = "airlock lock helper"
+	icon_state = "airlock_locked_helper"
+
+/obj/effect/mapping_helpers/airlock/locked/payload(obj/machinery/door/airlock/airlock)
+	if(airlock.locked)
+		log_world("[src] at [AREACOORD(src)] tried to bolt [airlock] but it's already locked!")
 	else
-		log_world("### MAP WARNING, [src] failed to find an airlock at [AREACOORD(src)]")
-	..()
+		airlock.locked = TRUE
 
 /obj/effect/mapping_helpers/no_lava
 	icon_state = "no_lava"
