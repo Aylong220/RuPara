@@ -49,27 +49,27 @@
 	name = "\improper Arrakis Shuttle"
 	icon_state = "unknown"
 
-/area/arrakis/rock
-	name = "\improper Arrakis Rock"
+/area/arrakis/cave
+	name = "\improper Arrakis Cave"
 	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
 	icon_state = "space_near"
 
-/area/arrakis/rock/cave
+/area/arrakis/cave/cave
 	name = "\improper Arrakis Cave"
 
-/area/arrakis/rock/cave1
+/area/arrakis/cave/cave1
 	name = "\improper Arrakis Cave 1"
 
-/area/arrakis/rock/cave2
+/area/arrakis/cave/cave2
 	name = "\improper Arrakis Cave 2"
 
-/area/arrakis/rock/cave3
+/area/arrakis/cave/cave3
 	name = "\improper Arrakis Cave 3"
 
-/area/arrakis/rock/cave4
+/area/arrakis/cave/cave4
 	name = "\improper Arrakis Cave 4"
 
-/area/arrakis/rock/cave5
+/area/arrakis/cave/cave5
 	name = "\improper Arrakis Cave 5"
 
 /area/arrakis/bunker

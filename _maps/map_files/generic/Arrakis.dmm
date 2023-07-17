@@ -103,7 +103,20 @@
 "aN" = (
 /obj/item/stack/ore/slag,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
+"aU" = (
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 11;
+	height = 18;
+	id = "emergency_home";
+	name = "emergency evac bay";
+	width = 29
+	},
+/turf/simulated/floor/indestructible/asteroid{
+	color = "gray"
+	},
+/area/arrakis/outside/shuttle)
 "aZ" = (
 /obj/structure/chair/office/light,
 /obj/machinery/atmospherics/pipe/manifold/hidden,
@@ -285,7 +298,7 @@
 	amount = 5
 	},
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "co" = (
 /obj/structure/rack,
 /obj/item/storage/firstaid/toxin{
@@ -427,7 +440,7 @@
 /area/arrakis/bunker/rnd)
 "cU" = (
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "dd" = (
 /obj/machinery/chem_master,
 /obj/machinery/status_display{
@@ -457,7 +470,7 @@
 "dp" = (
 /obj/item/stack/ore/glass,
 /turf/simulated/floor/indestructible/dune_sand/dug,
-/area/arrakis/rock/cave2)
+/area/arrakis/cave/cave2)
 "dr" = (
 /obj/machinery/chem_heater,
 /turf/simulated/floor/plasteel{
@@ -477,7 +490,7 @@
 /obj/structure/spider/stickyweb,
 /obj/item/stack/ore/diamond,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "dK" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -581,7 +594,7 @@
 /mob/living/simple_animal/hostile/poison/giant_spider,
 /obj/structure/spider/stickyweb,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "es" = (
 /obj/structure/table/glass,
 /obj/item/clothing/mask/gas{
@@ -1072,7 +1085,7 @@
 /obj/effect/decal/cleanable/cobweb2,
 /obj/item/stack/ore/slag,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "gP" = (
 /obj/structure/table/wood,
 /obj/item/folder/blue,
@@ -1249,7 +1262,7 @@
 /obj/structure/mineral_door/sandstone,
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "hV" = (
 /obj/structure/closet/walllocker{
 	pixel_y = 32
@@ -1407,7 +1420,7 @@
 "iM" = (
 /obj/item/stack/ore/gold,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "iP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1482,7 +1495,7 @@
 "je" = (
 /obj/item/stack/sheet/bone,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "jh" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medbay";
@@ -1525,7 +1538,7 @@
 "jG" = (
 /obj/item/pickaxe,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "jJ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -1614,8 +1627,12 @@
 /obj/structure/bed/sandstone{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dust,
+/obj/structure/decorative_structures/corpse{
+	layer = 2
+	},
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "jZ" = (
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -2242,7 +2259,7 @@
 /obj/item/skeleton/r_leg,
 /obj/item/skeleton/l_foot,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "nK" = (
 /obj/structure/chair/office/dark{
 	dir = 4
@@ -2275,7 +2292,7 @@
 "nU" = (
 /obj/item/stack/ore/bluespace_crystal,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "nV" = (
 /obj/structure/chair{
 	dir = 1
@@ -2384,7 +2401,7 @@
 /obj/item/gun/projectile/revolver/doublebarrel/improvised,
 /obj/item/stack/ore/iron,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "oB" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -2394,7 +2411,7 @@
 /area/arrakis/bunker/medbay)
 "oD" = (
 /turf/simulated/wall/indestructible/reinforced,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "oH" = (
 /obj/structure/chair/stool{
 	dir = 4
@@ -2558,7 +2575,7 @@
 /mob/living/simple_animal/hostile/poison/giant_spider/hunter,
 /obj/structure/spider/stickyweb,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "po" = (
 /obj/machinery/atmospherics/unary/cold_sink/freezer{
 	current_temperature = 80;
@@ -2887,7 +2904,7 @@
 "qO" = (
 /obj/structure/spider/stickyweb,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "qR" = (
 /obj/machinery/constructable_frame/machine_frame,
 /turf/simulated/floor/plasteel{
@@ -2912,7 +2929,7 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "re" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -2985,7 +3002,7 @@
 "rz" = (
 /obj/item/stack/ore/slag,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "rB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -3108,7 +3125,7 @@
 "se" = (
 /obj/item/stack/ore/titanium,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "sf" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -3310,7 +3327,7 @@
 /obj/effect/decal/cleanable/cobweb2,
 /obj/item/stack/ore,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "ts" = (
 /obj/effect/spawner/window/reinforced,
 /turf/simulated/floor/plating,
@@ -3433,7 +3450,7 @@
 /area/arrakis/bunker/rnd)
 "tX" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "tZ" = (
 /obj/machinery/computer/supplycomp{
 	dir = 4
@@ -3450,6 +3467,11 @@
 	icon_state = "whitebluefull"
 	},
 /area/arrakis/bunker/medbay)
+"ue" = (
+/obj/effect/decal/cleanable/dust,
+/obj/effect/mob_spawn/human/corpse/miner,
+/turf/simulated/floor/indestructible/brick,
+/area/arrakis/cave)
 "uj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -3470,7 +3492,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "ul" = (
 /obj/machinery/atmospherics/binary/pump/on{
 	target_pressure = 4500
@@ -3478,9 +3500,15 @@
 /turf/simulated/floor/plasteel/dark/telecomms,
 /area/arrakis/bunker/rnd)
 "um" = (
-/obj/structure/bed/sandstone,
+/obj/structure/table/reinforced/brass,
+/obj/effect/decal/cleanable/dust,
+/obj/structure/decorative_structures/corpse{
+	layer = 2;
+	dir = 1;
+	pixel_y = -17
+	},
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "un" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel{
@@ -3665,7 +3693,7 @@
 /area/arrakis/bunker/medbay)
 "vI" = (
 /turf/simulated/wall/indestructible/rock/dune_rock,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "vM" = (
 /turf/simulated/floor/plasteel/freezer,
 /area/arrakis/bunker/rnd)
@@ -3684,7 +3712,7 @@
 /area/arrakis/bunker/rnd)
 "vR" = (
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "vV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass{
@@ -3701,7 +3729,7 @@
 /obj/effect/decal/cleanable/cobweb,
 /obj/item/stack/ore/diamond,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "wc" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/plasteel{
@@ -3813,7 +3841,7 @@
 /obj/effect/decal/cleanable/dust,
 /obj/structure/table/reinforced/brass,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "wF" = (
 /obj/machinery/computer/security,
 /turf/simulated/floor/plasteel{
@@ -3847,8 +3875,8 @@
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "wZ" = (
-/obj/effect/decal/remains,
-/turf/simulated/floor/indestructible/dune_sand/smooth,
+/obj/effect/mob_spawn/human/corpse/miner,
+/turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/outside/Outside1)
 "xc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -3893,7 +3921,7 @@
 "xA" = (
 /obj/structure/spider/stickyweb,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "xB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
@@ -3961,6 +3989,13 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"yd" = (
+/obj/structure/bed/sandstone,
+/obj/effect/decal/cleanable/dust,
+/obj/effect/mob_spawn/human/corpse/miner,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/indestructible/brick,
+/area/arrakis/cave)
 "yi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -3989,7 +4024,7 @@
 /obj/structure/spider/stickyweb,
 /mob/living/simple_animal/hostile/poison/giant_spider/hunter,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "yw" = (
 /obj/structure/table/wood,
 /obj/item/restraints/handcuffs,
@@ -4015,7 +4050,7 @@
 /obj/structure/spider/stickyweb,
 /obj/item/stack/ore/plasma,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "yG" = (
 /obj/structure/table,
 /obj/item/roller{
@@ -4057,7 +4092,7 @@
 /area/arrakis/bunker/medbay)
 "yO" = (
 /turf/simulated/wall/indestructible/rock/dune_rock,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "yP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
@@ -4186,6 +4221,7 @@
 	dir = 4;
 	pixel_x = 5
 	},
+/obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/outside/Outside1)
 "zy" = (
@@ -4234,7 +4270,7 @@
 "zV" = (
 /obj/item/stack/ore/tranquillite,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "zZ" = (
 /obj/structure/chair/comfy{
 	dir = 8
@@ -4253,7 +4289,7 @@
 /obj/structure/spider/stickyweb,
 /obj/item/stack/ore/silver,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "Al" = (
 /obj/machinery/firealarm{
 	dir = 1;
@@ -4267,7 +4303,7 @@
 /area/arrakis/bunker/rnd)
 "At" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "Av" = (
 /turf/simulated/floor/indestructible/brick,
 /area/arrakis/bunker/rnd)
@@ -4368,12 +4404,12 @@
 	},
 /area/arrakis/bunker/medbay)
 "Bd" = (
-/obj/effect/mob_spawn/human/corpse/damaged,
+/obj/effect/mob_spawn/human/corpse/miner,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/outside/Outside1)
 "Be" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "Bg" = (
 /obj/machinery/vending/coffee,
 /obj/effect/mapping_helpers/machinery/damaged,
@@ -4420,7 +4456,7 @@
 "Bv" = (
 /obj/item/stack/ore/titanium,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "Bw" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/effect/decal/cleanable/dirt,
@@ -4462,7 +4498,7 @@
 "BE" = (
 /obj/item/stack/ore/silver,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "BL" = (
 /turf/simulated/floor/indestructible/asteroid{
 	color = "gray"
@@ -4523,7 +4559,7 @@
 /area/arrakis/bunker/rnd)
 "Ct" = (
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "Cu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/shard{
@@ -4601,7 +4637,7 @@
 "CQ" = (
 /obj/machinery/door/poddoor/multi_tile/two_tile_ver,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "CR" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/monkeycubes{
@@ -4640,7 +4676,7 @@
 /obj/structure/spider/stickyweb,
 /obj/item/stack/ore/iron,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "Da" = (
 /obj/item/paper_bin{
 	pixel_x = -2;
@@ -4673,7 +4709,7 @@
 "Dg" = (
 /obj/item/stack/ore/titanium,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave2)
+/area/arrakis/cave/cave2)
 "Do" = (
 /turf/simulated/wall/indestructible/reinforced,
 /area/arrakis/bunker/tanya_cyborg_blyat_lab)
@@ -4691,7 +4727,7 @@
 "Dt" = (
 /obj/item/stack/ore/gold,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave2)
+/area/arrakis/cave/cave2)
 "Dv" = (
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced{
@@ -4721,7 +4757,7 @@
 /area/arrakis/bunker/medbay)
 "Dz" = (
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave2)
+/area/arrakis/cave/cave2)
 "DC" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/plasteel{
@@ -4816,7 +4852,7 @@
 /obj/structure/spider/stickyweb,
 /obj/item/skeleton/head,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "DZ" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "podfloor_dark"
@@ -4880,7 +4916,7 @@
 /area/arrakis/bunker/medbay)
 "Et" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave2)
+/area/arrakis/cave/cave2)
 "Eu" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/light{
@@ -5003,7 +5039,7 @@
 /obj/structure/spider/stickyweb,
 /obj/effect/mob_spawn/human/corpse/pirate,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "Fk" = (
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -5020,7 +5056,7 @@
 /obj/structure/spider/stickyweb,
 /obj/item/stack/ore/iron,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "Fp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5051,7 +5087,7 @@
 "Fx" = (
 /obj/item/stack/ore/silver,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "Fz" = (
 /obj/machinery/door/airlock/medical{
 	name = "Morgue";
@@ -5086,7 +5122,7 @@
 /obj/structure/spider/stickyweb,
 /mob/living/simple_animal/hostile/poison/giant_spider,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "FE" = (
 /obj/machinery/computer/operating{
 	dir = 1
@@ -5299,7 +5335,7 @@
 "GJ" = (
 /obj/item/stack/ore/uranium,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave2)
+/area/arrakis/cave/cave2)
 "GN" = (
 /turf/simulated/floor/plasteel{
 	dir = 1;
@@ -5412,7 +5448,7 @@
 /area/arrakis/bunker/medbay)
 "Hr" = (
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "Ht" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -5626,7 +5662,7 @@
 /obj/structure/spider/stickyweb,
 /mob/living/simple_animal/hostile/poison/giant_spider/hunter,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "Ii" = (
 /obj/machinery/disposal,
 /obj/structure/window/plasmareinforced,
@@ -5642,7 +5678,7 @@
 "Ij" = (
 /obj/item/stack/ore/uranium,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "Ik" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/donut_box,
@@ -5702,7 +5738,7 @@
 /area/arrakis/bunker/medbay)
 "IG" = (
 /turf/simulated/wall/mineral/sandstone,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "II" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -6131,7 +6167,7 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "KR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
@@ -6309,7 +6345,7 @@
 /obj/structure/spider/stickyweb,
 /obj/item/stack/ore/silver,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "Mo" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medbay";
@@ -6419,7 +6455,7 @@
 "Nh" = (
 /obj/item/stack/ore/diamond,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "Ni" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
@@ -6447,7 +6483,7 @@
 	amount = 10
 	},
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "Nm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm{
@@ -6492,8 +6528,9 @@
 "Nu" = (
 /obj/item/stack/sheet/mineral/sandstone,
 /obj/structure/table_frame/brass,
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "Ny" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6591,9 +6628,10 @@
 /obj/item/stack/sheet/wood{
 	amount = 2
 	},
-/obj/effect/mob_spawn/human/corpse/damaged,
+/obj/effect/decal/cleanable/dust,
+/obj/effect/mob_spawn/human/corpse/miner,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "NY" = (
 /obj/structure/closet/wardrobe/chemistry_white,
 /obj/effect/decal/cleanable/dirt,
@@ -6648,7 +6686,7 @@
 "Oi" = (
 /obj/item/stack/ore/iron,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "Oj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -6671,7 +6709,7 @@
 "Om" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "On" = (
 /obj/machinery/hologram/holopad{
 	pixel_y = 16
@@ -6851,7 +6889,7 @@
 "Pp" = (
 /obj/item/stack/ore/bananium,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "Ps" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -7059,7 +7097,7 @@
 /obj/structure/bed/sandstone,
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "QD" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Bartender";
@@ -7071,6 +7109,11 @@
 	tag = "icon-vault (NORTHEAST)"
 	},
 /area/arrakis/bunker/bar)
+"QE" = (
+/obj/effect/mob_spawn/human/corpse/miner,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/indestructible/dune_sand/smooth,
+/area/arrakis/outside/Outside1)
 "QH" = (
 /obj/structure/chair/comfy/teal{
 	dir = 1
@@ -7250,7 +7293,7 @@
 "RI" = (
 /obj/structure/spider/stickyweb,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "RM" = (
 /turf/simulated/floor/plasteel{
 	dir = 10;
@@ -7469,7 +7512,7 @@
 /obj/effect/decal/cleanable/cobweb,
 /obj/item/stack/ore,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "SY" = (
 /obj/structure/chair/stool{
 	dir = 4
@@ -7523,7 +7566,7 @@
 "Tn" = (
 /obj/structure/mineral_door/sandstone,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "Tq" = (
 /obj/item/radio/beacon,
 /turf/simulated/floor/plasteel{
@@ -7534,7 +7577,12 @@
 /obj/structure/spider/stickyweb,
 /obj/item/stack/ore/iron,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
+"Tw" = (
+/obj/effect/decal/cleanable/dust,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/indestructible/brick,
+/area/arrakis/cave)
 "TC" = (
 /obj/effect/decal/warning_stripes/north,
 /obj/effect/decal/warning_stripes/yellow/hollow{
@@ -7660,8 +7708,9 @@
 /area/arrakis/outside/Outside1)
 "TV" = (
 /obj/structure/closet/crate,
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "TW" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/outside/Outside3)
@@ -7751,6 +7800,10 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"Ut" = (
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/indestructible/dune_sand/smooth,
+/area/arrakis/cave)
 "Uv" = (
 /obj/item/skeleton/l_arm,
 /obj/item/skeleton/l_leg,
@@ -7758,8 +7811,9 @@
 /obj/item/skeleton{
 	icon_state = "torso"
 	},
+/obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "Uy" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -7937,12 +7991,12 @@
 "Vl" = (
 /obj/item/stack/ore/iron,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "Vr" = (
 /mob/living/simple_animal/hostile/poison/giant_spider,
 /obj/structure/spider/stickyweb,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "Vt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -7991,7 +8045,7 @@
 /obj/structure/spider/stickyweb,
 /obj/item/stack/ore/iron,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "VC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
@@ -8028,7 +8082,7 @@
 /obj/structure/spider/stickyweb,
 /mob/living/simple_animal/hostile/poison/giant_spider,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "VO" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -8159,7 +8213,7 @@
 	pixel_y = 15
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "Wv" = (
 /turf/simulated/wall/indestructible/reinforced,
 /area/arrakis/bunker/medbay)
@@ -8214,7 +8268,7 @@
 "WF" = (
 /obj/item/stack/ore/plasma,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave2)
+/area/arrakis/cave/cave2)
 "WG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
@@ -8335,8 +8389,9 @@
 /area/arrakis/bunker/medbay)
 "WZ" = (
 /obj/structure/table/reinforced/brass,
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "Xf" = (
 /turf/simulated/floor/plasteel{
 	dir = 6;
@@ -8349,7 +8404,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "Xj" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/eastright{
@@ -8439,7 +8494,7 @@
 /obj/structure/spider/stickyweb,
 /mob/living/simple_animal/hostile/poison/giant_spider,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "Xs" = (
 /obj/effect/decal/warning_stripes/east,
 /obj/effect/decal/warning_stripes/west,
@@ -8459,7 +8514,7 @@
 "Xv" = (
 /obj/structure/spider/stickyweb,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/rock/cave)
+/area/arrakis/cave/cave)
 "Xw" = (
 /obj/machinery/atmospherics/unary/portables_connector{
 	dir = 8
@@ -8638,7 +8693,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/indestructible/brick,
-/area/arrakis/rock)
+/area/arrakis/cave)
 "Yz" = (
 /turf/simulated/wall/indestructible/reinforced,
 /area/arrakis/bunker/clowns)
@@ -8834,8 +8889,8 @@
 /turf/simulated/floor/carpet,
 /area/arrakis/bunker/medbay)
 "ZE" = (
-/obj/effect/mob_spawn/human/corpse/damaged,
-/turf/simulated/floor/indestructible/dune_sand,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/outside/Outside1)
 "ZG" = (
 /obj/effect/decal/warning_stripes/eastsouthwest,
@@ -8864,7 +8919,7 @@
 /obj/structure/spider/stickyweb,
 /obj/item/stack/ore/bluespace_crystal,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/rock/cave1)
+/area/arrakis/cave/cave1)
 "ZN" = (
 /obj/structure/rack,
 /obj/item/wrench,
@@ -53119,7 +53174,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -53350,6 +53405,7 @@ GD
 GD
 GD
 GD
+TT
 GD
 GD
 GD
@@ -53367,8 +53423,7 @@ GD
 GD
 GD
 GD
-GD
-GD
+TT
 GD
 GD
 GD
@@ -54409,7 +54464,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -54626,7 +54681,7 @@ XZ
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -54683,7 +54738,7 @@ yO
 yO
 yO
 Be
-Be
+Ut
 yO
 yO
 At
@@ -54899,7 +54954,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -54938,7 +54993,7 @@ yO
 yO
 yO
 Be
-Be
+Ut
 Be
 Be
 yO
@@ -55405,7 +55460,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -55700,7 +55755,7 @@ Xh
 IG
 zy
 GD
-GD
+TT
 GD
 GD
 GD
@@ -56192,7 +56247,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -56730,7 +56785,7 @@ zy
 GD
 GD
 GD
-GD
+JS
 GD
 GD
 GD
@@ -56983,14 +57038,14 @@ Om
 Om
 Om
 IG
-zy
+ZE
 GD
 GD
 GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -57203,7 +57258,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -57461,6 +57516,7 @@ GD
 GD
 GD
 GD
+JS
 GD
 GD
 GD
@@ -57471,8 +57527,7 @@ GD
 GD
 GD
 GD
-GD
-GD
+TT
 GD
 GD
 GD
@@ -57964,7 +58019,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -58778,7 +58833,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -59046,7 +59101,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -59517,7 +59572,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -60068,7 +60123,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -60538,7 +60593,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -60592,7 +60647,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -61075,7 +61130,7 @@ yO
 yO
 yO
 yO
-wZ
+Bd
 yO
 yO
 yO
@@ -62365,7 +62420,7 @@ GD
 Lh
 GD
 GD
-Bd
+QE
 yO
 yO
 yO
@@ -62637,7 +62692,7 @@ zy
 GD
 GD
 GD
-GD
+Si
 GD
 GD
 GD
@@ -62841,7 +62896,7 @@ GD
 GD
 GD
 GD
-GD
+TT
 GD
 GD
 GD
@@ -62893,7 +62948,7 @@ zy
 GD
 GD
 GD
-GD
+wZ
 GD
 GD
 GD
@@ -62901,17 +62956,17 @@ GD
 GD
 zy
 IG
-Ct
-Ct
+Om
+Om
+KP
+IG
+Om
+Tw
 jV
 IG
-Ct
-Ct
-jV
-IG
-Ct
-Ct
-jV
+Om
+Om
+KP
 IG
 zy
 zy
@@ -63158,16 +63213,16 @@ GD
 TT
 zy
 IG
-WZ
-Ct
+um
+Tw
 TV
 IG
 WZ
-Ct
+Om
 TV
 IG
 WZ
-Ct
+Om
 TV
 IG
 zy
@@ -63416,15 +63471,15 @@ GD
 zy
 IG
 IG
-Tn
+hU
 IG
 IG
 IG
-Tn
+hU
 IG
 IG
 IG
-Tn
+hU
 IG
 IG
 zy
@@ -63672,17 +63727,17 @@ GD
 GD
 zy
 IG
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
+Om
+Om
+Om
+Om
+Tw
+Om
+Om
+Om
+Om
+ue
+Tw
 IG
 zy
 zy
@@ -63929,17 +63984,17 @@ GD
 Lh
 zy
 Tn
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
+Om
+Om
+ue
+Tw
+Om
+Om
+Om
+Om
+Om
+Om
+Om
 IG
 mp
 zy
@@ -64186,17 +64241,17 @@ GD
 GD
 zy
 IG
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
-Ct
+Om
+Om
+Om
+Om
+Om
+Tw
+Om
+Om
+Om
+Om
+Om
 IG
 zy
 zy
@@ -64448,11 +64503,11 @@ Tn
 IG
 IG
 IG
-Tn
+hU
 IG
 IG
 IG
-Tn
+hU
 IG
 IG
 zy
@@ -64684,8 +64739,8 @@ GD
 GD
 GD
 GD
-GD
-GD
+wZ
+Si
 GD
 GD
 GD
@@ -64705,11 +64760,11 @@ NX
 TV
 IG
 WZ
-Ct
+Om
 TV
 IG
 WZ
-Ct
+Om
 TV
 IG
 zy
@@ -64958,16 +65013,16 @@ GD
 GD
 zy
 zy
-Ct
-um
+Om
+QB
 IG
-Ct
-Ct
-um
+Om
+Om
+yd
 IG
-Ct
-Ct
-um
+Om
+Om
+QB
 IG
 zy
 zy
@@ -65203,7 +65258,7 @@ GD
 GD
 GD
 GD
-ZE
+GD
 GD
 GD
 GD
@@ -66480,7 +66535,7 @@ BL
 BL
 BL
 BL
-BL
+aU
 BL
 BL
 BL

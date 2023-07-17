@@ -471,6 +471,18 @@
 	},
 /turf/simulated/floor/carpet,
 /area/centcom/court)
+"akn" = (
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/structure/curtain/open,
+/obj/item/bedsheet/medical{
+	dir = 1;
+	level = 1.4
+	},
+/obj/effect/landmark/start/civilian,
+/turf/simulated/floor/carpet/cyan,
+/area/centcom/zone1)
 "akv" = (
 /turf/simulated/wall/shuttle/nosmooth{
 	dir = 5;
@@ -495,7 +507,6 @@
 /area/syndicate_mothership/control)
 "ald" = (
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -527,7 +538,6 @@
 	req_access = list(153)
 	},
 /obj/machinery/door/poddoor/impassable{
-	color = null;
 	id_tag = "syndFB_base"
 	},
 /turf/simulated/floor/wood{
@@ -748,6 +758,7 @@
 	},
 /area/centcom/zone3)
 "aqV" = (
+/obj/effect/landmark/start/cmo,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "darkblue"
@@ -1559,7 +1570,6 @@
 /area/ninja/outside)
 "aII" = (
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
@@ -2415,9 +2425,7 @@
 	pixel_x = -4;
 	pixel_y = -2
 	},
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "darkyellowalt"
@@ -3874,6 +3882,13 @@
 	icon_state = "plastitanium"
 	},
 /area/shuttle/syndicate)
+"bUQ" = (
+/obj/effect/landmark/start/botanist,
+/turf/simulated/floor/beach/sand{
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "asteroid"
+	},
+/area/centcom/evac)
 "bUX" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/beakers/bluespace,
@@ -3931,7 +3946,6 @@
 	req_access = list(153)
 	},
 /obj/machinery/door/poddoor/impassable{
-	color = null;
 	id_tag = "SyndFB_prison_outside"
 	},
 /turf/simulated/floor/plasteel{
@@ -4375,7 +4389,6 @@
 	icon_state = "logo18"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -4560,6 +4573,11 @@
 	icon_state = "navyblue"
 	},
 /area/centcom/specops)
+"clI" = (
+/obj/effect/landmark/join_late_cyborg,
+/obj/effect/landmark/join_late_cyborg,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "cme" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -4679,7 +4697,6 @@
 	},
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/machinery/door/poddoor/multi_tile/four_tile_hor{
-	color = null;
 	id_tag = "SyndFB_prison_outside"
 	},
 /turf/simulated/floor/plasteel{
@@ -4712,6 +4729,10 @@
 	icon_state = "darkredcornersalt"
 	},
 /area/syndicate_mothership/control)
+"cpP" = (
+/obj/effect/landmark/start/cyborg,
+/turf/simulated/floor/plasteel,
+/area/centcom/evac)
 "cqi" = (
 /obj/structure/table/abductor{
 	color = "#99ff99";
@@ -5132,6 +5153,10 @@
 	name = "floor"
 	},
 /area/syndicate_mothership)
+"cAn" = (
+/obj/effect/landmark/start/botanist,
+/turf/simulated/floor/grass,
+/area/centcom/evac)
 "cAA" = (
 /obj/structure/chair/comfy/brown{
 	color = "#3300FF"
@@ -5187,6 +5212,7 @@
 /obj/effect/decal/nanotrasen_logo{
 	icon_state = "logo4"
 	},
+/obj/effect/landmark/start/cyborg,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -5314,7 +5340,6 @@
 	icon_state = "logo17"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -6043,6 +6068,7 @@
 /area/centcom/zone2)
 "dag" = (
 /obj/structure/chair/sofa/left,
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
@@ -6051,6 +6077,7 @@
 /obj/structure/chair/sofa{
 	dir = 4
 	},
+/obj/effect/landmark/start/warden,
 /turf/simulated/floor/carpet/red,
 /area/centcom/zone1)
 "daD" = (
@@ -6066,6 +6093,10 @@
 /obj/item/twohanded/required/kirbyplants,
 /turf/simulated/floor/wood,
 /area/centcom/specops)
+"dbd" = (
+/obj/effect/landmark/join_late_cyborg,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "dbj" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-30";
@@ -6723,6 +6754,7 @@
 /obj/structure/chair/stool/bar{
 	dir = 4
 	},
+/obj/effect/landmark/start/security_officer,
 /turf/simulated/floor/grass,
 /area/centcom/evac)
 "dwR" = (
@@ -7584,6 +7616,13 @@
 	icon_state = "darkyellowaltstrip"
 	},
 /area/syndicate_mothership/control)
+"dUt" = (
+/obj/structure/chair/sofa/left{
+	dir = 4
+	},
+/obj/effect/landmark/start/shaft_miner,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "dUz" = (
 /obj/structure/railing{
 	dir = 8
@@ -7990,7 +8029,6 @@
 /area/syndicate_mothership/outside)
 "edZ" = (
 /obj/effect/turf_decal/arrows/white{
-	color = null;
 	dir = 4;
 	name = "ERT shuttle"
 	},
@@ -8126,6 +8164,7 @@
 /obj/structure/toilet{
 	dir = 4
 	},
+/obj/effect/landmark/start/captain,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -8198,6 +8237,7 @@
 /obj/structure/chair/sofa{
 	dir = 8
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "ejy" = (
@@ -9165,9 +9205,7 @@
 "eMS" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/delivery/red,
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkfull"
 	},
@@ -9223,6 +9261,7 @@
 /obj/structure/chair/sofa/left{
 	dir = 8
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkblue"
@@ -9532,6 +9571,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 1
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "darkblue"
@@ -9773,7 +9813,6 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
@@ -9840,6 +9879,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
+/obj/effect/landmark/start/paramedic,
 /turf/simulated/floor/plasteel{
 	icon_state = "barber"
 	},
@@ -10441,6 +10481,13 @@
 	icon_state = "darkjail"
 	},
 /area/syndicate_mothership/jail)
+"ftD" = (
+/obj/structure/chair/stool/bar{
+	dir = 8
+	},
+/obj/effect/landmark/start/geneticist,
+/turf/simulated/floor/wood,
+/area/centcom/zone1)
 "ftK" = (
 /obj/machinery/door/airlock/shuttle{
 	id_tag = "s_docking_airlock";
@@ -10558,7 +10605,6 @@
 /area/centcom/specops)
 "fwf" = (
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -10906,6 +10952,7 @@
 	panel_open = 1;
 	req_access = list(101)
 	},
+/obj/effect/landmark/start/botanist,
 /turf/simulated/floor/grass,
 /area/centcom/evac)
 "fDV" = (
@@ -11462,6 +11509,7 @@
 /obj/structure/chair/comfy/red{
 	dir = 4
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "fSD" = (
@@ -11960,7 +12008,6 @@
 	icon_state = "logo2"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
@@ -12935,6 +12982,7 @@
 /obj/structure/chair/sofa/left{
 	dir = 4
 	},
+/obj/effect/landmark/join_late,
 /turf/simulated/floor/carpet,
 /area/centcom/evac)
 "gGp" = (
@@ -13695,20 +13743,6 @@
 	id_tag = "s_docking_airlock";
 	name = "Escape Pod Hatch"
 	},
-/obj/docking_port/mobile/pod{
-	id = "pod3";
-	name = "escape pod 3";
-	roundstart_move = "pod3_home"
-	},
-/obj/docking_port/stationary/transit{
-	dwidth = 2;
-	height = 6;
-	id = "pod3_transit";
-	name = "pod 3 in transit";
-	pixel_y = -32;
-	turf_type = /turf/space/transit/north;
-	width = 5
-	},
 /turf/simulated/floor/shuttle,
 /area/shuttle/pod_3)
 "hgS" = (
@@ -13999,6 +14033,7 @@
 /obj/structure/chair/sofa/left{
 	dir = 1
 	},
+/obj/effect/landmark/join_late,
 /turf/simulated/floor/carpet,
 /area/centcom/evac)
 "hqp" = (
@@ -14457,7 +14492,6 @@
 /area/centcom/jail)
 "hCL" = (
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -15236,20 +15270,6 @@
 	id_tag = "s_docking_airlock";
 	name = "Escape Pod Hatch"
 	},
-/obj/docking_port/mobile/pod{
-	id = "pod2";
-	name = "escape pod 2";
-	roundstart_move = "pod2_home"
-	},
-/obj/docking_port/stationary/transit{
-	dwidth = 2;
-	height = 6;
-	id = "pod2_transit";
-	name = "pod 2 in transit";
-	pixel_y = -32;
-	turf_type = /turf/space/transit/north;
-	width = 5
-	},
 /turf/simulated/floor/shuttle,
 /area/shuttle/pod_2)
 "iei" = (
@@ -15970,6 +15990,7 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+/obj/effect/landmark/start/internal_affairs,
 /turf/simulated/floor/carpet/black,
 /area/centcom/zone1)
 "izc" = (
@@ -16095,9 +16116,7 @@
 /area/syndicate_mothership/outside)
 "iBM" = (
 /obj/effect/turf_decal/delivery/red,
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkfull"
 	},
@@ -16262,9 +16281,7 @@
 /area/ninja/outside)
 "iEH" = (
 /obj/effect/turf_decal/delivery/white,
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkfull"
 	},
@@ -16283,6 +16300,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/effect/landmark/start/botanist,
 /turf/simulated/floor/wood,
 /area/centcom/evac)
 "iFr" = (
@@ -16405,7 +16423,6 @@
 /area/syndicate_mothership/outside)
 "iIo" = (
 /obj/effect/turf_decal/arrows/white{
-	color = null;
 	dir = 1;
 	name = "Canteen, Shooting range, Zone 2, Medical block"
 	},
@@ -16676,6 +16693,10 @@
 	},
 /turf/simulated/floor/indestructible/asteroid,
 /area/syndicate_mothership/outside)
+"iQt" = (
+/obj/effect/landmark/start/cyborg,
+/turf/simulated/floor/plasteel,
+/area/centcom/zone1)
 "iQH" = (
 /obj/machinery/sleeper/syndie,
 /obj/structure/curtain/black{
@@ -17279,6 +17300,13 @@
 	},
 /turf/simulated/floor/indestructible/asteroid,
 /area/syndicate_mothership/outside)
+"jgO" = (
+/obj/structure/chair/stool/bar{
+	dir = 8
+	},
+/obj/effect/landmark/start/student_sientist,
+/turf/simulated/floor/wood,
+/area/centcom/zone1)
 "jgV" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-28";
@@ -17302,6 +17330,7 @@
 /obj/structure/chair/sofa/left{
 	dir = 1
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "darkblue"
@@ -18028,6 +18057,11 @@
 	icon_state = "fancy-wood-cherry"
 	},
 /area/shuttle/trade/sol)
+"jzn" = (
+/obj/effect/turf_decal/plaque,
+/obj/effect/landmark/start/chaplain,
+/turf/simulated/floor/carpet/black,
+/area/centcom/evac)
 "jzx" = (
 /obj/structure/table/glass,
 /obj/item/flashlight/lamp/green{
@@ -18050,7 +18084,6 @@
 "jAC" = (
 /obj/structure/spacepoddoor/invincible,
 /obj/machinery/door/poddoor/multi_tile/two_tile_ver{
-	color = null;
 	id_tag = "Aspid_poddor_left"
 	},
 /turf/simulated/floor/plasteel{
@@ -18173,12 +18206,12 @@
 /obj/structure/chair/stool/bar{
 	dir = 8
 	},
+/obj/effect/landmark/start/roboticist,
 /turf/simulated/floor/wood,
 /area/centcom/zone1)
 "jEv" = (
 /obj/structure/fans/tiny/invisible,
 /obj/machinery/door/poddoor/impassable{
-	color = null;
 	id_tag = "SST_pod_ready"
 	},
 /turf/simulated/floor/plasteel{
@@ -18257,7 +18290,6 @@
 	icon_state = "logo3"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
@@ -18350,6 +18382,13 @@
 	icon_state = "darkyellowaltstrip"
 	},
 /area/syndicate_mothership/control)
+"jIB" = (
+/obj/structure/chair/comfy/red{
+	dir = 4
+	},
+/obj/effect/landmark/start/coroner,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "jIK" = (
 /turf/simulated/floor/plasteel{
 	dir = 10;
@@ -18366,7 +18405,6 @@
 	icon_state = "siding8"
 	},
 /obj/machinery/door/poddoor/impassable{
-	color = null;
 	id_tag = "SIT_outside"
 	},
 /turf/simulated/floor/plasteel{
@@ -18854,9 +18892,7 @@
 	pixel_x = 4;
 	pixel_y = 8
 	},
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "darkyellowalt"
@@ -18990,7 +19026,6 @@
 	dir = 8
 	},
 /obj/machinery/door/poddoor/impassable{
-	color = null;
 	id_tag = "SyndFB_prison_outside"
 	},
 /turf/simulated/floor/plasteel{
@@ -19258,7 +19293,6 @@
 "kln" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -19593,9 +19627,7 @@
 /area/abductor_ship)
 "ktr" = (
 /obj/effect/turf_decal/delivery,
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /obj/structure/fans/tiny/invisible,
 /turf/simulated/floor/plasteel{
 	dir = 1;
@@ -19683,6 +19715,16 @@
 	icon_state = "white"
 	},
 /area/centcom/jail)
+"kvP" = (
+/obj/structure/chair/stool/bar{
+	dir = 1
+	},
+/obj/effect/landmark/start/head_of_security,
+/turf/simulated/floor/beach/sand{
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "asteroid"
+	},
+/area/centcom/evac)
 "kvU" = (
 /obj/effect/turf_decal/stripes/black{
 	dir = 5;
@@ -19690,6 +19732,13 @@
 	},
 /turf/simulated/floor/shuttle,
 /area/shuttle/administration)
+"kvZ" = (
+/obj/structure/chair/sofa{
+	dir = 4
+	},
+/obj/effect/landmark/start/quartermaster,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "kwn" = (
 /obj/machinery/vending/snack/free,
 /turf/simulated/floor/plasteel{
@@ -20211,6 +20260,7 @@
 /obj/structure/chair/sofa{
 	dir = 8
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkblue"
@@ -21096,6 +21146,7 @@
 /area/centcom/jail)
 "lcq" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/effect/landmark/start/intern,
 /turf/simulated/floor/plasteel{
 	icon_state = "barber"
 	},
@@ -21218,9 +21269,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/delivery/white,
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkfull"
 	},
@@ -21246,6 +21295,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "lgR" = (
@@ -21337,6 +21387,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/effect/landmark/start/security_cadet,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "ljv" = (
@@ -21733,6 +21784,7 @@
 /obj/structure/chair/comfy/red{
 	dir = 8
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "lul" = (
@@ -21977,6 +22029,7 @@
 /obj/structure/chair/comfy/purp{
 	dir = 1
 	},
+/obj/effect/landmark/start/security_pod_pilot,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "lyR" = (
@@ -21990,6 +22043,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 4
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "darkblue"
@@ -22599,6 +22653,7 @@
 /obj/structure/chair/stool/bar{
 	dir = 8
 	},
+/obj/effect/landmark/start/security_officer,
 /turf/simulated/floor/grass,
 /area/centcom/evac)
 "lNN" = (
@@ -23367,6 +23422,16 @@
 	icon_state = "dark"
 	},
 /area/centcom/zone2)
+"miP" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 1
+	},
+/obj/effect/landmark/start/trainee_engineer,
+/turf/simulated/floor/beach/sand{
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "asteroid"
+	},
+/area/centcom/evac)
 "miW" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 6
@@ -24315,6 +24380,7 @@
 /obj/structure/sign/poster/secret/yug0{
 	pixel_x = 32
 	},
+/obj/effect/landmark/start/atmospheric,
 /turf/simulated/floor/carpet/black,
 /area/centcom/zone1)
 "mAx" = (
@@ -24474,6 +24540,7 @@
 /obj/structure/toilet{
 	dir = 4
 	},
+/obj/effect/landmark/start/hop,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -25270,6 +25337,7 @@
 	dir = 8
 	},
 /obj/machinery/disco/immobile,
+/obj/effect/landmark/observer_start,
 /turf/simulated/floor/mineral/abductor,
 /area/centcom/zone1)
 "mTh" = (
@@ -25445,6 +25513,10 @@
 	icon_state = "neutral"
 	},
 /area/centcom/evac)
+"mVH" = (
+/obj/effect/landmark/start/psychiatrist,
+/turf/simulated/floor/carpet/red,
+/area/centcom/zone1)
 "mVX" = (
 /turf/space,
 /area/space)
@@ -26085,6 +26157,7 @@
 /obj/effect/turf_decal/plaque{
 	layer = 3
 	},
+/obj/effect/landmark/start/janitor,
 /turf/simulated/floor/grass,
 /area/centcom/evac)
 "ngk" = (
@@ -26232,12 +26305,10 @@
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -26723,6 +26794,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 4
 	},
+/obj/effect/landmark/join_late,
 /turf/simulated/floor/carpet,
 /area/centcom/evac)
 "nuz" = (
@@ -27473,9 +27545,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/delivery/white,
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkfull"
 	},
@@ -28151,6 +28221,7 @@
 /area/centcom/specops)
 "ocG" = (
 /obj/structure/chair/sofa/right,
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
@@ -28266,6 +28337,7 @@
 /obj/structure/chair/sofa/left{
 	dir = 4
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "darkblue"
@@ -28537,7 +28609,6 @@
 "oky" = (
 /obj/structure/spacepoddoor/invincible,
 /obj/machinery/door/poddoor/multi_tile/two_tile_ver{
-	color = null;
 	id_tag = "Aspid_poddor_right"
 	},
 /turf/simulated/floor/plasteel{
@@ -28633,6 +28704,7 @@
 /area/shuttle/supply)
 "omJ" = (
 /obj/structure/chair/sofa/right,
+/obj/effect/landmark/join_late,
 /turf/simulated/floor/carpet,
 /area/centcom/evac)
 "omP" = (
@@ -28833,6 +28905,7 @@
 /obj/structure/chair/office/light{
 	dir = 8
 	},
+/obj/effect/landmark/start/librarian,
 /turf/simulated/floor/plasteel{
 	icon_state = "grimy"
 	},
@@ -29039,9 +29112,7 @@
 	pixel_x = 4;
 	pixel_y = -2
 	},
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "darkyellowalt"
@@ -29365,6 +29436,7 @@
 /area/shuttle/trade/sol)
 "oEQ" = (
 /obj/structure/chair/sofa/right,
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "oET" = (
@@ -30097,7 +30169,6 @@
 /area/syndicate_mothership/infteam)
 "oRQ" = (
 /obj/machinery/door/poddoor/impassable{
-	color = null;
 	id_tag = "SST_pod_ready"
 	},
 /turf/simulated/floor/plasteel{
@@ -30144,7 +30215,6 @@
 /area/syndicate_mothership/infteam)
 "oTb" = (
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -30153,7 +30223,6 @@
 /area/syndicate_mothership/outside)
 "oTy" = (
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -30177,7 +30246,6 @@
 /area/centcom/supply)
 "oUj" = (
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -30238,6 +30306,12 @@
 	icon_state = "darkredaltstrip"
 	},
 /area/syndicate_mothership/jail)
+"oVN" = (
+/obj/effect/landmark/start/brig_physician,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/centcom/zone1)
 "oVV" = (
 /obj/effect/turf_decal{
 	dir = 6;
@@ -30558,6 +30632,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 1
 	},
+/obj/effect/landmark/join_late,
 /turf/simulated/floor/carpet,
 /area/centcom/evac)
 "pfP" = (
@@ -31670,6 +31745,14 @@
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/asteroid,
 /area/syndicate_mothership/outside)
+"pIE" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/effect/turf_decal/plaque{
+	layer = 3
+	},
+/obj/effect/landmark/start/janitor,
+/turf/simulated/floor/grass,
+/area/centcom/evac)
 "pIW" = (
 /obj/machinery/door/poddoor/shutters/invincible{
 	dir = 2;
@@ -31791,6 +31874,7 @@
 /obj/structure/chair/stool/bar{
 	dir = 8
 	},
+/obj/effect/landmark/start/student_sientist,
 /turf/simulated/floor/wood,
 /area/centcom/zone1)
 "pMT" = (
@@ -32164,6 +32248,10 @@
 	icon_state = "floor13"
 	},
 /area/shuttle/ninja)
+"pUK" = (
+/obj/effect/landmark/start/intern,
+/turf/simulated/floor/carpet/cyan,
+/area/centcom/zone1)
 "pUO" = (
 /obj/machinery/door/airlock/syndicate/public{
 	name = "Bar";
@@ -32275,30 +32363,10 @@
 	},
 /area/syndicate_mothership)
 "pWF" = (
-/obj/docking_port/mobile{
-	dir = 8;
-	dwidth = 3;
-	height = 5;
-	id = "mining";
-	name = "mining shuttle";
-	rebuildable = 1;
-	roundstart_move = "mining_home";
-	width = 7
-	},
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/shuttle{
 	id_tag = "s_docking_airlock";
 	req_access = list(48)
-	},
-/obj/docking_port/stationary/transit{
-	dir = 8;
-	dwidth = 3;
-	height = 5;
-	id = "mining_transit";
-	name = "mining in transit";
-	pixel_x = 32;
-	turf_type = /turf/space/transit/north;
-	width = 7
 	},
 /turf/simulated/floor/shuttle,
 /area/shuttle/mining)
@@ -32397,6 +32465,13 @@
 	},
 /turf/simulated/floor/mineral/plastitanium,
 /area/syndicate_mothership/infteam)
+"pZJ" = (
+/obj/structure/chair/sofa{
+	dir = 8
+	},
+/obj/effect/landmark/start/barber,
+/turf/simulated/floor/carpet/red,
+/area/centcom/zone1)
 "pZY" = (
 /obj/machinery/recharger/wallcharger{
 	pixel_x = 32;
@@ -32500,6 +32575,7 @@
 /obj/structure/chair/wood{
 	dir = 1
 	},
+/obj/effect/landmark/start/shaft_miner,
 /turf/simulated/floor/wood,
 /area/centcom/zone1)
 "qco" = (
@@ -32659,6 +32735,14 @@
 	icon_state = "darkfull"
 	},
 /area/syndicate_mothership/elite_squad)
+"qgz" = (
+/obj/structure/chair/sofa/left{
+	dir = 8
+	},
+/obj/machinery/light/small,
+/obj/effect/landmark/start/atmospheric,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "qgA" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -33583,6 +33667,12 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"qDl" = (
+/obj/effect/landmark/start/bartender,
+/turf/simulated/floor/plasteel{
+	icon_state = "grimy"
+	},
+/area/centcom/zone1)
 "qDA" = (
 /turf/simulated/floor/shuttle,
 /area/shuttle/mining)
@@ -33847,12 +33937,10 @@
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -33905,7 +33993,6 @@
 /area/centcom/specops)
 "qLW" = (
 /obj/machinery/door/poddoor/impassable{
-	color = null;
 	id_tag = "SST_pod_ready"
 	},
 /turf/simulated/floor/plasteel{
@@ -33965,6 +34052,7 @@
 /area/centcom/specops)
 "qNc" = (
 /obj/structure/chair/wood,
+/obj/effect/landmark/start/mechanic,
 /turf/simulated/floor/wood,
 /area/centcom/zone1)
 "qNe" = (
@@ -34013,7 +34101,6 @@
 /area/centcom/zone3)
 "qOg" = (
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
@@ -34077,7 +34164,6 @@
 /area/centcom/zone1)
 "qPu" = (
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
@@ -34213,6 +34299,13 @@
 	icon_state = "darkbluealt"
 	},
 /area/syndicate_mothership/elite_squad)
+"qSI" = (
+/obj/structure/chair/stool/bar{
+	dir = 1
+	},
+/obj/effect/landmark/start/civilian,
+/turf/simulated/floor/wood,
+/area/centcom/zone1)
 "qTo" = (
 /obj/item/radio/intercom/specops{
 	pixel_x = -32
@@ -34244,33 +34337,12 @@
 	},
 /area/centcom/specops)
 "qTI" = (
-/obj/machinery/door/airlock/shuttle{
-	id_tag = "s_docking_airlock";
-	name = "Labor Shuttle Airlock"
+/obj/structure/chair/comfy/red{
+	dir = 8
 	},
-/obj/docking_port/mobile{
-	dir = 8;
-	dwidth = 2;
-	height = 5;
-	id = "laborcamp";
-	name = "labor camp shuttle";
-	rebuildable = 1;
-	roundstart_move = "laborcamp_home";
-	width = 9
-	},
-/obj/structure/fans/tiny,
-/obj/docking_port/stationary/transit{
-	dir = 8;
-	dwidth = 2;
-	height = 5;
-	id = "laborcamp_transit";
-	name = "labor in transit";
-	pixel_x = 32;
-	turf_type = /turf/space/transit/north;
-	width = 9
-	},
-/turf/simulated/floor/shuttle,
-/area/shuttle/siberia)
+/obj/effect/landmark/start/nanotrasen_rep,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "qTJ" = (
 /turf/simulated/floor/plasteel{
 	dir = 10;
@@ -34342,6 +34414,7 @@
 /obj/structure/sink{
 	dir = 1
 	},
+/obj/effect/landmark/start/chef,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -34999,9 +35072,15 @@
 	icon_state = "warndarkgreycornerred"
 	},
 /area/syndicate_mothership/elite_squad)
+"rlF" = (
+/obj/structure/chair/sofa/right{
+	dir = 8
+	},
+/obj/effect/landmark/start/cargo_technician,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "rlQ" = (
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -35046,7 +35125,6 @@
 /area/syndicate_mothership/control)
 "rmG" = (
 /obj/machinery/door/airlock/syndicate/extmai/glass{
-	id = null;
 	id_tag = "syndicate_jail_cell";
 	name = "Cell";
 	req_access = list(153)
@@ -35491,6 +35569,14 @@
 	icon_state = "warndarkgreycornerred"
 	},
 /area/syndicate_mothership)
+"rwR" = (
+/obj/structure/chair/sofa/left{
+	dir = 8
+	},
+/obj/machinery/light/small,
+/obj/effect/landmark/start/cargo_technician,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "rwZ" = (
 /obj/machinery/light{
 	dir = 8
@@ -35575,6 +35661,7 @@
 /turf/simulated/wall/shuttle/onlyselfsmooth,
 /area/shuttle/transport)
 "ryR" = (
+/obj/effect/landmark/start/shaft_miner,
 /turf/simulated/floor/light/colour_cycle/dancefloor_b,
 /area/centcom/zone1)
 "rzg" = (
@@ -36321,7 +36408,6 @@
 /area/centcom/supply)
 "rNF" = (
 /obj/structure/fence/corner{
-	color = null;
 	invulnerable = 1
 	},
 /turf/simulated/floor/indestructible/grass,
@@ -36360,7 +36446,6 @@
 /area/shuttle/supply)
 "rOV" = (
 /obj/machinery/door/poddoor/impassable{
-	color = null;
 	id_tag = "SST_to_ATOM"
 	},
 /turf/simulated/floor/plasteel{
@@ -36383,7 +36468,6 @@
 /area/centcom/specops)
 "rQr" = (
 /obj/machinery/door/poddoor/impassable{
-	color = null;
 	id_tag = "SST_to_ATOM"
 	},
 /turf/simulated/floor/plasteel{
@@ -36828,6 +36912,7 @@
 /area/syndicate_mothership/jail)
 "saA" = (
 /obj/structure/chair/stool/bar,
+/obj/effect/landmark/start/scientist,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "sbs" = (
@@ -36863,20 +36948,6 @@
 /obj/machinery/door/airlock/shuttle{
 	id_tag = "s_docking_airlock";
 	name = "Escape Pod Hatch"
-	},
-/obj/docking_port/stationary/transit{
-	dwidth = 2;
-	height = 6;
-	id = "pod1_transit";
-	name = "pod 1 in transit";
-	pixel_y = -32;
-	turf_type = /turf/space/transit/north;
-	width = 5
-	},
-/obj/docking_port/mobile/pod{
-	id = "pod1";
-	name = "escape pod 1";
-	roundstart_move = "pod1_home"
 	},
 /turf/simulated/floor/shuttle,
 /area/shuttle/pod_1)
@@ -37623,6 +37694,7 @@
 /area/syndicate_mothership/elite_squad)
 "suU" = (
 /obj/structure/chair/sofa/left,
+/obj/effect/landmark/join_late,
 /turf/simulated/floor/carpet,
 /area/centcom/evac)
 "svg" = (
@@ -37863,6 +37935,13 @@
 	icon_state = "cafeteria"
 	},
 /area/centcom/jail)
+"sBe" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/landmark/start/chemist,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/centcom/evac)
 "sBh" = (
 /obj/structure/window/reinforced{
 	layer = 2.9
@@ -37966,6 +38045,7 @@
 /obj/structure/chair/stool/bar{
 	dir = 4
 	},
+/obj/effect/landmark/start/security_cadet,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "sCS" = (
@@ -38014,6 +38094,13 @@
 	},
 /turf/simulated/floor/shuttle/plating,
 /area/shuttle/transport)
+"sEX" = (
+/obj/structure/chair/comfy/red{
+	dir = 1
+	},
+/obj/effect/landmark/start/virologist,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "sFp" = (
 /obj/structure/table/glass,
 /obj/item/folder/blue{
@@ -38052,6 +38139,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 8
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkblue"
@@ -38073,6 +38161,7 @@
 "sHV" = (
 /obj/structure/bed,
 /obj/item/bedsheet/clown,
+/obj/effect/landmark/start/chief_engineer,
 /turf/simulated/floor/carpet/black,
 /area/centcom/zone1)
 "sHW" = (
@@ -38541,6 +38630,12 @@
 	icon_state = "darkgrey"
 	},
 /area/syndicate_mothership)
+"sTE" = (
+/obj/effect/landmark/start/intern,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/centcom/zone1)
 "sTJ" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	layer = 2.9;
@@ -38608,9 +38703,7 @@
 	},
 /area/centcom/jail)
 "sUD" = (
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkfull"
 	},
@@ -38678,6 +38771,14 @@
 	icon_state = "navybluealt"
 	},
 /area/centcom/specops)
+"sWa" = (
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/obj/effect/landmark/start/engineer,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "sWd" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -38756,9 +38857,7 @@
 /obj/machinery/light/spot{
 	dir = 1
 	},
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkyellowalt"
 	},
@@ -39081,12 +39180,10 @@
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -39417,6 +39514,7 @@
 /obj/structure/chair/sofa{
 	dir = 1
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "darkblue"
@@ -39800,6 +39898,13 @@
 /obj/structure/flora/ausbushes/fernybush,
 /turf/simulated/floor/grass,
 /area/centcom/evac)
+"two" = (
+/obj/structure/chair/comfy/red{
+	dir = 8
+	},
+/obj/effect/landmark/start/detective,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "twp" = (
 /obj/effect/spawner/random_spawners/syndicate/layout/spacepod,
 /obj/effect/turf_decal/delivery,
@@ -40188,12 +40293,10 @@
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -40218,19 +40321,12 @@
 	},
 /area/centcom/specops)
 "tEr" = (
-/obj/docking_port/mobile/supply,
-/obj/docking_port/stationary/transit{
-	dir = 8;
-	dwidth = 5;
-	height = 7;
-	id = "supply_transit";
-	name = "supply in transit";
-	pixel_x = 32;
-	turf_type = /turf/space/transit/north;
-	width = 12
+/obj/structure/chair/sofa{
+	dir = 4
 	},
-/turf/simulated/wall/shuttle,
-/area/shuttle/supply)
+/obj/effect/landmark/start/engineer,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "tEB" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "darkyellowaltstrip"
@@ -40766,6 +40862,7 @@
 /obj/structure/chair/sofa{
 	dir = 4
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "darkblue"
@@ -40850,6 +40947,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/effect/landmark/join_late,
 /turf/simulated/floor/carpet,
 /area/centcom/evac)
 "tSk" = (
@@ -41034,6 +41132,7 @@
 /obj/structure/chair/stool/bar{
 	dir = 1
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/wood,
 /area/centcom/zone1)
 "tWF" = (
@@ -41254,7 +41353,6 @@
 	icon_state = "siding8"
 	},
 /obj/machinery/door/poddoor/impassable{
-	color = null;
 	id_tag = "SIT_outside"
 	},
 /turf/simulated/floor/plasteel{
@@ -41329,12 +41427,10 @@
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -41495,6 +41591,7 @@
 /obj/structure/toilet{
 	dir = 8
 	},
+/obj/effect/landmark/start/engineer,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -41613,6 +41710,13 @@
 	icon_state = "darkyellowaltstrip"
 	},
 /area/centcom/zone3)
+"ulI" = (
+/obj/structure/chair/sofa/right{
+	dir = 8
+	},
+/obj/effect/landmark/start/atmospheric,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "ulJ" = (
 /obj/effect/decal/warning_stripes/east,
 /obj/machinery/door_control{
@@ -42128,7 +42232,6 @@
 "uvw" = (
 /obj/effect/decal/warning_stripes/east,
 /obj/effect/turf_decal/arrows/white{
-	color = null;
 	dir = 4;
 	name = "ERT shuttle"
 	},
@@ -42231,12 +42334,10 @@
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -42611,6 +42712,7 @@
 /obj/structure/chair/stool/bar{
 	dir = 8
 	},
+/obj/effect/landmark/start/security_cadet,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "uGv" = (
@@ -43372,6 +43474,7 @@
 /obj/structure/chair/wood{
 	dir = 8
 	},
+/obj/effect/landmark/start/mime,
 /turf/simulated/floor/wood,
 /area/centcom/zone1)
 "uWJ" = (
@@ -43383,6 +43486,14 @@
 	icon_state = "floor4"
 	},
 /area/shuttle/assault_pod)
+"uWT" = (
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/obj/effect/landmark/start/shaft_miner,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "uXk" = (
 /obj/effect/turf_decal{
 	dir = 8;
@@ -43416,6 +43527,12 @@
 	icon_state = "darkredaltstrip"
 	},
 /area/centcom/jail)
+"uYF" = (
+/obj/effect/landmark/start/paramedic,
+/turf/simulated/floor/plasteel{
+	icon_state = "barber"
+	},
+/area/centcom/zone1)
 "uZl" = (
 /obj/machinery/door/airlock/hatch{
 	drain_act_protected = 1;
@@ -43465,9 +43582,7 @@
 	dir = 5
 	},
 /obj/effect/turf_decal/delivery/white,
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkfull"
 	},
@@ -44030,6 +44145,7 @@
 "voT" = (
 /obj/structure/bed,
 /obj/item/bedsheet/mime,
+/obj/effect/landmark/start/research_director,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "voV" = (
@@ -44536,12 +44652,10 @@
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -44576,6 +44690,19 @@
 	icon_state = "floor4"
 	},
 /area/shuttle/specops)
+"vBO" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 13
+	},
+/obj/structure/mirror{
+	pixel_x = 30
+	},
+/obj/effect/landmark/start/blueshield,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/centcom/evac)
 "vCI" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -44711,6 +44838,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 1
 	},
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/carpet,
 /area/centcom/zone1)
 "vGa" = (
@@ -44799,7 +44927,6 @@
 	icon_state = "siding8"
 	},
 /obj/machinery/door/poddoor/impassable{
-	color = null;
 	id_tag = "SST_outside"
 	},
 /turf/simulated/floor/plasteel{
@@ -44823,6 +44950,7 @@
 	dir = 1
 	},
 /obj/machinery/light,
+/obj/effect/landmark/join_late,
 /turf/simulated/floor/carpet,
 /area/centcom/evac)
 "vKv" = (
@@ -45591,6 +45719,7 @@
 /obj/structure/chair/wood{
 	dir = 4
 	},
+/obj/effect/landmark/start/clown,
 /turf/simulated/floor/wood,
 /area/centcom/zone1)
 "waT" = (
@@ -45931,12 +46060,10 @@
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	color = null;
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "siding2"
 	},
@@ -46148,6 +46275,7 @@
 /area/centcom/evac)
 "wqP" = (
 /obj/effect/turf_decal/bot_white,
+/obj/effect/landmark/start/cyborg,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -46205,6 +46333,7 @@
 	dir = 8
 	},
 /obj/structure/chair/wood,
+/obj/effect/landmark/start/magistrate,
 /turf/simulated/floor/carpet/black,
 /area/centcom/zone1)
 "wrB" = (
@@ -46307,6 +46436,13 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"wtl" = (
+/obj/structure/chair/sofa{
+	dir = 8
+	},
+/obj/effect/landmark/start/cargo_technician,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "wtL" = (
 /obj/structure/rack/holorack,
 /obj/item/gun/rocketlauncher,
@@ -46712,6 +46848,13 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/ussp_centcom/secretariat)
+"wCH" = (
+/obj/structure/chair/sofa/left{
+	dir = 4
+	},
+/obj/effect/landmark/start/engineer,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "wDe" = (
 /obj/effect/turf_decal{
 	icon_state = "golden_stripes"
@@ -47296,6 +47439,7 @@
 /area/centcom/specops)
 "wWp" = (
 /obj/structure/chair/office/light,
+/obj/effect/landmark/start/librarian,
 /turf/simulated/floor/plasteel{
 	icon_state = "grimy"
 	},
@@ -47811,9 +47955,7 @@
 /area/shuttle/vox)
 "xhG" = (
 /obj/effect/turf_decal/delivery,
-/obj/effect/spawner/random_spawners/syndicate/loot{
-	spawn_inside = null
-	},
+/obj/effect/spawner/random_spawners/syndicate/loot,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "dark"
@@ -48103,20 +48245,6 @@
 /obj/machinery/door/airlock/shuttle{
 	id_tag = "s_docking_airlock";
 	name = "Escape Pod Hatch"
-	},
-/obj/docking_port/mobile/pod{
-	id = "pod4";
-	name = "escape pod 4";
-	roundstart_move = "pod4_home"
-	},
-/obj/docking_port/stationary/transit{
-	dwidth = 2;
-	height = 6;
-	id = "pod4_transit";
-	name = "pod 4 in transit";
-	pixel_y = -32;
-	turf_type = /turf/space/transit/north;
-	width = 5
 	},
 /turf/simulated/floor/shuttle,
 /area/shuttle/pod_4)
@@ -48928,6 +49056,11 @@
 	icon_state = "plastitanium"
 	},
 /area/shuttle/syndicate)
+"xHV" = (
+/obj/structure/chair/comfy/red,
+/obj/effect/landmark/start/virologist,
+/turf/simulated/floor/carpet/black,
+/area/centcom/zone1)
 "xIi" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 1;
@@ -49042,6 +49175,7 @@
 /obj/structure/toilet{
 	dir = 4
 	},
+/obj/effect/landmark/start/engineer,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -49319,6 +49453,7 @@
 /area/centcom/specops)
 "xPB" = (
 /obj/structure/chair/sofa,
+/obj/effect/landmark/start/civilian,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
@@ -49654,6 +49789,15 @@
 "xVn" = (
 /turf/simulated/wall/indestructible/metal,
 /area/start)
+"xVs" = (
+/obj/structure/bed,
+/obj/structure/curtain/open,
+/obj/item/bedsheet/medical{
+	level = 1.4
+	},
+/obj/effect/landmark/start/civilian,
+/turf/simulated/floor/carpet/cyan,
+/area/centcom/zone1)
 "xVM" = (
 /obj/effect/turf_decal/stripes/black{
 	dir = 10;
@@ -52229,7 +52373,7 @@ sbw
 sbw
 sbw
 sbw
-tEr
+sbw
 sbw
 sbw
 sbw
@@ -62956,7 +63100,7 @@ okx
 sKg
 oJI
 sKg
-qTI
+prf
 sKg
 qsm
 pwa
@@ -87766,7 +87910,7 @@ pyu
 pyu
 rvc
 tZe
-tZe
+dbd
 tZe
 tZe
 tZe
@@ -88023,7 +88167,7 @@ aps
 aps
 onc
 wUF
-tZe
+dbd
 wUF
 wUF
 wUF
@@ -88280,7 +88424,7 @@ nut
 jrj
 onc
 wUF
-tZe
+dbd
 nae
 onc
 onc
@@ -88537,7 +88681,7 @@ sIC
 hYJ
 onc
 wUF
-tZe
+dbd
 wUF
 onc
 pdE
@@ -88772,7 +88916,7 @@ rpk
 art
 ctv
 qCu
-qCu
+sBe
 qCu
 ctv
 aya
@@ -88785,7 +88929,7 @@ nWB
 nWB
 kqe
 kqe
-kqe
+sTE
 gGp
 onc
 onc
@@ -88794,7 +88938,7 @@ onc
 onc
 onc
 ngX
-tZe
+clI
 wUF
 mPM
 wUF
@@ -89041,7 +89185,7 @@ nWB
 nWB
 nWB
 kqe
-kqe
+oVN
 kqe
 kqe
 onc
@@ -89273,7 +89417,7 @@ wLM
 oIM
 cHU
 vTg
-puZ
+jzn
 tQh
 xTS
 fBk
@@ -89800,7 +89944,7 @@ rpk
 art
 ctv
 qCu
-qCu
+sBe
 qCu
 ctv
 cjY
@@ -89811,7 +89955,7 @@ nWB
 nWB
 wrT
 kff
-wGM
+akn
 blm
 wGM
 onc
@@ -90063,14 +90207,14 @@ ctv
 wZz
 onc
 voi
-nWB
+uYF
 nWB
 nWB
 ycL
 xQp
 rBp
 rBp
-rBp
+pUK
 wGM
 onc
 mES
@@ -90582,7 +90726,7 @@ nWB
 nWB
 jeU
 kmF
-kvI
+xVs
 blm
 kvI
 onc
@@ -91344,7 +91488,7 @@ rpk
 ajO
 dTZ
 tvL
-cnt
+iQt
 cnt
 cnt
 cnt
@@ -91591,7 +91735,7 @@ odZ
 aQX
 fkh
 fkh
-fkh
+bUQ
 fkh
 fkh
 eMo
@@ -91623,7 +91767,7 @@ wUF
 wUF
 tZe
 wUF
-oiy
+jIB
 tZe
 oMM
 vwP
@@ -92137,11 +92281,11 @@ vod
 wUF
 tZe
 wUF
-wQz
+two
 tZe
-oMM
+xHV
 vwP
-vTz
+sEX
 onc
 iXI
 kHT
@@ -93391,7 +93535,7 @@ fOf
 fkh
 aKD
 phM
-dZA
+cAn
 phM
 iIs
 tqy
@@ -94704,7 +94848,7 @@ onc
 onc
 onc
 vod
-wQz
+qTI
 sAT
 wQz
 onc
@@ -97778,9 +97922,9 @@ nIj
 nIj
 onc
 pzx
-sAi
+qDl
 tWd
-qwW
+qSI
 ihM
 cgt
 tRb
@@ -98037,7 +98181,7 @@ onc
 cVM
 sAi
 gmC
-qwW
+qSI
 ihM
 xPB
 lQY
@@ -98294,7 +98438,7 @@ onc
 pFP
 sAi
 sRv
-qwW
+qSI
 ihM
 dag
 aVH
@@ -98808,7 +98952,7 @@ onc
 qXZ
 sAi
 gmC
-qwW
+qSI
 ihM
 kAE
 dsj
@@ -99065,7 +99209,7 @@ onc
 uRM
 sAi
 tWd
-qwW
+qSI
 ihM
 hxR
 dsj
@@ -99320,9 +99464,9 @@ rpk
 sfl
 onc
 xTi
-sAi
+qDl
 eCI
-qwW
+qSI
 ihM
 ocG
 aVH
@@ -99579,7 +99723,7 @@ onc
 byB
 sAi
 tWd
-qwW
+qSI
 ihM
 xPB
 lQY
@@ -99836,7 +99980,7 @@ onc
 cte
 wUF
 gmC
-qwW
+qSI
 ihM
 cDE
 kKf
@@ -100093,7 +100237,7 @@ onc
 onc
 xHc
 tWd
-qwW
+qSI
 pNo
 ihM
 ihM
@@ -100327,7 +100471,7 @@ dZA
 gdL
 gdL
 gdL
-qwy
+miP
 fkh
 skw
 nfF
@@ -100341,7 +100485,7 @@ dZA
 gam
 iIs
 xTc
-nVN
+vBO
 wsP
 tqy
 rpk
@@ -100584,7 +100728,7 @@ kiX
 gdL
 unl
 gdL
-qwy
+miP
 fkh
 phM
 lNA
@@ -100603,10 +100747,10 @@ iIs
 tqy
 rpk
 onc
-jEu
-jEu
-jEu
-jEu
+ftD
+ftD
+jgO
+jgO
 pMI
 rKE
 kAE
@@ -100841,7 +100985,7 @@ vXo
 gdL
 gdL
 gdL
-qwy
+miP
 fkh
 mlk
 dZA
@@ -100881,9 +101025,9 @@ aZv
 avP
 feT
 onc
-iOH
-mYH
-vdY
+dUt
+kvZ
+uWT
 afP
 kzR
 fon
@@ -101112,7 +101256,7 @@ fkh
 fkh
 eWv
 tqy
-pyu
+cpP
 sgv
 aps
 aps
@@ -101652,9 +101796,9 @@ onc
 kAE
 tak
 onc
-poA
-cNn
-vqX
+rlF
+wtl
+rwR
 afP
 lJl
 txJ
@@ -102166,9 +102310,9 @@ onc
 kAE
 tak
 onc
-iOH
-mYH
-vdY
+wCH
+tEr
+sWa
 afP
 kgx
 mxz
@@ -102937,9 +103081,9 @@ onc
 kAE
 tak
 onc
-poA
+ulI
 mAw
-vqX
+qgz
 afP
 kgx
 kgx
@@ -103168,7 +103312,7 @@ dZA
 dZA
 wLM
 foN
-pyu
+cpP
 pyu
 pyu
 pyu
@@ -103406,7 +103550,7 @@ mVX
 mVX
 wLM
 rUx
-hOr
+kvP
 fkh
 fkh
 fkh
@@ -103671,7 +103815,7 @@ fkh
 rLr
 mlk
 gdL
-xKz
+pIE
 vaw
 lus
 gpF
@@ -104466,7 +104610,7 @@ gKX
 xbI
 onc
 dLC
-kcU
+mVH
 neS
 kcU
 rAW
@@ -105495,7 +105639,7 @@ wLM
 onc
 eXF
 awg
-awg
+pZJ
 awg
 kcU
 onc

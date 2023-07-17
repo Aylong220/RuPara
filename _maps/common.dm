@@ -11,7 +11,6 @@ z4 = lavaland
 
 #include "map_files\generic\CentComm.dmm"
 #include "map_files\generic\Admin_Zone.dmm"
-#include "map_files\generic\Arrakis.dmm"
 
 #define MAP_TRANSITION_CONFIG list(\
 DECLARE_LEVEL(CENTCOMM, UNAFFECTED, list(ADMIN_LEVEL, BLOCK_TELEPORT, IMPEDES_MAGIC)),\
