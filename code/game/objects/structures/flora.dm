@@ -263,8 +263,11 @@
 	..()
 	user.remove_alt_appearance("sneaking_mission")
 
-/obj/item/twohanded/required/kirbyplants/dead
-	name = "\improper RD's potted plant"
+/obj/item/twohanded/required/kirbyplants/norandom/New()
+	..()
+
+/obj/item/twohanded/required/kirbyplants/norandom/dead
+	name = "\improper Potted plant"
 	desc = "A gift from the botanical staff, presented after the RD's reassignment. There's a tag on it that says \"Y'all come back now, y'hear?\"\nIt doesn't look very healthy..."
 	icon_state = "plant-dead"
 

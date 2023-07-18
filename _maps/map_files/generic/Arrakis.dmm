@@ -1,7 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/simulated/floor/carpet/royalblue,
-/area/arrakis/bunker/bridge)
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/hallway)
 "af" = (
 /obj/effect/decal/warning_stripes/southeastcorner,
 /obj/effect/spawner/random_spawners/blood_often,
@@ -10,12 +14,25 @@
 	},
 /area/arrakis/bunker/rnd)
 "ah" = (
-/obj/structure/chair/office/dark{
-	dir = 8
-	},
+/obj/machinery/vending/coffee/empty,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
+	dir = 1;
+	icon_state = "darkblue"
 	},
+/area/arrakis/bunker/bridge)
+"ai" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/flask/gold{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/razor{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/turf/simulated/floor/carpet,
 /area/arrakis/bunker/bridge)
 "ak" = (
 /obj/structure/table/glass,
@@ -66,8 +83,16 @@
 	},
 /area/arrakis/bunker/medbay)
 "aB" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/bar)
+"aD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/gibber,
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/arrakis/bunker/kitchen)
 "aE" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -79,6 +104,16 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/arrakis/bunker/rnd)
+"aH" = (
+/obj/machinery/light,
+/obj/machinery/keycard_auth{
+	pixel_y = -24;
+	dir = 1
+	},
+/obj/machinery/papershredder,
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "aI" = (
 /obj/structure/table/reinforced,
 /obj/item/organ/internal/heart/cybernetic/upgraded,
@@ -95,6 +130,7 @@
 /turf/simulated/floor/grass,
 /area/arrakis/bunker/hydro)
 "aL" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "darkgreencorners"
@@ -104,6 +140,18 @@
 /obj/item/stack/ore/slag,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave1)
+"aO" = (
+/obj/machinery/power/apc/unpowered{
+	dir = 4;
+	pixel_x = 26
+	},
+/obj/machinery/light_switch{
+	pixel_y = 24;
+	name = "north light switch"
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "aU" = (
 /obj/docking_port/stationary{
 	dir = 4;
@@ -117,6 +165,13 @@
 	color = "gray"
 	},
 /area/arrakis/outside/shuttle)
+"aX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/kitchen_machine/candy_maker,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "aZ" = (
 /obj/structure/chair/office/light,
 /obj/machinery/atmospherics/pipe/manifold/hidden,
@@ -127,6 +182,28 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/rnd)
+"bf" = (
+/obj/structure/closet/emcloset,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm{
+	dir = 8;
+	name = "east fire alarm";
+	pixel_x = 24
+	},
+/turf/simulated/floor/plasteel{
+	dir = 6;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
+"bi" = (
+/obj/machinery/computer/mecha,
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 9;
+	icon_state = "darkpurple"
+	},
+/area/arrakis/bunker/bridge)
 "bk" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -165,6 +242,12 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"bB" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "bD" = (
 /obj/structure/computerframe,
 /turf/simulated/floor/plasteel{
@@ -173,23 +256,21 @@
 	},
 /area/arrakis/bunker/rnd)
 "bF" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/bridge)
 "bG" = (
-/obj/structure/table/reinforced,
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/item/radio/intercom{
-	dir = 8;
-	pixel_x = 22
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/kitchen_machine/grill{
+	pixel_x = 1;
+	pixel_y = 2
 	},
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
+	icon_state = "cafeteria"
 	},
-/area/arrakis/bunker/bridge)
+/area/arrakis/bunker/kitchen)
 "bH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -206,6 +287,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "bJ" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "darkgreen"
@@ -251,6 +333,7 @@
 	pixel_x = -32;
 	step_size = 0
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "bY" = (
@@ -290,6 +373,13 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"ci" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/hallway)
 "ck" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/closet/crate,
@@ -344,6 +434,11 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"cw" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "cz" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -364,6 +459,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "cC" = (
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "green"
@@ -438,9 +534,58 @@
 	icon_state = "darkpurple"
 	},
 /area/arrakis/bunker/rnd)
+"cQ" = (
+/obj/machinery/light,
+/obj/effect/decal/cleanable/dust,
+/obj/machinery/computer/security{
+	network = list("SS13","Research  Outpost","Mining  Outpost","Telecomms");
+	dir = 1
+	},
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
+"cR" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkredalt"
+	},
+/area/arrakis/bunker)
+"cS" = (
+/obj/effect/decal/cleanable/dust,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
+"cT" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 10;
+	icon_state = "darkbluealtstrip"
+	},
+/area/arrakis/bunker)
 "cU" = (
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/cave/cave1)
+"cV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/fishtank/tank,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
+"cY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light_switch{
+	dir = 4;
+	name = "west light switch";
+	pixel_x = -24
+	},
+/obj/item/twohanded/required/kirbyplants/norandom/dead,
+/turf/simulated/floor/plasteel{
+	dir = 9;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "dd" = (
 /obj/machinery/chem_master,
 /obj/machinery/status_display{
@@ -478,6 +623,12 @@
 	icon_state = "vault"
 	},
 /area/arrakis/bunker/rnd)
+"du" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/black,
+/area/arrakis/bunker/bridge)
 "dG" = (
 /obj/structure/chair/comfy/teal,
 /turf/simulated/floor/plasteel{
@@ -491,6 +642,15 @@
 /obj/item/stack/ore/diamond,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave1)
+"dI" = (
+/obj/machinery/computer/station_alert,
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkyellow"
+	},
+/area/arrakis/bunker/bridge)
 "dK" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -559,6 +719,16 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"ed" = (
+/obj/machinery/computer/card{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dust,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "ef" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -577,10 +747,34 @@
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hydro)
 "ek" = (
-/obj/machinery/computer/secure_data,
+/obj/structure/table/glass,
+/obj/machinery/door_control{
+	id = "bridge blast";
+	name = "Bridge Blast Door Control";
+	pixel_x = -6;
+	req_access = list(19);
+	pixel_y = -1
+	},
+/obj/machinery/button/windowtint{
+	id = "bridge_privacy";
+	pixel_x = 6;
+	range = 10;
+	req_access = list(19);
+	pixel_y = -1
+	},
+/obj/machinery/keycard_auth{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/toy/desk/fan{
+	dir = 8;
+	pixel_x = 8;
+	pixel_y = 12
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
-	dir = 5;
-	icon_state = "darkred"
+	dir = 1;
+	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/bridge)
 "el" = (
@@ -595,6 +789,20 @@
 /obj/structure/spider/stickyweb,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave1)
+"er" = (
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/soap/deluxe,
+/obj/item/reagent_containers/glass/bucket{
+	pixel_y = 11;
+	pixel_x = -5
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/arrakis/bunker/bridge)
 "es" = (
 /obj/structure/table/glass,
 /obj/item/clothing/mask/gas{
@@ -616,11 +824,29 @@
 	name = "Hydroponics";
 	req_access = list(35)
 	},
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hydro)
 "eu" = (
+/obj/effect/spawner/window/reinforced,
 /turf/simulated/floor/plating,
 /area/arrakis/bunker/kitchen)
+"ew" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dust,
+/obj/item/paper_bin/nanotrasen{
+	pixel_x = 4;
+	pixel_y = 18
+	},
+/obj/machinery/recharger{
+	pixel_x = 4
+	},
+/obj/item/paper/monitorkey{
+	pixel_x = -8;
+	pixel_y = 3
+	},
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "ex" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass{
@@ -659,15 +885,18 @@
 	},
 /area/arrakis/bunker/medbay)
 "eI" = (
-/turf/simulated/floor/plasteel{
-	icon_state = "darkbluecorners"
+/obj/machinery/power/apc/unpowered{
+	pixel_y = -26
 	},
+/turf/simulated/floor/carpet/black,
 /area/arrakis/bunker/bridge)
 "eJ" = (
 /turf/simulated/wall,
 /area/arrakis/bunker/rnd)
 "eK" = (
-/obj/machinery/door/airlock/highsecurity,
+/obj/machinery/door/airlock/highsecurity{
+	req_access = list(114)
+	},
 /turf/simulated/floor/plasteel/dark,
 /area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "eM" = (
@@ -681,6 +910,11 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"eN" = (
+/obj/machinery/light,
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "eS" = (
 /obj/structure/table/glass,
 /obj/item/storage/bag/chemistry,
@@ -734,26 +968,12 @@
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
 "ff" = (
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Bridge";
-	departmentType = 5;
-	name = "Bridge Requests Console";
-	pixel_x = -30;
-	pixel_y = -30
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/cooker/deepfryer,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
 	},
-/obj/machinery/camera{
-	c_tag = "Bridge Center";
-	dir = 1
-	},
-/obj/machinery/turretid/stun{
-	control_area = "\improper AI Upload Chamber";
-	name = "AI Upload Turret Control";
-	pixel_y = -24;
-	req_access = list(75)
-	},
-/turf/simulated/floor/carpet/royalblue,
-/area/arrakis/bunker/bridge)
+/area/arrakis/bunker/kitchen)
 "fg" = (
 /obj/structure/dresser,
 /obj/item/toy/figure/cmo{
@@ -804,6 +1024,13 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"fm" = (
+/obj/structure/chair/comfy/brown{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "fr" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel{
@@ -827,6 +1054,13 @@
 	icon_state = "podfloor_dark"
 	},
 /area/arrakis/bunker/rnd)
+"fv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "fy" = (
 /obj/structure/table/glass,
 /obj/item/storage/toolbox/surgery{
@@ -928,8 +1162,19 @@
 	},
 /area/arrakis/bunker/medbay)
 "fR" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
+"fS" = (
+/obj/machinery/status_display{
+	pixel_x = 32
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 4;
 	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/bridge)
@@ -967,9 +1212,11 @@
 	},
 /area/arrakis/bunker/rnd)
 "gd" = (
-/obj/structure/table/wood,
-/obj/item/taperecorder,
-/turf/simulated/floor/carpet/royalblue,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 9;
+	icon_state = "darkblue"
+	},
 /area/arrakis/bunker/bridge)
 "gf" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -981,6 +1228,14 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"gg" = (
+/obj/item/radio/beacon,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "gk" = (
 /obj/machinery/suit_storage_unit/rd,
 /turf/simulated/floor/plasteel{
@@ -1024,6 +1279,11 @@
 	icon_state = "whitepurplecorner"
 	},
 /area/arrakis/bunker/rnd)
+"gw" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/chair/comfy/brown,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "gC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -1087,11 +1347,24 @@
 /turf/simulated/floor/indestructible/brick,
 /area/arrakis/cave)
 "gP" = (
-/obj/structure/table/wood,
-/obj/item/folder/blue,
-/obj/item/pen,
-/obj/item/paper_bin,
-/turf/simulated/floor/carpet/royalblue,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
+"gR" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/filingcabinet,
+/obj/machinery/newscaster/security_unit{
+	pixel_x = -32
+	},
+/obj/item/radio/intercom{
+	name = "south station intercom (General)";
+	pixel_y = -22;
+	dir = 1
+	},
+/turf/simulated/floor/wood,
 /area/arrakis/bunker/bridge)
 "gS" = (
 /obj/structure/morgue,
@@ -1134,6 +1407,14 @@
 	icon_state = "cafeteria"
 	},
 /area/arrakis/bunker/medbay)
+"ha" = (
+/obj/effect/decal/cleanable/dust,
+/obj/item/chair/wood{
+	pixel_y = -6;
+	pixel_x = 13
+	},
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
 "hd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1200,6 +1481,14 @@
 	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/medbay)
+"hv" = (
+/obj/structure/bookcase/manuals,
+/obj/item/book/manual/sop_security,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "hw" = (
 /obj/machinery/cryopod/robot,
 /obj/machinery/computer/cryopod/robot{
@@ -1217,6 +1506,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "hF" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "green"
@@ -1245,19 +1535,19 @@
 	},
 /area/arrakis/bunker/medbay)
 "hO" = (
-/obj/machinery/computer/atmos_alert,
+/obj/machinery/computer/crew,
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 1;
-	icon_state = "darkyellow"
+	icon_state = "green"
 	},
 /area/arrakis/bunker/bridge)
 "hT" = (
+/obj/effect/decal/cleanable/dust,
 /obj/structure/table/wood,
-/obj/machinery/computer/security/wooden_tv{
-	pixel_y = 8
-	},
-/turf/simulated/floor/carpet/royalblue,
-/area/arrakis/bunker/bridge)
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
 "hU" = (
 /obj/structure/mineral_door/sandstone,
 /obj/effect/decal/cleanable/dust,
@@ -1368,6 +1658,15 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/arrakis/bunker/rnd)
+"iv" = (
+/obj/structure/window/reinforced,
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "dark"
+	},
+/area/arrakis/bunker)
 "iz" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -1406,6 +1705,13 @@
 	icon_state = "cafeteria"
 	},
 /area/arrakis/bunker/medbay)
+"iF" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 9;
+	icon_state = "darkbluealtstrip"
+	},
+/area/arrakis/bunker)
 "iH" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medbay";
@@ -1492,10 +1798,25 @@
 	icon_state = "fancy-wood-cherry"
 	},
 /area/arrakis/bunker/medbay)
+"jd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/twohanded/required/kirbyplants/norandom/dead,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "je" = (
 /obj/item/stack/sheet/bone,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave1)
+"jf" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/hallway)
 "jh" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medbay";
@@ -1507,6 +1828,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "jm" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "hydrofloor"
 	},
@@ -1528,6 +1850,19 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"jA" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "green"
+	},
+/area/arrakis/bunker/hydro)
+"jD" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dust,
+/obj/item/storage/fancy/donut_box,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "jE" = (
 /obj/machinery/atmospherics/unary/cryo_cell,
 /turf/simulated/floor/plasteel{
@@ -1623,6 +1958,26 @@
 	icon_state = "whiteyellowfull"
 	},
 /area/arrakis/bunker/medbay)
+"jU" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/table/wood,
+/obj/machinery/photocopier/faxmachine/longrange{
+	department = "Captain's Office";
+	pixel_y = 4;
+	layer = 3.1
+	},
+/obj/item/paper/safe_code{
+	owner = "captain";
+	pixel_y = 11;
+	pixel_x = 13;
+	layer = 2.4
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	pixel_x = -4
+	},
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "jV" = (
 /obj/structure/bed/sandstone{
 	dir = 8
@@ -1634,6 +1989,7 @@
 /turf/simulated/floor/indestructible/brick,
 /area/arrakis/cave)
 "jZ" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "green"
@@ -1697,6 +2053,16 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
+"ko" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/icemachine{
+	pixel_x = -1;
+	pixel_y = -3
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "kp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
@@ -1745,6 +2111,7 @@
 	name = "Kitchen";
 	req_access = list(28)
 	},
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/cherry,
 /area/arrakis/bunker/kitchen)
 "kC" = (
@@ -1809,6 +2176,7 @@
 /obj/machinery/door/airlock/freezer{
 	req_access = list(28)
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "freezerfloor"
 	},
@@ -1860,6 +2228,13 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"lg" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 6;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/hallway)
 "lh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1870,6 +2245,13 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"lj" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 6;
+	icon_state = "darkbluealtstrip"
+	},
+/area/arrakis/bunker)
 "lk" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -1916,6 +2298,16 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/rnd)
+"lw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/apc/unpowered{
+	dir = 1;
+	pixel_y = 26
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "lx" = (
 /obj/item/flashlight/lamp/green{
 	on = 0;
@@ -1946,6 +2338,16 @@
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/carpet,
 /area/arrakis/bunker/medbay)
+"ly" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/freezer,
+/obj/item/storage/firstaid/aquatic_kit,
+/obj/item/reagent_containers/glass/bucket,
+/obj/item/fish_eggs/salmon,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "lA" = (
 /obj/effect/decal/warning_stripes/southeastcorner,
 /turf/simulated/floor/plasteel,
@@ -1983,15 +2385,14 @@
 	},
 /area/arrakis/bunker/rnd)
 "lI" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp,
-/turf/simulated/floor/carpet/royalblue,
-/area/arrakis/bunker/bridge)
+/turf/simulated/wall/indestructible/reinforced,
+/area/arrakis/cave)
 "lL" = (
 /obj/machinery/door/airlock/service{
 	name = "Bar Office";
 	req_access = list(25)
 	},
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
 /area/arrakis/bunker/bar)
 "lP" = (
@@ -2011,6 +2412,14 @@
 	icon_state = "whiteyellow"
 	},
 /area/arrakis/bunker/medbay)
+"lZ" = (
+/obj/structure/table/wood,
+/obj/item/restraints/handcuffs,
+/obj/item/flash{
+	pixel_y = -13
+	},
+/turf/simulated/floor/carpet/black,
+/area/arrakis/bunker/bridge)
 "ma" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/surgery{
@@ -2039,6 +2448,14 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"mk" = (
+/obj/effect/decal/cleanable/dust,
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -26
+	},
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
 "ml" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2046,10 +2463,12 @@
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
 "mm" = (
-/obj/machinery/computer/monitor,
+/obj/machinery/computer/med_data,
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 5;
-	icon_state = "darkyellow"
+	icon_state = "green"
 	},
 /area/arrakis/bunker/bridge)
 "mo" = (
@@ -2069,6 +2488,16 @@
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/outside/Outside1)
+"mq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/janitor)
 "mw" = (
 /obj/structure/table/reinforced,
 /obj/item/organ/internal/lungs/cybernetic,
@@ -2086,7 +2515,19 @@
 	icon_state = "darkpurple"
 	},
 /area/arrakis/bunker/rnd)
+"mx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm{
+	name = "north fire alarm";
+	pixel_y = 24
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "mz" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -2161,6 +2602,29 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"mR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/command/glass{
+	name = "Bridge";
+	req_access = list(19)
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluefull"
+	},
+/area/arrakis/bunker/hallway)
+"mS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/hologram/holopad{
+	pixel_x = 16
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/janitor)
+"mT" = (
+/obj/machinery/computer/aifixer{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "mX" = (
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/outside/Outside4)
@@ -2191,10 +2655,20 @@
 /area/arrakis/bunker/medbay)
 "nb" = (
 /obj/effect/turf_decal/loading_area,
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "nd" = (
 /obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	density = 0;
+	dir = 1;
+	icon_state = "open";
+	id_tag = "kitchenbar";
+	name = "Kitchen Shutters";
+	opacity = 0
+	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/kitchen)
 "ng" = (
@@ -2237,37 +2711,49 @@
 	},
 /turf/simulated/floor/plating,
 /area/arrakis/bunker/rnd)
-"nx" = (
-/obj/structure/table/reinforced,
-/obj/item/restraints/handcuffs,
-/obj/item/flash,
-/obj/machinery/ai_status_display{
-	layer = 4;
-	pixel_y = 32
+"nn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack{
+	dir = 1
 	},
+/obj/machinery/power/apc/unpowered{
+	dir = 8;
+	pixel_x = -26
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/janitor)
+"nx" = (
+/obj/structure/table/glass,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/fancy/donut_box,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
+	dir = 1;
+	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/bridge)
 "nB" = (
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "green"
 	},
 /area/arrakis/bunker/hydro)
+"nE" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "darkbluealtstrip"
+	},
+/area/arrakis/bunker)
 "nH" = (
 /obj/item/skeleton/r_leg,
 /obj/item/skeleton/l_foot,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave1)
 "nK" = (
-/obj/structure/chair/office/dark{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
-/area/arrakis/bunker/bridge)
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/hydro)
 "nM" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/effect/decal/cleanable/dirt,
@@ -2289,6 +2775,20 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"nQ" = (
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_x = 32
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
+"nS" = (
+/obj/machinery/status_display,
+/turf/simulated/wall/r_wall,
+/area/arrakis/bunker/bridge)
 "nU" = (
 /obj/item/stack/ore/bluespace_crystal,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -2309,6 +2809,18 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"nW" = (
+/obj/structure/window/reinforced,
+/obj/machinery/computer/security{
+	network = list("SS13","Research  Outpost","Mining  Outpost","Telecomms");
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "dark"
+	},
+/area/arrakis/bunker)
 "nY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -2349,6 +2861,13 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"od" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "darkredalt"
+	},
+/area/arrakis/bunker)
 "og" = (
 /turf/simulated/wall/indestructible/reinforced,
 /area/arrakis/bunker/brig)
@@ -2391,10 +2910,11 @@
 	},
 /area/arrakis/bunker/medbay)
 "os" = (
-/obj/structure/chair/comfy/black{
-	dir = 1
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
 	},
-/turf/simulated/floor/carpet/royalblue,
 /area/arrakis/bunker/bridge)
 "ov" = (
 /obj/structure/spider/stickyweb,
@@ -2402,6 +2922,21 @@
 /obj/item/stack/ore/iron,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave)
+"ox" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/table_frame/wood,
+/obj/item/stack/sheet/wood{
+	amount = 2
+	},
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
+"oy" = (
+/obj/effect/decal/cleanable/dust,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/hallway)
 "oB" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -2409,6 +2944,13 @@
 	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/medbay)
+"oC" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "oD" = (
 /turf/simulated/wall/indestructible/reinforced,
 /area/arrakis/cave/cave1)
@@ -2431,6 +2973,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "oL" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkgreencorners"
@@ -2454,6 +2997,13 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/rnd)
+"oR" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
 "oS" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/stripes{
@@ -2473,6 +3023,7 @@
 	},
 /area/arrakis/bunker/rnd)
 "oT" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hydro)
 "oV" = (
@@ -2484,6 +3035,19 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"oX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/newscaster{
+	name = "south newscaster";
+	pixel_y = -31
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "oY" = (
 /obj/item/twohanded/required/kirbyplants,
 /obj/effect/decal/cleanable/dust,
@@ -2497,16 +3061,42 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
-"pc" = (
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
+"oZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/jcloset,
+/obj/item/key/janitor,
+/obj/item/storage/box/lights/mixed,
+/obj/machinery/firealarm{
+	name = "north fire alarm";
+	pixel_y = 24
 	},
-/area/arrakis/bunker/tanya_cyborg_blyat_lab)
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/janitor)
+"pc" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = -4;
+	pixel_y = 1
+	},
+/obj/item/storage/box/matches{
+	pixel_y = -9;
+	layer = 2.6
+	},
+/obj/item/clothing/mask/cigarette/cigar{
+	pixel_x = 13;
+	pixel_y = 13;
+	layer = 2.6
+	},
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "pd" = (
-/obj/machinery/computer/station_alert,
+/obj/machinery/computer/card,
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 9;
-	icon_state = "darkyellow"
+	icon_state = "green"
 	},
 /area/arrakis/bunker/bridge)
 "pe" = (
@@ -2599,12 +3189,55 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
-"pK" = (
-/obj/machinery/computer/prisoner,
-/turf/simulated/floor/plasteel{
-	dir = 9;
-	icon_state = "darkred"
+"pA" = (
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id_tag = "bridge blast";
+	name = "Bridge Blast Doors";
+	opacity = 0
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/command/glass{
+	id = "bridge_privacy";
+	name = "Bridge";
+	req_access = list(19)
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluefull"
+	},
+/area/arrakis/bunker/bridge)
+"pJ" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 6;
+	icon_state = "darkredalt"
+	},
+/area/arrakis/bunker)
+"pK" = (
+/obj/structure/table/glass,
+/obj/item/aicard{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/multitool{
+	pixel_x = -6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
+"pN" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/chair/office/dark{
+	dir = 4
+	},
+/obj/item/shredded_paper{
+	layer = 2.9
+	},
+/turf/simulated/floor/wood,
 /area/arrakis/bunker/bridge)
 "pS" = (
 /obj/effect/spawner/window/reinforced,
@@ -2640,6 +3273,10 @@
 /turf/simulated/floor/plasteel/dark,
 /area/arrakis/bunker/rnd)
 "pU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/public/glass{
+	name = "Restaurant"
+	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/kitchen)
 "pV" = (
@@ -2735,6 +3372,11 @@
 	tag = "icon-whitepurple (EAST)"
 	},
 /area/arrakis/bunker/rnd)
+"qb" = (
+/obj/effect/decal/warning_stripes/east,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/hallway)
 "qc" = (
 /obj/structure/rack,
 /obj/item/storage/firstaid/regular{
@@ -2746,6 +3388,11 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"qf" = (
+/obj/effect/decal/cleanable/dust,
+/obj/item/flag/nt,
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/hallway)
 "qg" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/carpet,
@@ -2786,6 +3433,15 @@
 	icon_state = "whiteyellow"
 	},
 /area/arrakis/bunker/medbay)
+"qm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/kitchen_machine/oven{
+	pixel_y = 3
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "qq" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyerPort";
@@ -2895,6 +3551,7 @@
 /area/arrakis/bunker/rnd)
 "qN" = (
 /obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "dark";
@@ -2913,12 +3570,23 @@
 	},
 /area/arrakis/bunker/rnd)
 "qS" = (
-/obj/machinery/firealarm{
-	pixel_y = 24;
-	name = "north fire alarm"
+/obj/structure/table/wood{
+	color = "#996633"
 	},
-/turf/simulated/floor/plasteel,
-/area/arrakis/bunker/hallway)
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/bridge)
+"qT" = (
+/obj/structure/chair/comfy/brown{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/bridge)
 "qW" = (
 /obj/structure/table/reinforced/brass,
 /obj/machinery/door/window{
@@ -2960,6 +3628,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "rm" = (
@@ -2969,6 +3638,31 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
+"rn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 4;
+	pixel_y = -26
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
+"rs" = (
+/obj/structure/table/wood,
+/obj/item/taperecorder,
+/obj/machinery/alarm{
+	dir = 4;
+	pixel_x = -26
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/black,
+/area/arrakis/bunker/bridge)
 "ru" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -3072,12 +3766,26 @@
 	},
 /area/arrakis/bunker/rnd)
 "rM" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/firstaid/regular{
-	pixel_y = 2
+/obj/structure/table/glass,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/radio/intercom{
+	name = "north station intercom (General)";
+	pixel_y = 22
+	},
+/obj/item/assembly/timer{
+	pixel_y = -3;
+	pixel_x = -5
+	},
+/obj/item/assembly/signaler{
+	pixel_y = 6;
+	pixel_x = 6
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
+	dir = 1;
+	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/bridge)
 "rN" = (
@@ -3098,6 +3806,20 @@
 	icon_state = "vault"
 	},
 /area/arrakis/bunker/rnd)
+"rV" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "darkbluealtstrip"
+	},
+/area/arrakis/bunker)
+"rX" = (
+/obj/effect/decal/cleanable/dust,
+/obj/item/stack/sheet/wood{
+	amount = 2
+	},
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
 "rY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -3115,6 +3837,13 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"sc" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 10;
+	icon_state = "darkredalt"
+	},
+/area/arrakis/bunker)
 "sd" = (
 /obj/machinery/ai_status_display{
 	pixel_x = -32;
@@ -3179,22 +3908,20 @@
 	},
 /area/arrakis/bunker/medbay)
 "sv" = (
-/obj/machinery/computer/robotics{
-	dir = 8
+/obj/structure/chair/comfy/black{
+	dir = 1
 	},
-/turf/simulated/floor/plasteel{
-	dir = 5;
-	icon_state = "darkpurple"
-	},
+/turf/simulated/floor/carpet/black,
 /area/arrakis/bunker/bridge)
 "sx" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	name = "south fire alarm";
-	pixel_y = -24
-	},
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
+"sB" = (
+/obj/effect/decal/cleanable/dust,
+/obj/machinery/photocopier,
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "sC" = (
 /turf/simulated/floor/engine,
 /area/arrakis/bunker/rnd)
@@ -3234,6 +3961,13 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/outside/Outside1)
+"sS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/kitchenspike,
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/arrakis/bunker/kitchen)
 "sV" = (
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/outside/Outside5)
@@ -3353,6 +4087,18 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"tw" = (
+/obj/machinery/suit_storage_unit/captain,
+/obj/effect/decal/cleanable/dust,
+/obj/machinery/requests_console{
+	announcementConsole = 1;
+	department = "Captain's Desk";
+	departmentType = 5;
+	name = "Captain Requests Console";
+	pixel_y = -30
+	},
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "tB" = (
 /obj/machinery/r_n_d/server/robotics,
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -3373,6 +4119,14 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"tD" = (
+/obj/structure/dresser,
+/obj/effect/decal/cleanable/dust,
+/obj/item/toy/figure/captain{
+	pixel_y = 14
+	},
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "tF" = (
 /obj/machinery/r_n_d/protolathe{
 	pixel_y = 2
@@ -3387,6 +4141,7 @@
 /turf/simulated/floor/bluegrid,
 /area/arrakis/bunker/rnd)
 "tK" = (
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker)
 "tL" = (
@@ -3451,15 +4206,21 @@
 "tX" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave)
-"tZ" = (
-/obj/machinery/computer/supplycomp{
-	dir = 4
+"tY" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dust,
+/obj/item/storage/lockbox/medal,
+/obj/structure/window/reinforced{
+	dir = 8;
+	pixel_x = -4
 	},
-/turf/simulated/floor/plasteel{
-	dir = 9;
-	icon_state = "darkyellow"
-	},
+/turf/simulated/floor/wood,
 /area/arrakis/bunker/bridge)
+"tZ" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/chair/wood,
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
 "ua" = (
 /obj/machinery/hologram/holopad,
 /obj/effect/decal/cleanable/dust,
@@ -3467,6 +4228,19 @@
 	icon_state = "whitebluefull"
 	},
 /area/arrakis/bunker/medbay)
+"ud" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light_switch{
+	dir = 8;
+	name = "east light switch";
+	pixel_x = 24
+	},
+/obj/item/twohanded/required/kirbyplants/norandom/dead,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "ue" = (
 /obj/effect/decal/cleanable/dust,
 /obj/effect/mob_spawn/human/corpse/miner,
@@ -3515,6 +4289,13 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"ur" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "darkgreen"
+	},
+/area/arrakis/bunker/hydro)
 "us" = (
 /obj/effect/decal/warning_stripes/yellow/hollow,
 /obj/machinery/constructable_frame/machine_frame,
@@ -3527,6 +4308,13 @@
 	icon_state = "whiteyellow"
 	},
 /area/arrakis/bunker/medbay)
+"uz" = (
+/obj/structure/chair/comfy/brown,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/bridge)
 "uB" = (
 /obj/structure/table/glass,
 /obj/item/defibrillator/loaded{
@@ -3595,6 +4383,18 @@
 	icon_state = "whitebluefull"
 	},
 /area/arrakis/bunker/medbay)
+"vc" = (
+/obj/structure/safe/floor{
+	known_by = list("captain")
+	},
+/obj/item/gun/projectile/revolver/russian,
+/obj/item/reagent_containers/food/drinks/bottle/absinthe/premium,
+/obj/item/storage/fancy/cigarettes/cigpack_robustgold,
+/obj/item/toy/figure/captain,
+/obj/item/lighter/zippo/cap,
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "vd" = (
 /obj/effect/decal/warning_stripes/southwestcorner,
 /turf/simulated/floor/plasteel,
@@ -3656,10 +4456,14 @@
 /turf/simulated/floor/carpet,
 /area/arrakis/bunker/medbay)
 "vF" = (
-/obj/machinery/computer/card,
+/obj/machinery/computer/security{
+	network = list("SS13","Research  Outpost","Mining  Outpost","Telecomms")
+	},
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 9;
-	icon_state = "darkblue"
+	icon_state = "darkred"
 	},
 /area/arrakis/bunker/bridge)
 "vG" = (
@@ -3723,6 +4527,16 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"vW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/apc/unpowered{
+	dir = 1;
+	pixel_y = 26
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/arrakis/bunker/kitchen)
 "vY" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/closet/crate,
@@ -3785,6 +4599,14 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/medbay)
+"wm" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/security/wooden_tv{
+	pixel_y = 8;
+	layer = 3.3
+	},
+/turf/simulated/floor/carpet/black,
+/area/arrakis/bunker/bridge)
 "wn" = (
 /obj/structure/curtain/open,
 /obj/effect/decal/cleanable/dirt,
@@ -3794,6 +4616,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "wp" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "darkgreen"
@@ -3817,6 +4640,15 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"wv" = (
+/obj/machinery/door/airlock/bathroom{
+	name = "Private Restroom"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/arrakis/bunker/bridge)
 "wx" = (
 /turf/simulated/floor/plasteel{
 	dir = 9;
@@ -3843,10 +4675,12 @@
 /turf/simulated/floor/indestructible/brick,
 /area/arrakis/cave)
 "wF" = (
-/obj/machinery/computer/security,
+/obj/machinery/computer/communications,
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 1;
-	icon_state = "darkred"
+	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/bridge)
 "wJ" = (
@@ -3856,6 +4690,19 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/rnd)
+"wK" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	density = 0;
+	dir = 8;
+	icon_state = "open";
+	id_tag = "kitchenhall";
+	name = "Kitchen Shutters";
+	opacity = 0
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/kitchen)
 "wP" = (
 /obj/structure/sink{
 	dir = 8;
@@ -3867,13 +4714,44 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
-"wW" = (
-/obj/machinery/power/apc/unpowered{
-	dir = 8;
-	pixel_x = -26
+"wR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/reagentgrinder{
+	pixel_x = -1;
+	pixel_y = 9
 	},
-/turf/simulated/floor/plasteel,
-/area/arrakis/bunker/hallway)
+/obj/structure/table,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
+"wS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/foodcart{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
+"wT" = (
+/obj/machinery/ai_status_display,
+/turf/simulated/wall/r_wall,
+/area/arrakis/bunker/bridge)
+"wV" = (
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet/captain{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
+"wW" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "wZ" = (
 /obj/effect/mob_spawn/human/corpse/miner,
 /turf/simulated/floor/indestructible/dune_sand,
@@ -3890,6 +4768,12 @@
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand/dug,
 /area/arrakis/outside/Outside1)
+"xh" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkgreen"
+	},
+/area/arrakis/bunker/hydro)
 "xo" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -3918,6 +4802,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
+"xu" = (
+/obj/structure/bookcase/manuals,
+/obj/item/book/manual/security_space_law,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "xA" = (
 /obj/structure/spider/stickyweb,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -3937,6 +4830,14 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"xK" = (
+/obj/machinery/ai_status_display{
+	pixel_x = -32;
+	step_size = 0
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/hallway)
 "xQ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -3996,6 +4897,38 @@
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/indestructible/brick,
 /area/arrakis/cave)
+"yf" = (
+/obj/effect/decal/cleanable/dust,
+/obj/item/chair/wood{
+	dir = 1;
+	pixel_y = -8;
+	pixel_x = -13
+	},
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
+"yg" = (
+/obj/structure/table/glass,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/radio/intercom{
+	name = "north station intercom (General)";
+	pixel_y = 22
+	},
+/obj/item/paper_bin{
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_y = -10;
+	pixel_x = -1;
+	layer = 2.7
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "yi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -4007,6 +4940,11 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"yn" = (
+/obj/item/twohanded/required/kirbyplants/norandom/dead,
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "yo" = (
 /obj/effect/decal/warning_stripes/west,
 /obj/effect/decal/warning_stripes/yellow/partial{
@@ -4018,6 +4956,7 @@
 /area/arrakis/bunker/rnd)
 "yq" = (
 /obj/effect/decal/warning_stripes/east,
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "yu" = (
@@ -4025,12 +4964,22 @@
 /mob/living/simple_animal/hostile/poison/giant_spider/hunter,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave1)
-"yw" = (
-/obj/structure/table/wood,
-/obj/item/restraints/handcuffs,
-/obj/item/flash,
-/turf/simulated/floor/carpet/royalblue,
+"yv" = (
+/obj/machinery/computer/card/minor/rd,
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkpurple"
+	},
 /area/arrakis/bunker/bridge)
+"yw" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/hallway)
 "yB" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/organ/internal/ears,
@@ -4080,6 +5029,11 @@
 "yK" = (
 /turf/simulated/wall/indestructible/reinforced,
 /area/arrakis/bunker/engie)
+"yM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/disposal,
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/janitor)
 "yN" = (
 /obj/effect/decal/warning_stripes/blue/partial{
 	dir = 4
@@ -4114,6 +5068,37 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
+"yZ" = (
+/obj/structure/table/wood,
+/obj/item/book/manual/security_space_law{
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/obj/item/book/manual/sop_command{
+	pixel_y = 5;
+	pixel_x = -12
+	},
+/obj/item/book/manual/sop_general{
+	pixel_x = -12;
+	pixel_y = 8
+	},
+/obj/item/toy/desk/newtoncradle{
+	layer = 3.1;
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/obj/item/folder/blue{
+	pixel_x = 2;
+	pixel_y = -13;
+	layer = 2.6
+	},
+/obj/item/stamp/captain{
+	pixel_x = 1;
+	pixel_y = -2
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "zb" = (
 /obj/machinery/door/poddoor/shutters{
 	id_tag = "paramedic";
@@ -4159,6 +5144,25 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"zk" = (
+/obj/machinery/vending/cigarette/empty,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
+"zm" = (
+/obj/structure/table/glass,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/recharger{
+	pixel_y = 2
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "zn" = (
 /obj/structure/curtain/open,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -4176,6 +5180,15 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"zr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/secret/ray{
+	pixel_y = 38
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/arrakis/bunker/bridge)
 "zs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/remains{
@@ -4264,6 +5277,20 @@
 	icon_state = "whitepurplecorner"
 	},
 /area/arrakis/bunker/rnd)
+"zN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/item/storage/box/donkpockets{
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = 5;
+	pixel_y = 20
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "zQ" = (
 /turf/simulated/floor/indestructible/brick,
 /area/arrakis/bunker/engie)
@@ -4277,6 +5304,20 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
+"Ab" = (
+/obj/machinery/firealarm{
+	name = "north fire alarm";
+	pixel_y = 24
+	},
+/obj/effect/decal/cleanable/dust,
+/obj/machinery/computer/arcade,
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
+"Ae" = (
+/obj/effect/decal/cleanable/dust,
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "Ag" = (
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dust,
@@ -4301,6 +5342,13 @@
 	},
 /turf/simulated/floor/plasteel/dark/telecomms,
 /area/arrakis/bunker/rnd)
+"Ap" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
 "At" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave1)
@@ -4334,6 +5382,11 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/rnd)
+"AE" = (
+/obj/effect/decal/cleanable/dust,
+/obj/item/shredded_paper,
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "AF" = (
 /obj/structure/closet/secure_closet/research_reagents,
 /obj/structure/window/plasmareinforced,
@@ -4346,6 +5399,14 @@
 	icon_state = "vault"
 	},
 /area/arrakis/bunker/rnd)
+"AI" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/donut_box,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/black,
+/area/arrakis/bunker/bridge)
 "AJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -4353,6 +5414,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "AN" = (
@@ -4403,6 +5465,13 @@
 	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/medbay)
+"Bc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/bone,
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/arrakis/bunker/kitchen)
 "Bd" = (
 /obj/effect/mob_spawn/human/corpse/miner,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -4411,7 +5480,7 @@
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave)
 "Bg" = (
-/obj/machinery/vending/coffee,
+/obj/machinery/vending/coffee/empty,
 /obj/effect/mapping_helpers/machinery/damaged,
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood{
@@ -4538,6 +5607,13 @@
 "Cb" = (
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/engie)
+"Ci" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/chefcloset,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "Cm" = (
 /obj/machinery/dna_scannernew,
 /obj/effect/mapping_helpers/machinery/damaged,
@@ -4548,6 +5624,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "Co" = (
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/cherry,
 /area/arrakis/bunker/kitchen)
 "Cp" = (
@@ -4557,6 +5634,17 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging,
 /turf/simulated/floor/plasteel/dark/telecomms,
 /area/arrakis/bunker/rnd)
+"Cr" = (
+/obj/effect/decal/cleanable/dust,
+/obj/machinery/door/window{
+	base_state = "right";
+	icon_state = "right";
+	name = "Captain's Desk Door";
+	req_access = list(20);
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "Ct" = (
 /turf/simulated/floor/indestructible/brick,
 /area/arrakis/cave)
@@ -4571,6 +5659,13 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"Cv" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
 "Cx" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -4596,6 +5691,7 @@
 	pixel_y = 24;
 	req_access = list(66)
 	},
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "CI" = (
@@ -4660,6 +5756,11 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/medbay)
+"CV" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/chair/office/dark,
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "CY" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medbay Reception";
@@ -4700,7 +5801,8 @@
 /turf/simulated/floor/carpet,
 /area/arrakis/bunker/medbay)
 "Db" = (
-/turf/simulated/wall,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "Dd" = (
 /obj/effect/decal/warning_stripes/northwest,
@@ -4710,24 +5812,50 @@
 /obj/item/stack/ore/titanium,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave2)
+"Dl" = (
+/obj/effect/decal/cleanable/dust,
+/obj/item/chair/wood{
+	pixel_y = -13;
+	pixel_x = 13
+	},
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
 "Do" = (
 /turf/simulated/wall/indestructible/reinforced,
 /area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "Dp" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/toolbox/mechanical,
-/obj/machinery/status_display{
-	layer = 4;
-	pixel_y = 32
+/obj/structure/table/glass,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/box/PDAs{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/storage/box/ids{
+	pixel_y = 2;
+	pixel_x = -4
 	},
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
+	dir = 1;
+	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/bridge)
 "Dt" = (
 /obj/item/stack/ore/gold,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave2)
+"Du" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/newscaster{
+	name = "south newscaster";
+	pixel_y = -31
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "Dv" = (
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced{
@@ -4755,6 +5883,13 @@
 	},
 /turf/simulated/floor/engine,
 /area/arrakis/bunker/medbay)
+"Dx" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "darkbluealtstrip"
+	},
+/area/arrakis/bunker)
 "Dz" = (
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/cave/cave2)
@@ -4788,6 +5923,17 @@
 /obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/arrakis/bunker/rnd)
+"DN" = (
+/obj/machinery/vending/snack/empty,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "DO" = (
 /turf/simulated/wall,
 /area/arrakis/bunker/hydro)
@@ -4810,7 +5956,21 @@
 	tag = "icon-whitepurple (WEST)"
 	},
 /area/arrakis/bunker/rnd)
+"DT" = (
+/obj/structure/closet/emcloset,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm{
+	dir = 4;
+	name = "west fire alarm";
+	pixel_x = -24
+	},
+/turf/simulated/floor/plasteel{
+	dir = 10;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "DU" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkgreen"
 	},
@@ -4859,15 +6019,14 @@
 	},
 /area/arrakis/bunker/rnd)
 "Ee" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	name = "east fire alarm";
-	pixel_x = 24
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
 	},
-/turf/simulated/floor/plasteel,
-/area/arrakis/bunker/hallway)
+/area/arrakis/bunker/kitchen)
 "Eg" = (
-/obj/machinery/vending/coffee,
+/obj/machinery/vending/coffee/empty,
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel{
 	dir = 4;
@@ -4902,6 +6061,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/arrakis/bunker/rnd)
+"Eo" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker)
 "Er" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -4927,6 +6090,21 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"EA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/item/radio/intercom{
+	name = "east station intercom (General)";
+	pixel_x = 22;
+	dir = 8
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/janitor)
 "EB" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/effect/decal/cleanable/dirt,
@@ -5027,6 +6205,7 @@
 /turf/simulated/floor/carpet,
 /area/arrakis/bunker/medbay)
 "Fg" = (
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
 /area/arrakis/bunker/bar)
 "Fi" = (
@@ -5118,6 +6297,19 @@
 "FB" = (
 /turf/simulated/floor/plasteel/dark/telecomms,
 /area/arrakis/bunker/rnd)
+"FC" = (
+/obj/effect/spawner/window/reinforced/polarized{
+	id = "bridge_privacy"
+	},
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id_tag = "bridge blast";
+	name = "Bridge Blast Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/arrakis/bunker/bridge)
 "FD" = (
 /obj/structure/spider/stickyweb,
 /mob/living/simple_animal/hostile/poison/giant_spider,
@@ -5138,6 +6330,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "FH" = (
@@ -5173,7 +6366,11 @@
 /turf/simulated/floor/carpet,
 /area/arrakis/bunker/medbay)
 "FK" = (
-/turf/simulated/floor/plasteel,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "darkblue"
+	},
 /area/arrakis/bunker/hallway)
 "FM" = (
 /obj/structure/filingcabinet/chestdrawer,
@@ -5198,6 +6395,19 @@
 	icon_state = "whiteyellow"
 	},
 /area/arrakis/bunker/medbay)
+"FQ" = (
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id_tag = "bridge blast";
+	name = "Bridge Blast Doors";
+	opacity = 0
+	},
+/obj/effect/spawner/window/reinforced/polarized{
+	id = "bridge_privacy"
+	},
+/turf/simulated/floor/plating,
+/area/arrakis/bunker/bridge)
 "FT" = (
 /obj/effect/decal/warning_stripes/north,
 /turf/simulated/floor/plasteel{
@@ -5246,6 +6456,13 @@
 	icon_state = "cafeteria"
 	},
 /area/arrakis/bunker/rnd)
+"Ga" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/sign/bobross{
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "Gc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5271,6 +6488,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/arrakis/bunker/rnd)
+"Gh" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/displaycase/captain,
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "Gj" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -5292,6 +6514,16 @@
 "Gl" = (
 /turf/simulated/floor/indestructible/grass,
 /area/arrakis/bunker)
+"Go" = (
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkredalt"
+	},
+/area/arrakis/bunker)
 "Gr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -5301,6 +6533,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "Gu" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkgreen"
@@ -5343,6 +6576,13 @@
 	tag = "icon-whitepurple (NORTH)"
 	},
 /area/arrakis/bunker/rnd)
+"GP" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/hallway)
 "GT" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/reagent_containers/iv_bag/bloodsynthetic/nitrogenis,
@@ -5373,12 +6613,18 @@
 	},
 /area/arrakis/bunker/medbay)
 "GV" = (
-/obj/machinery/computer/security/mining{
-	dir = 4
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/extinguisher_cabinet{
+	name = "south extinguisher cabinet";
+	pixel_y = -30
 	},
+/obj/item/storage/firstaid/regular/empty{
+	layer = 2.7;
+	pixel_y = -7
+	},
+/obj/structure/table_frame,
 /turf/simulated/floor/plasteel{
-	dir = 10;
-	icon_state = "darkpurple"
+	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/bridge)
 "GY" = (
@@ -5527,7 +6773,9 @@
 	},
 /area/arrakis/bunker/medbay)
 "HH" = (
-/obj/machinery/door/airlock/highsecurity/secret,
+/obj/machinery/door/airlock/highsecurity/secret{
+	req_access = list(114)
+	},
 /turf/simulated/floor/plasteel/dark,
 /area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "HJ" = (
@@ -5559,6 +6807,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "HN" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "green"
@@ -5592,6 +6841,14 @@
 	icon_state = "podfloor_dark"
 	},
 /area/arrakis/bunker/rnd)
+"HT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock{
+	name = "Custodial Closet";
+	req_access = list(26)
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/janitor)
 "HU" = (
 /obj/structure/table/reinforced,
 /obj/machinery/alarm{
@@ -5679,11 +6936,6 @@
 /obj/item/stack/ore/uranium,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave1)
-"Ik" = (
-/obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box,
-/turf/simulated/floor/carpet/royalblue,
-/area/arrakis/bunker/bridge)
 "Il" = (
 /turf/simulated/wall/r_wall,
 /area/arrakis/bunker)
@@ -5711,6 +6963,10 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"It" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/carpet/black,
+/area/arrakis/bunker/bridge)
 "Iv" = (
 /obj/machinery/alarm{
 	dir = 4;
@@ -5723,6 +6979,11 @@
 /obj/machinery/computer/mech_bay_power_console,
 /turf/simulated/floor/bluegrid,
 /area/arrakis/bunker/rnd)
+"Ix" = (
+/obj/machinery/computer/communications,
+/obj/effect/mapping_helpers/machinery/damaged,
+/turf/simulated/floor/carpet/black,
+/area/arrakis/bunker/bridge)
 "Iz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5786,10 +7047,12 @@
 	},
 /area/arrakis/bunker/medbay)
 "IP" = (
-/obj/machinery/computer/crew,
+/obj/machinery/computer/prisoner,
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 1;
-	icon_state = "darkblue"
+	icon_state = "darkred"
 	},
 /area/arrakis/bunker/bridge)
 "IR" = (
@@ -5858,6 +7121,13 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"Jh" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "dark"
+	},
+/area/arrakis/bunker)
 "Ji" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medbay";
@@ -5874,6 +7144,7 @@
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
 "Jk" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "green"
@@ -5966,12 +7237,20 @@
 	pixel_x = 32;
 	step_size = 0
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
-"JA" = (
-/obj/structure/table/wood,
-/obj/machinery/keycard_auth,
-/turf/simulated/floor/carpet/royalblue,
+"JC" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
+"JE" = (
+/obj/effect/decal/cleanable/dust,
+/obj/machinery/door/airlock/command/cap{
+	name = "Captain's Quarters";
+	req_access = list(20)
+	},
+/turf/simulated/floor/wood,
 /area/arrakis/bunker/bridge)
 "JL" = (
 /obj/structure/closet/l3closet/scientist,
@@ -5979,6 +7258,19 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/rnd)
+"JN" = (
+/obj/structure/toilet/golden_toilet{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/arrakis/bunker/bridge)
+"JO" = (
+/obj/machinery/light,
+/turf/simulated/floor/plasteel/dark,
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "JQ" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel{
@@ -6004,9 +7296,10 @@
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/outside/Outside1)
 "JW" = (
-/turf/simulated/floor/plasteel{
-	icon_state = "darkbluefull"
+/obj/structure/closet/fireaxecabinet{
+	pixel_y = -32
 	},
+/turf/simulated/floor/carpet/black,
 /area/arrakis/bunker/bridge)
 "JY" = (
 /obj/machinery/door/poddoor{
@@ -6023,6 +7316,11 @@
 /obj/effect/spawner/window/reinforced/plasma,
 /turf/simulated/floor/plating,
 /area/arrakis/bunker/rnd)
+"JZ" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/closet/secure_closet/captains,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "Kd" = (
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt,
@@ -6030,6 +7328,9 @@
 	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/medbay)
+"Kg" = (
+/turf/simulated/wall/r_wall,
+/area/arrakis/bunker/kitchen)
 "Kh" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyerPort";
@@ -6045,6 +7346,13 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"Ki" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 9;
+	icon_state = "darkredalt"
+	},
+/area/arrakis/bunker)
 "Kl" = (
 /obj/item/flag/med,
 /obj/effect/decal/cleanable/dirt,
@@ -6059,8 +7367,11 @@
 /turf/simulated/floor/engine,
 /area/arrakis/bunker/medbay)
 "Kq" = (
-/obj/machinery/hologram/holopad,
-/turf/simulated/floor/carpet/royalblue,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
 /area/arrakis/bunker/bridge)
 "Kr" = (
 /obj/effect/decal/warning_stripes/yellow,
@@ -6131,6 +7442,28 @@
 	icon_state = "cafeteria"
 	},
 /area/arrakis/bunker/rnd)
+"KF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/spacecleanertank{
+	pixel_y = 30
+	},
+/obj/structure/reagent_dispensers/watertank,
+/obj/item/reagent_containers/glass/bucket{
+	pixel_y = 11;
+	pixel_x = -5
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/janitor)
+"KL" = (
+/obj/machinery/ai_status_display{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkredalt"
+	},
+/area/arrakis/bunker)
 "KM" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyerPort";
@@ -6200,6 +7533,16 @@
 	icon_state = "fancy-wood-cherry"
 	},
 /area/arrakis/bunker/medbay)
+"Le" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/freezer,
+/obj/item/storage/firstaid/aquatic_kit/full,
+/obj/item/reagent_containers/glass/bucket,
+/obj/item/fish_eggs/salmon,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "Lh" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand,
@@ -6227,6 +7570,21 @@
 /obj/effect/mapping_helpers/machinery/damaged,
 /turf/simulated/floor/engine,
 /area/arrakis/bunker/medbay)
+"Lv" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Vault Internal Door";
+	req_access = list(63);
+	autoclose = 0;
+	frequency = 2200;
+	id_tag = "vault_in"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "dark"
+	},
+/area/arrakis/bunker)
 "Lw" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "darkpurple"
@@ -6241,6 +7599,14 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"LD" = (
+/obj/effect/decal/cleanable/dust,
+/obj/item/storage/secure/safe{
+	pixel_x = -28;
+	pixel_y = 5
+	},
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "LE" = (
 /obj/machinery/recharger{
 	pixel_x = 8;
@@ -6258,6 +7624,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "LG" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "dark";
@@ -6277,11 +7644,22 @@
 	},
 /area/arrakis/bunker/medbay)
 "LI" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "darkgreen"
 	},
 /area/arrakis/bunker/hydro)
+"LN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/machinery/processor{
+	pixel_y = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "LQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -6301,6 +7679,12 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/medbay)
+"LU" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/hallway)
 "Ma" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -6346,6 +7730,11 @@
 /obj/item/stack/ore/silver,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave)
+"Mm" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp,
+/turf/simulated/floor/carpet/black,
+/area/arrakis/bunker/bridge)
 "Mo" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medbay";
@@ -6365,11 +7754,12 @@
 	},
 /area/arrakis/bunker/medbay)
 "Mu" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "darkblue"
 	},
-/area/arrakis/bunker/bridge)
+/area/arrakis/bunker/hallway)
 "Mw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light{
@@ -6380,6 +7770,15 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"MC" = (
+/obj/effect/decal/cleanable/dust,
+/obj/item/chair/wood{
+	dir = 1;
+	pixel_y = -5;
+	pixel_x = -8
+	},
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
 "MD" = (
 /obj/effect/decal/warning_stripes/south,
 /turf/simulated/floor/plasteel{
@@ -6402,6 +7801,16 @@
 /obj/machinery/monkey_recycler,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
+"MO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/alarm{
+	pixel_y = 26
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "MR" = (
 /obj/machinery/atmospherics/unary/vent_scrubber,
 /turf/simulated/floor/carpet/purple,
@@ -6439,19 +7848,38 @@
 	},
 /area/arrakis/bunker/medbay)
 "Nf" = (
-/obj/machinery/vending/coffee,
+/obj/machinery/vending/coffee/empty,
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_y = 32
 	},
-/obj/effect/mapping_helpers/machinery/damaged,
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/machinery/damaged,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"Ng" = (
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id_tag = "bridge blast";
+	name = "Bridge Blast Doors";
+	opacity = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/command/glass{
+	id = "bridge_privacy";
+	name = "Bridge";
+	req_access = list(19)
+	},
+/obj/machinery/papershredder,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluefull"
+	},
+/area/arrakis/bunker/bridge)
 "Nh" = (
 /obj/item/stack/ore/diamond,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -6507,6 +7935,20 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"No" = (
+/obj/machinery/computer/communications{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dust,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 6
+	},
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "Np" = (
 /obj/effect/decal/warning_stripes/south,
 /turf/simulated/floor/plasteel,
@@ -6520,9 +7962,16 @@
 	},
 /area/arrakis/bunker/medbay)
 "Nr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 4;
+	pixel_y = -26
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "darkbluecorners"
+	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/bridge)
 "Nu" = (
@@ -6531,6 +7980,14 @@
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/brick,
 /area/arrakis/cave)
+"Nv" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 6
+	},
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "Ny" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6597,6 +8054,17 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"NS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/machinery/kitchen_machine/microwave{
+	pixel_x = -1;
+	pixel_y = 7
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "NT" = (
 /obj/structure/table/glass,
 /obj/item/storage/toolbox/surgery{
@@ -6645,6 +8113,7 @@
 	name = "Garden";
 	req_access = list(35)
 	},
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "greenfull"
@@ -6741,6 +8210,17 @@
 	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/medbay)
+"Ot" = (
+/obj/structure/table/glass,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/toolbox/emergency{
+	pixel_y = 2
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "OA" = (
 /obj/machinery/chem_heater,
 /obj/effect/decal/warning_stripes/northeast,
@@ -6767,6 +8247,27 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"OE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -26
+	},
+/obj/structure/janitorialcart{
+	dir = 8
+	},
+/obj/item/mop,
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/janitor)
+"OH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/bridge)
 "OI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
@@ -6789,6 +8290,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "ON" = (
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "greenfull"
@@ -6822,10 +8324,12 @@
 	},
 /area/arrakis/bunker/rnd)
 "OT" = (
-/obj/machinery/computer/med_data,
+/obj/machinery/computer/secure_data,
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 5;
-	icon_state = "darkblue"
+	icon_state = "darkred"
 	},
 /area/arrakis/bunker/bridge)
 "OW" = (
@@ -6856,6 +8360,15 @@
 	icon_state = "darkpurple"
 	},
 /area/arrakis/bunker/rnd)
+"Pc" = (
+/obj/structure/chair/comfy/black{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/bridge)
 "Pf" = (
 /obj/machinery/computer/mecha{
 	dir = 8
@@ -6870,6 +8383,22 @@
 	icon_state = "podfloor_dark"
 	},
 /area/arrakis/bunker/rnd)
+"Pg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/twohanded/required/kirbyplants/norandom/dead,
+/obj/machinery/light_switch{
+	pixel_y = 24;
+	name = "north light switch"
+	},
+/obj/machinery/power/apc/unpowered{
+	dir = 8;
+	pixel_x = -26
+	},
+/turf/simulated/floor/plasteel{
+	dir = 9;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "Pk" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel{
@@ -6886,10 +8415,35 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/plasteel/dark,
 /area/arrakis/bunker/rnd)
+"Pn" = (
+/obj/machinery/computer/atmos_alert,
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 9;
+	icon_state = "darkyellow"
+	},
+/area/arrakis/bunker/bridge)
 "Pp" = (
 /obj/item/stack/ore/bananium,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave1)
+"Pr" = (
+/obj/structure/table/wood,
+/obj/item/card/id/captains_spare{
+	layer = 2.6;
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dust,
+/obj/item/flashlight/lamp/green{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/megaphone{
+	pixel_x = -9
+	},
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "Ps" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6905,6 +8459,15 @@
 	icon_state = "podfloor_dark"
 	},
 /area/arrakis/bunker/rnd)
+"Py" = (
+/obj/effect/decal/cleanable/dust,
+/obj/item/flag/nt,
+/obj/machinery/firealarm{
+	name = "north fire alarm";
+	pixel_y = 24
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/hallway)
 "Pz" = (
 /obj/structure/chair/office/light{
 	dir = 4
@@ -6948,7 +8511,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "PI" = (
-/obj/machinery/vending/coffee,
+/obj/machinery/vending/coffee/empty,
 /obj/effect/mapping_helpers/machinery/damaged,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -6956,6 +8519,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "PJ" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "darkblue"
@@ -6968,6 +8532,13 @@
 	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/medbay)
+"PO" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkgreen"
+	},
+/area/arrakis/bunker/hydro)
 "PP" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -6982,12 +8553,13 @@
 	},
 /area/arrakis/bunker/medbay)
 "PT" = (
-/obj/machinery/computer/aifixer{
-	dir = 8
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/extinguisher_cabinet{
+	name = "south extinguisher cabinet";
+	pixel_y = -30
 	},
 /turf/simulated/floor/plasteel{
-	dir = 6;
-	icon_state = "darkpurple"
+	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/bridge)
 "PU" = (
@@ -7016,6 +8588,12 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/arrakis/bunker/rnd)
+"PZ" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluealtstrip"
+	},
+/area/arrakis/bunker)
 "Qc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -7060,6 +8638,7 @@
 /obj/structure/chair/office/dark{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -7072,6 +8651,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "Qn" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria"
 	},
@@ -7103,6 +8683,7 @@
 	name = "Bartender";
 	req_access = list(25)
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "dark";
@@ -7125,9 +8706,24 @@
 	},
 /area/arrakis/bunker/medbay)
 "QL" = (
-/turf/simulated/floor/plasteel{
-	icon_state = "darkblue"
+/obj/structure/table/wood,
+/obj/item/folder/blue,
+/obj/item/pen,
+/obj/item/paper_bin,
+/obj/machinery/requests_console{
+	announcementConsole = 1;
+	department = "Bridge";
+	departmentType = 5;
+	name = "Bridge Requests Console";
+	pixel_x = 32
 	},
+/obj/item/storage/secure/briefcase{
+	pixel_y = 18
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/black,
 /area/arrakis/bunker/bridge)
 "QO" = (
 /obj/machinery/optable,
@@ -7160,6 +8756,27 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/medbay)
+"QU" = (
+/obj/machinery/computer/monitor{
+	name = "Bridge Power Monitoring Computer"
+	},
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "darkyellow"
+	},
+/area/arrakis/bunker/bridge)
+"QW" = (
+/obj/machinery/status_display{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkredalt"
+	},
+/area/arrakis/bunker)
 "Rb" = (
 /obj/structure/rack{
 	dir = 8;
@@ -7173,6 +8790,14 @@
 	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/medbay)
+"Rc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/freezer,
+/obj/item/stack/sheet/bone,
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/arrakis/bunker/kitchen)
 "Rd" = (
 /obj/structure/table/glass,
 /obj/item/clothing/glasses/science{
@@ -7213,6 +8838,25 @@
 	icon_state = "darkpurple"
 	},
 /area/arrakis/bunker/rnd)
+"Rn" = (
+/obj/machinery/door/window/southright,
+/obj/structure/table/reinforced,
+/obj/machinery/embedded_controller/radio/airlock/access_controller{
+	dir = 1;
+	id_tag = "vault_door_control";
+	name = "Vault Access Console";
+	pixel_y = 4;
+	req_access = list(114,63);
+	tag_exterior_door = "vault_out";
+	tag_interior_door = "vault_in";
+	frequency = 2200
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "dark"
+	},
+/area/arrakis/bunker)
 "Rp" = (
 /obj/structure/table/reinforced,
 /obj/item/organ/internal/ears/cybernetic,
@@ -7279,22 +8923,30 @@
 /turf/simulated/floor/engine,
 /area/arrakis/bunker/rnd)
 "RC" = (
-/obj/machinery/power/apc/unpowered{
-	dir = 4;
-	pixel_x = 26
-	},
-/obj/machinery/firealarm{
-	dir = 4;
-	name = "west fire alarm";
-	pixel_x = -24
-	},
-/turf/simulated/floor/plasteel,
+/turf/simulated/wall/r_wall,
 /area/arrakis/bunker/hallway)
+"RE" = (
+/obj/machinery/computer/robotics,
+/obj/effect/mapping_helpers/machinery/damaged,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "darkpurple"
+	},
+/area/arrakis/bunker/bridge)
+"RF" = (
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluealtstrip";
+	dir = 1
+	},
+/area/arrakis/bunker)
 "RI" = (
 /obj/structure/spider/stickyweb,
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/cave/cave1)
 "RM" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "darkgreen"
@@ -7329,6 +8981,17 @@
 /obj/structure/closet/abductor,
 /turf/simulated/floor/plasteel/freezer,
 /area/arrakis/bunker/rnd)
+"RX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table_frame,
+/obj/item/storage/firstaid/regular/empty{
+	layer = 2.7;
+	pixel_y = -7
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "RY" = (
 /obj/structure/table,
 /obj/item/clothing/gloves/color/latex/nitrile,
@@ -7450,6 +9113,19 @@
 "Sz" = (
 /turf/simulated/wall,
 /area/arrakis/bunker/bar)
+"SA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door_control{
+	id = "kitchenbar";
+	name = "Kitchen Bar Shutters Control";
+	pixel_x = -6;
+	pixel_y = 24;
+	req_access = list(28)
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
 "SD" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/metal,
@@ -7470,6 +9146,26 @@
 	icon_state = "whiteyellowfull"
 	},
 /area/arrakis/bunker/medbay)
+"SI" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Vault External Door";
+	req_access = list(114);
+	autoclose = 0;
+	frequency = 2200;
+	id_tag = "vault_out"
+	},
+/obj/machinery/access_button{
+	command = "cycle_exterior";
+	frequency = 2200;
+	master_tag = "vault_door_control";
+	name = "Vault Access Button";
+	pixel_y = 24;
+	req_access = list(114,63)
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker)
 "SL" = (
 /obj/machinery/hologram/holopad,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -7530,6 +9226,11 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/medbay)
+"Td" = (
+/obj/effect/decal/cleanable/dust,
+/obj/machinery/vending/cigarette,
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "Tf" = (
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
@@ -7568,7 +9269,10 @@
 /turf/simulated/floor/indestructible/brick,
 /area/arrakis/cave)
 "Tq" = (
-/obj/item/radio/beacon,
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -7748,6 +9452,7 @@
 	},
 /area/arrakis/bunker/rnd)
 "Ug" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "darkgreen"
@@ -7764,19 +9469,40 @@
 	},
 /area/arrakis/bunker/medbay)
 "Ui" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "green"
 	},
 /area/arrakis/bunker/hydro)
+"Uk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/vehicle/janicart{
+	dir = 1
+	},
+/obj/machinery/requests_console{
+	department = "Janitorial";
+	departmentType = 1;
+	name = "Janitor Requests Console";
+	pixel_y = -29
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/janitor)
 "Ul" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "green"
 	},
 /area/arrakis/bunker/hydro)
 "Un" = (
-/obj/machinery/computer/communications,
-/turf/simulated/floor/carpet/royalblue,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/command{
+	name = "Captain's Office";
+	req_access = list(20)
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluefull"
+	},
 /area/arrakis/bunker/bridge)
 "Uo" = (
 /obj/machinery/cell_charger,
@@ -7790,6 +9516,15 @@
 	icon_state = "cafeteria"
 	},
 /area/arrakis/bunker/medbay)
+"Up" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/l3closet/janitor,
+/obj/machinery/light_switch{
+	name = "north light switch";
+	pixel_y = 24
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/janitor)
 "Ur" = (
 /turf/simulated/floor/greengrid,
 /area/arrakis/bunker/rnd)
@@ -7934,6 +9669,13 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"UU" = (
+/obj/structure/chair/comfy/brown{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/carpet,
+/area/arrakis/bunker/bridge)
 "UV" = (
 /obj/machinery/disposal,
 /turf/simulated/floor/plasteel{
@@ -7977,6 +9719,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "Vf" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "freezerfloor"
 	},
@@ -8039,6 +9782,7 @@
 	},
 /area/arrakis/bunker/medbay)
 "VA" = (
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/cherry,
 /area/arrakis/bunker/bar)
 "VB" = (
@@ -8078,6 +9822,13 @@
 	icon_state = "whitepurple"
 	},
 /area/arrakis/bunker/rnd)
+"VJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker/hallway)
 "VM" = (
 /obj/structure/spider/stickyweb,
 /mob/living/simple_animal/hostile/poison/giant_spider,
@@ -8091,6 +9842,13 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/rnd)
+"VP" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "green"
+	},
+/area/arrakis/bunker/hydro)
 "VQ" = (
 /obj/structure/closet/wardrobe/chemistry_white,
 /obj/effect/decal/cleanable/dirt,
@@ -8099,18 +9857,27 @@
 	icon_state = "whiteyellow"
 	},
 /area/arrakis/bunker/medbay)
-"VT" = (
-/obj/item/radio/intercom{
-	dir = 4;
-	pixel_x = -22
+"VS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door_control{
+	id = "kitchenhall";
+	name = "Kitchen Hallway Shutters Control";
+	pixel_x = -24;
+	req_access = list(28);
+	pixel_y = 6
 	},
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "darkbluecorners"
+	icon_state = "cafeteria"
+	},
+/area/arrakis/bunker/kitchen)
+"VT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/command{
+	name = "Bridge";
+	req_access = list(19)
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluefull"
 	},
 /area/arrakis/bunker/bridge)
 "VU" = (
@@ -8138,12 +9905,8 @@
 	},
 /area/arrakis/bunker/medbay)
 "VX" = (
-/obj/machinery/power/apc/unpowered{
-	dir = 1;
-	pixel_y = 26
-	},
-/turf/simulated/floor/plasteel,
-/area/arrakis/bunker/hallway)
+/turf/simulated/floor/carpet/black,
+/area/arrakis/bunker/bridge)
 "VZ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -8165,8 +9928,39 @@
 /area/arrakis/bunker/medbay)
 "Wc" = (
 /obj/machinery/light,
+/obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
+"Wg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
+"Wi" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Vault Internal Door";
+	req_access = list(114);
+	autoclose = 0;
+	frequency = 2200;
+	id_tag = "vault_in"
+	},
+/obj/machinery/access_button{
+	command = "cycle_interior";
+	frequency = 2200;
+	master_tag = "vault_door_control";
+	name = "Vault Access Button";
+	req_access = list(114,63);
+	pixel_y = 24
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/decal/cleanable/dust,
+/turf/simulated/floor/plasteel,
+/area/arrakis/bunker)
 "Wk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -8218,11 +10012,7 @@
 /turf/simulated/wall/indestructible/reinforced,
 /area/arrakis/bunker/medbay)
 "Wy" = (
-/obj/machinery/door/airlock{
-	name = "Custodial Closet";
-	req_access = list(26)
-	},
-/turf/simulated/floor/plasteel,
+/turf/simulated/wall/r_wall,
 /area/arrakis/bunker/janitor)
 "WB" = (
 /obj/machinery/iv_drip,
@@ -8393,6 +10183,7 @@
 /turf/simulated/floor/indestructible/brick,
 /area/arrakis/cave)
 "Xf" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "darkgreen"
@@ -8537,6 +10328,21 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"Xz" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/alarm{
+	pixel_y = 26
+	},
+/obj/effect/decal/cleanable/dust,
+/obj/structure/table/wood,
+/obj/item/storage/photo_album,
+/obj/item/camera{
+	pixel_y = 2
+	},
+/turf/simulated/floor/wood,
+/area/arrakis/bunker/bridge)
 "XB" = (
 /obj/machinery/recharge_station,
 /obj/effect/decal/cleanable/dirt,
@@ -8625,6 +10431,16 @@
 "XZ" = (
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/outside/Outside2)
+"Yc" = (
+/obj/machinery/ai_status_display{
+	pixel_x = 32
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "Yf" = (
 /obj/machinery/computer/guestpass{
 	pixel_y = -32
@@ -8728,6 +10544,7 @@
 /turf/simulated/wall,
 /area/arrakis/bunker/medbay)
 "YO" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/janitor)
 "YP" = (
@@ -8779,6 +10596,14 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hydro)
+"Zd" = (
+/obj/structure/bookcase/manuals,
+/obj/item/book/manual/sop_medical,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "Ze" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -8804,6 +10629,14 @@
 /obj/effect/decal/warning_stripes/west,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
+"Zj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/twohanded/required/kirbyplants/norandom/dead,
+/turf/simulated/floor/plasteel{
+	dir = 10;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/bridge)
 "Zk" = (
 /turf/simulated/wall,
 /area/arrakis/bunker/clowns)
@@ -8839,28 +10672,10 @@
 	},
 /area/arrakis/bunker/rnd)
 "Zy" = (
-/obj/machinery/door_control{
-	id = "Exp_lockdown";
-	name = "Expedition Lockdown Control";
-	pixel_x = 7;
-	pixel_y = -26;
-	req_access = list(62)
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
 	},
-/obj/machinery/door_control{
-	id = "eva-shutters";
-	name = "Auxilary E.V.A. Storage";
-	pixel_x = -7;
-	pixel_y = -26;
-	req_access = list(18)
-	},
-/obj/machinery/door_control{
-	id = "BridgeLockdown";
-	name = "Bridge Lockdown";
-	pixel_x = 7;
-	pixel_y = -35;
-	req_access = list(62)
-	},
-/turf/simulated/floor/carpet/royalblue,
 /area/arrakis/bunker/bridge)
 "Zz" = (
 /obj/machinery/door/airlock/bananium{
@@ -8926,6 +10741,11 @@
 /obj/item/clothing/head/welding,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
+"ZO" = (
+/obj/effect/decal/cleanable/dust,
+/obj/item/twohanded/required/kirbyplants/norandom/dead,
+/turf/simulated/floor/wood/fancy/cherry,
+/area/arrakis/bunker/kitchen)
 "ZP" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -8966,6 +10786,15 @@
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
+"ZT" = (
+/obj/item/radio/intercom{
+	name = "east station intercom (General)";
+	pixel_x = 22;
+	dir = 8
+	},
+/obj/structure/filingcabinet/filingcabinet,
+/turf/simulated/floor/carpet/black,
+/area/arrakis/bunker/bridge)
 "ZU" = (
 /obj/structure/rack,
 /obj/item/storage/firstaid/o2{
@@ -8978,10 +10807,11 @@
 	},
 /area/arrakis/bunker/medbay)
 "ZV" = (
-/obj/machinery/power/apc/unpowered{
-	pixel_y = -26
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	dir = 9;
+	icon_state = "darkblue"
 	},
-/turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "ZW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9002,6 +10832,8 @@
 	},
 /area/arrakis/bunker/medbay)
 "ZZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/twohanded/required/kirbyplants/norandom/dead,
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "darkblue"
@@ -11244,9 +13076,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+sx
+sx
 YG
 gS
 Ba
@@ -11275,9 +13107,9 @@ lx
 EQ
 FJ
 YG
-FK
-FK
-FK
+Db
+sx
+sx
 kh
 Cb
 Cb
@@ -11298,9 +13130,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+sx
+sx
+sx
 Do
 CA
 CA
@@ -11311,7 +13143,7 @@ CA
 CA
 CA
 CA
-CA
+mT
 Do
 yO
 yO
@@ -11501,9 +13333,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+sx
+sx
 YG
 Sd
 kd
@@ -11532,9 +13364,9 @@ Ff
 vz
 qg
 YG
-FK
-Ee
-FK
+sx
+sx
+sx
 kh
 Cb
 Cb
@@ -11555,9 +13387,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+sx
+Db
+Db
 Do
 CA
 CA
@@ -11758,9 +13590,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+Db
+Db
 YG
 hV
 tt
@@ -11791,7 +13623,7 @@ ZC
 YG
 sx
 Db
-qS
+Db
 kh
 Cb
 Cb
@@ -11812,9 +13644,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+sx
+Db
+sx
 Do
 CA
 CA
@@ -12015,9 +13847,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+sx
+sx
 YG
 WU
 Ma
@@ -12046,9 +13878,9 @@ MZ
 qg
 sh
 YG
-FK
-RC
-FK
+sx
+sx
+sx
 kh
 Cb
 Cb
@@ -12069,9 +13901,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+sx
+sx
+sx
 Do
 CA
 CA
@@ -12272,9 +14104,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+Db
+sx
 YG
 hV
 Ma
@@ -12303,9 +14135,9 @@ mI
 HB
 cJ
 YG
-ZV
 Db
-VX
+Db
+sx
 kh
 Cb
 Cb
@@ -12326,9 +14158,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+sx
+sx
+sx
 Do
 CA
 CA
@@ -12529,9 +14361,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+Db
+sx
 YG
 Sd
 iS
@@ -12560,9 +14392,9 @@ Gv
 Gv
 Gv
 Gv
-FK
-wW
-FK
+Db
+Db
+sx
 kh
 Cb
 Cb
@@ -12583,20 +14415,20 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+sx
+sx
+Do
 Do
 CA
-CA
-CA
-CA
-CA
-CA
-CA
-CA
-CA
-CA
+Do
+Do
+Do
+Do
+Do
+Do
+Do
+Do
 Do
 yO
 yO
@@ -12786,9 +14618,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+sx
+Db
 YG
 lP
 Oq
@@ -12817,9 +14649,9 @@ le
 DF
 vq
 Gv
-FK
-FK
-FK
+Db
+sx
+sx
 kh
 Cb
 Cb
@@ -12840,9 +14672,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+sx
+sx
 Do
 CA
 CA
@@ -13043,9 +14875,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+sx
+Db
 YG
 YG
 Fz
@@ -13074,9 +14906,9 @@ NI
 RU
 na
 Gv
-FK
-FK
-FK
+sx
+sx
+sx
 kh
 Cb
 Cb
@@ -13097,9 +14929,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+sx
+sx
 Do
 CA
 CA
@@ -13300,9 +15132,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+Db
+Db
 YG
 sq
 pk
@@ -13331,9 +15163,9 @@ Ei
 Hm
 Rx
 Gv
-FK
-FK
-FK
+sx
+sx
+sx
 kh
 Cb
 Cb
@@ -13354,9 +15186,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+sx
+sx
 Do
 CA
 CA
@@ -13557,9 +15389,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+Db
+Db
 YG
 rh
 Er
@@ -13588,9 +15420,9 @@ vV
 iZ
 fD
 Gv
-FK
-FK
-FK
+sx
+sx
+sx
 kh
 Cb
 Cb
@@ -13611,17 +15443,17 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+sx
+sx
+Do
 Do
 CA
-CA
-CA
-CA
-CA
-CA
-CA
+Do
+Do
+Do
+Do
+Do
 CA
 CA
 CA
@@ -13814,9 +15646,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+sx
+Db
 YG
 xQ
 Vv
@@ -13845,9 +15677,9 @@ Hv
 Ei
 mO
 Gv
-FK
-FK
-FK
+sx
+sx
+sx
 kh
 Cb
 Cb
@@ -13868,9 +15700,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+sx
+sx
 Do
 CA
 CA
@@ -13878,7 +15710,7 @@ CA
 CA
 CA
 CA
-CA
+Do
 CA
 CA
 CA
@@ -14071,9 +15903,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+sx
+Db
 YG
 YG
 kC
@@ -14102,9 +15934,9 @@ TN
 Nn
 gq
 Gv
-FK
-FK
-FK
+Db
+sx
+sx
 kh
 Cb
 Cb
@@ -14125,9 +15957,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+sx
+Db
 Do
 CA
 CA
@@ -14135,7 +15967,7 @@ CA
 CA
 CA
 CA
-CA
+Do
 CA
 CA
 CA
@@ -14328,9 +16160,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+sx
+Db
 YG
 Md
 pk
@@ -14359,9 +16191,9 @@ Gv
 Gv
 Gv
 Gv
-FK
-FK
-FK
+sx
+sx
+sx
 kh
 Cb
 Cb
@@ -14382,9 +16214,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+sx
+sx
+Db
 Do
 CA
 CA
@@ -14392,7 +16224,7 @@ CA
 CA
 CA
 CA
-CA
+Do
 CA
 CA
 CA
@@ -14585,9 +16417,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+sx
+Db
 YG
 Cm
 rI
@@ -14617,8 +16449,8 @@ jM
 ZG
 zb
 nb
-FK
-FK
+sx
+Db
 kh
 Cb
 Cb
@@ -14639,9 +16471,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+sx
+Db
+Db
 Do
 CA
 CA
@@ -14842,9 +16674,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+Db
+Db
 YG
 ng
 yc
@@ -14874,8 +16706,8 @@ Ei
 Gk
 YG
 CE
-FK
-FK
+sx
+Db
 kh
 Cb
 Cb
@@ -14896,9 +16728,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+sx
+sx
+sx
 Do
 CA
 CA
@@ -15099,9 +16931,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+sx
+Db
 YG
 ja
 zv
@@ -15130,9 +16962,9 @@ AC
 Ub
 PF
 YG
-FK
-FK
-FK
+Db
+sx
+sx
 kh
 Cb
 Cb
@@ -15153,9 +16985,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+Db
+sx
 Do
 CA
 CA
@@ -15164,9 +16996,9 @@ CA
 CA
 CA
 Do
+bB
 CA
-CA
-CA
+JO
 Do
 yO
 yO
@@ -15356,9 +17188,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+sx
+sx
 YG
 CR
 AC
@@ -15387,9 +17219,9 @@ Ji
 YG
 YG
 YG
-FK
-FK
-FK
+Db
+Db
+sx
 kh
 Cb
 Cb
@@ -15410,9 +17242,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+sx
+Db
 Do
 CA
 CA
@@ -15613,9 +17445,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+sx
+sx
 Gv
 Gv
 Gv
@@ -15644,9 +17476,9 @@ lt
 CK
 PI
 YG
-FK
-FK
-FK
+Db
+sx
+Db
 kh
 Cb
 Cb
@@ -15667,9 +17499,9 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+sx
+Db
 Do
 Do
 Do
@@ -15870,9 +17702,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+sx
+Db
 Gv
 Xn
 Sg
@@ -15901,9 +17733,9 @@ VU
 UY
 Vx
 YG
-FK
-FK
-FK
+sx
+Db
+sx
 kh
 Cb
 Cb
@@ -15924,21 +17756,21 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-Do
+Db
+sx
+Db
+RC
+ZV
+aa
+Mu
+Lo
+JN
+Lo
+tD
+wV
+cS
 pc
-pc
-pc
-Do
+mB
 yO
 yO
 yO
@@ -16127,9 +17959,9 @@ oI
 oI
 og
 og
-FK
-FK
-FK
+sx
+Db
+Db
 Gv
 Rb
 bW
@@ -16158,9 +17990,9 @@ VU
 Rs
 iD
 YG
-FK
-FK
-FK
+sx
+sx
+Db
 kh
 Cb
 Cb
@@ -16181,21 +18013,21 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-pc
-pc
-pc
-pc
-Do
+Db
+sx
+Db
+mR
+yw
+LU
+ci
+Lo
+zr
+wv
+oC
+vc
+gw
+cQ
+mB
 yO
 yO
 yO
@@ -16384,9 +18216,9 @@ oI
 oI
 oI
 oI
-FK
-FK
-FK
+sx
+sx
+sx
 Gv
 FM
 Qs
@@ -16415,9 +18247,9 @@ ls
 UY
 mM
 YG
-FK
-FK
-FK
+Db
+sx
+sx
 kh
 Cb
 Cb
@@ -16438,21 +18270,21 @@ Cb
 Cb
 Cb
 kh
+sx
+sx
+sx
+RC
+jf
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-Do
-pc
-pc
-pc
-Do
+lg
+Lo
+er
+Lo
+JZ
+Ae
+JC
+ai
+mB
 yO
 yO
 yO
@@ -16641,9 +18473,9 @@ oI
 oI
 oI
 oI
-FK
-FK
-FK
+Db
+Db
+sx
 Gv
 vw
 OL
@@ -16672,9 +18504,9 @@ Kz
 it
 YG
 YG
-FK
-FK
-FK
+Db
+sx
+sx
 kh
 Cb
 Cb
@@ -16695,19 +18527,19 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+sx
+sx
+sx
+Lo
+Lo
+Ng
 Lo
 Lo
 Lo
 Lo
 Lo
 Lo
-Lo
-Lo
-Lo
-bF
+JE
 Lo
 mB
 yO
@@ -16898,9 +18730,9 @@ oI
 oI
 oI
 oI
-FK
-FK
-FK
+Db
+sx
+sx
 Gv
 Qm
 PD
@@ -16929,9 +18761,9 @@ eC
 DF
 kM
 YG
-FK
-FK
-FK
+sx
+sx
+Db
 kh
 Cb
 Cb
@@ -16952,20 +18784,20 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+sx
+Db
+sx
 Lo
-bF
-bF
-bF
-bF
-bF
-bF
+cY
+fR
+DT
 Lo
-bF
-bF
-bF
+sB
+wW
+Cr
+LD
+AE
+gR
 mB
 yO
 yO
@@ -17155,9 +18987,9 @@ oI
 oI
 og
 og
-FK
-FK
-FK
+Db
+sx
+Db
 Gv
 Rz
 GI
@@ -17186,9 +19018,9 @@ Jw
 LC
 Hg
 YG
-FK
-FK
-FK
+sx
+Db
+Db
 kh
 Cb
 Cb
@@ -17209,20 +19041,20 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
-UW
-bF
-bF
-bF
-bF
-bF
-bF
+Db
+sx
+sx
 Lo
+zm
 bF
-bF
-bF
+Kq
+Lo
+Gh
+wW
+tY
+jU
+Nv
+tw
 mB
 yO
 yO
@@ -17412,9 +19244,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+sx
+sx
 Gv
 TQ
 oB
@@ -17443,9 +19275,9 @@ Pz
 AC
 fl
 YG
-FK
-FK
-FK
+sx
+sx
+Db
 kh
 Cb
 Cb
@@ -17466,20 +19298,20 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
-UW
+Db
+sx
+Db
+FC
+bi
 bF
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-bF
+Zy
+Lo
+Xz
+CV
+yZ
+AE
+pN
+aH
 mB
 yO
 yO
@@ -17669,9 +19501,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+sx
+sx
 Gv
 Gv
 Gv
@@ -17701,8 +19533,8 @@ Dv
 YG
 YG
 ri
-FK
-FK
+sx
+sx
 kh
 Cb
 Cb
@@ -17723,20 +19555,20 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+sx
+Db
+FQ
+yv
+Ql
+oX
 Lo
-bF
-bF
-bF
-bF
-bF
-bF
-Lo
-bF
-bF
-bF
+Td
+wW
+Pr
+ew
+No
+ed
 mB
 yO
 yO
@@ -17926,8 +19758,8 @@ oI
 oI
 oI
 og
-FK
-FK
+Db
+Db
 Wc
 Gv
 sI
@@ -17957,9 +19789,9 @@ yN
 DF
 dY
 YG
-FK
-FK
-FK
+Db
+sx
+sx
 kh
 Cb
 Cb
@@ -17980,20 +19812,20 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
+Db
+sx
+Db
+FQ
+RE
 bF
-bF
-bF
+Zy
+Lo
+Ab
+wW
+wW
+wW
+wW
+wW
 mB
 yO
 yO
@@ -18183,9 +20015,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+sx
+Db
 Gv
 TM
 Ei
@@ -18214,9 +20046,9 @@ Ei
 Ei
 rN
 mE
-FK
-FK
-FK
+sx
+sx
+Db
 kh
 Cb
 Cb
@@ -18237,20 +20069,20 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
+Db
+sx
+Db
 Lo
-rM
-tZ
+yg
+bF
 GV
 Lo
-bF
-bF
-bF
-bF
-bF
-bF
+oC
+UU
+UU
+JC
+wW
+eN
 mB
 yO
 yO
@@ -18440,9 +20272,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+Db
+sx
+Db
 Gv
 Rd
 gC
@@ -18471,9 +20303,9 @@ ua
 bQ
 Ei
 ZS
-FK
-FK
-FK
+sx
+Db
+Db
 kh
 kh
 Cb
@@ -18494,20 +20326,20 @@ Cb
 Cb
 kh
 kh
-FK
-FK
-FK
-Lo
+Db
+sx
+sx
+FQ
 vF
 bF
-ah
-VT
-bF
-bF
-bF
-bF
-bF
-bF
+Zy
+Lo
+Ga
+jD
+cw
+JC
+wW
+wW
 mB
 yO
 yO
@@ -18697,9 +20529,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+sx
+Db
 Gv
 es
 zv
@@ -18728,10 +20560,10 @@ Ei
 Ei
 iz
 Bn
-FK
-FK
-FK
-FK
+sx
+Db
+sx
+sx
 kh
 Cb
 Cb
@@ -18750,21 +20582,21 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
-FK
-UW
+Db
+sx
+sx
+sx
+FQ
 IP
 Ql
-bF
-bF
-bF
-eI
-PJ
-PJ
-PJ
-ZZ
+Zy
+Lo
+aO
+fm
+fm
+JC
+wW
+yn
 mB
 yO
 yO
@@ -18954,9 +20786,9 @@ oI
 oI
 oI
 og
-FK
-FK
-FK
+sx
+Db
+Db
 Gv
 ZB
 uy
@@ -18985,10 +20817,10 @@ ZQ
 ib
 Za
 YG
-FK
-FK
-FK
-FK
+sx
+sx
+sx
+sx
 kh
 Cb
 Cb
@@ -19007,21 +20839,21 @@ Cb
 Cb
 Cb
 kh
-FK
-FK
-FK
-FK
-UW
+Py
+sx
+sx
+Db
+FQ
 OT
 bF
-bF
-bF
-bF
-QL
+rn
 Lo
-UW
-UW
-UW
+Lo
+Lo
+Lo
+Lo
+Un
+Lo
 mB
 yO
 yO
@@ -19211,9 +21043,9 @@ og
 og
 og
 og
-FK
-FK
-FK
+sx
+sx
+Db
 Gv
 Gv
 Gv
@@ -19242,10 +21074,10 @@ YG
 YG
 YG
 YG
-FK
-FK
-FK
-FK
+Db
+Db
+Db
+sx
 kh
 kh
 kh
@@ -19264,21 +21096,21 @@ kh
 kh
 kh
 kh
-FK
-FK
-FK
-FK
-UW
+oy
+Db
+sx
+Db
+wT
 nx
 bF
-bF
-bF
-bF
-QL
+Zy
 UW
-yw
+lZ
+rs
+AI
+mB
 gd
-Ik
+Zj
 mB
 yO
 yO
@@ -19468,74 +21300,74 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+sx
 FG
-FK
-FK
-FK
-FK
+sx
+sx
+Db
+Db
 FG
-FK
-FK
-FK
-FK
+Db
+Db
+sx
+sx
+GP
+Db
+Db
+Db
+Db
+Db
 FG
-FK
-FK
-FK
-FK
-FK
-FG
-bX
-FK
+xK
+sx
 AJ
-FK
+Db
 bX
-FK
-FK
-FG
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-UW
+Db
+Db
+GP
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+Db
+Db
+sx
+sx
+sx
+sx
+Db
+Db
+Db
+Db
+Db
+Db
+sx
+sx
+sx
+Db
+Db
+Db
+sx
+sx
+sx
+Db
+FQ
 pK
 bF
-bF
-bF
-bF
-QL
+Zy
+Un
+VX
+VX
 JW
-aa
-aa
-ff
+mB
+os
+Zy
 mB
 yO
 yO
@@ -19725,71 +21557,71 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-UW
+Db
+sx
+sx
+sx
+sx
+Db
+sx
+Db
+Db
+sx
+sx
+sx
+Db
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+Db
+sx
+Db
+sx
+sx
+Db
+sx
+Db
+sx
+Db
+sx
+sx
+sx
+Db
+Db
+sx
+Db
+Db
+Db
+sx
+sx
+sx
+Db
+sx
+sx
+sx
+sx
+Db
+Db
+sx
+sx
+Db
+sx
+sx
+sx
+Db
+FQ
 wF
 Ql
-bF
-Tq
-bF
-QL
-UW
+gg
+Lo
+wm
+du
+It
 Un
 os
 Kq
@@ -19982,73 +21814,73 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+sx
+sx
+Db
+Db
+Db
+Db
+sx
+sx
+Db
+Db
+Db
+Db
+Db
+sx
+sx
+sx
+sx
 yq
-yq
-FK
+qb
+Db
 Jz
-FK
-FK
-FK
+Db
+sx
+sx
 Jz
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-UW
+Db
+Db
+Db
+Db
+Db
+sx
+sx
+Db
+sx
+sx
+sx
+Db
+Db
+Db
+Db
+Db
+Db
+Db
+sx
+sx
+Db
+Db
+Db
+Db
+Db
+Db
+sx
+sx
+sx
+sx
+sx
+Db
+FQ
 ek
 bF
-bF
-bF
-bF
-QL
+Zy
 UW
-hT
-aa
+Ix
+sv
+eI
+mB
+os
 Zy
 mB
 yO
@@ -20239,9 +22071,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 uL
 uL
 uL
@@ -20261,7 +22093,7 @@ Xs
 uL
 uL
 uL
-Tf
+If
 uL
 uL
 uL
@@ -20270,10 +22102,10 @@ uL
 uL
 uL
 uL
-FK
-FK
-FK
-FK
+Db
+Db
+Db
+sx
 Il
 Il
 Gl
@@ -20292,21 +22124,21 @@ Gl
 Gl
 Il
 Il
-FK
-FK
-FK
-FK
-UW
+VJ
+sx
+sx
+Db
+nS
 Dp
 bF
-bF
-bF
-bF
-QL
+Zy
 UW
-lI
+Mm
+QL
+ZT
+mB
 gP
-JA
+ZZ
 mB
 yO
 yO
@@ -20496,9 +22328,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+Db
+Db
 uL
 wx
 PE
@@ -20527,10 +22359,10 @@ lF
 Ok
 bS
 uL
-FK
-FK
-FK
-FK
+sx
+sx
+sx
+sx
 Il
 Gl
 Gl
@@ -20549,23 +22381,23 @@ Gl
 Gl
 Gl
 Il
-FK
-FK
-FK
-FK
-UW
+qf
+sx
+sx
+Db
+FQ
 pd
 bF
-bF
-bF
-bF
-QL
+Nr
 Lo
-UW
-UW
-UW
+Lo
+Lo
+Lo
+Lo
+Un
+Lo
 mB
-yO
+lI
 yO
 yO
 yO
@@ -20753,9 +22585,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 uL
 af
 AD
@@ -20784,10 +22616,10 @@ DS
 AO
 pf
 pi
-FK
-FK
-FK
-FK
+sx
+Db
+sx
+sx
 Il
 Gl
 Gl
@@ -20806,23 +22638,23 @@ Gl
 Gl
 Gl
 Il
-FK
-FK
-FK
-FK
-UW
+sx
+sx
+sx
+Db
+FQ
 hO
 Ql
-bF
-bF
-bF
-Nr
+RX
+Lo
+Pg
 fR
 fR
 fR
-Mu
-mB
-yO
+fR
+fR
+Zj
+lI
 yO
 yO
 yO
@@ -21010,9 +22842,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+sx
 uL
 MD
 Uc
@@ -21041,9 +22873,9 @@ On
 FT
 MD
 Xj
-FK
-FK
-FK
+sx
+Db
+Db
 Il
 Il
 Gl
@@ -21064,22 +22896,22 @@ Gl
 Gl
 Il
 Il
-FK
-FK
-FK
-Lo
+sx
+sx
+Db
+FQ
 mm
 bF
-nK
-bG
+Zy
+VT
+os
 bF
 bF
 bF
 bF
 bF
-bF
-mB
-yO
+Zy
+lI
 yO
 yO
 yO
@@ -21267,9 +23099,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+sx
 uL
 TG
 WP
@@ -21298,9 +23130,9 @@ DS
 wJ
 tF
 pS
-FK
-FK
-FK
+sx
+sx
+sx
 Il
 Gl
 Gl
@@ -21321,22 +23153,22 @@ Gl
 Gl
 Gl
 Il
-FK
-FK
-FK
+Db
+sx
+Db
 Lo
 rM
-sv
+bF
 PT
 Lo
+Wg
 bF
 bF
+qT
 bF
 bF
-bF
-bF
-mB
-yO
+Kq
+lI
 yO
 yO
 yO
@@ -21524,9 +23356,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 uL
 kb
 NV
@@ -21555,9 +23387,9 @@ Fk
 wy
 Yf
 uL
-FK
-FK
-FK
+Db
+sx
+sx
 Gl
 Gl
 Gl
@@ -21578,22 +23410,22 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
-Lo
-Lo
-Lo
-Lo
-Lo
+sx
+sx
+sx
+FC
+Pn
 bF
-bF
+Zy
 Lo
+mx
 bF
+uz
+qS
+Tq
 bF
-bF
-mB
-yO
+Zy
+lI
 yO
 yO
 yO
@@ -21781,9 +23613,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+sx
+sx
+Db
 uL
 uL
 uL
@@ -21812,9 +23644,9 @@ YE
 uL
 uL
 uL
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -21835,22 +23667,22 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
-UW
-bF
-bF
-bF
-bF
-bF
-bF
+Db
+sx
+Db
+FC
+dI
+Ql
+Du
 Lo
-bF
-bF
-bF
-mB
-yO
+os
+uz
+qS
+qS
+qS
+Tq
+Zy
+lI
 yO
 yO
 yO
@@ -22038,9 +23870,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+sx
+sx
+Db
 uL
 fu
 uL
@@ -22069,9 +23901,9 @@ Tf
 uL
 fu
 uL
-FK
-FK
-FK
+sx
+sx
+Db
 Gl
 Gl
 Gl
@@ -22092,22 +23924,22 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
-UW
+Db
+sx
+Db
+FQ
+QU
 bF
-bF
-bF
-bF
-bF
-bF
+Zy
 Lo
-Lo
-bF
-Lo
-mB
-yO
+MO
+uz
+qS
+qS
+qS
+Tq
+Zy
+lI
 yO
 yO
 yO
@@ -22295,9 +24127,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 uL
 DZ
 DZ
@@ -22326,9 +24158,9 @@ Tf
 DZ
 DZ
 uL
-FK
-FK
-FK
+sx
+sx
+Db
 Gl
 Gl
 Gl
@@ -22349,22 +24181,22 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
-UW
-bF
-bF
-bF
-bF
-bF
-bF
+sx
+sx
+Db
 Lo
+Ot
 bF
-bF
-bF
-mB
-yO
+Kq
+Lo
+os
+uz
+qS
+qS
+qS
+Tq
+Zy
+lI
 yO
 yO
 yO
@@ -22552,9 +24384,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+Db
+Db
 uL
 ya
 uL
@@ -22583,9 +24415,9 @@ Tf
 uL
 EC
 uL
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -22606,22 +24438,22 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+sx
 Lo
-bF
-bF
-bF
-bF
-bF
-bF
+ud
+PJ
+bf
 Lo
+os
 bF
+uz
+qS
+Tq
 bF
-bF
-mB
-yO
+Zy
+lI
 yO
 yO
 yO
@@ -22809,9 +24641,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+sx
 uL
 uL
 uL
@@ -22840,9 +24672,9 @@ Tf
 uL
 uL
 uL
-FK
-FK
-FK
+Db
+sx
+sx
 Gl
 Gl
 Gl
@@ -22863,22 +24695,22 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+Db
 Lo
 Lo
+pA
 Lo
 Lo
-Lo
-Lo
-Lo
-Lo
-Lo
+ah
 bF
-Lo
-mB
-yO
+uz
+qS
+Tq
+bF
+hv
+lI
 yO
 yO
 yO
@@ -23066,9 +24898,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 uL
 Ca
 YE
@@ -23097,9 +24929,9 @@ Tf
 FY
 kp
 uL
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -23120,22 +24952,22 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-EK
-yO
+sx
+sx
+Db
+RC
+ZV
+aa
+Mu
+Lo
+DN
+bF
+qS
+qS
+qS
+bF
+xu
+lI
 yO
 yO
 yO
@@ -23323,9 +25155,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 uL
 wd
 YE
@@ -23354,9 +25186,9 @@ Tf
 BM
 Jv
 uL
-FK
-FK
-FK
+sx
+sx
+Db
 Gl
 Gl
 Gl
@@ -23377,22 +25209,22 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-EK
-yO
+sx
+sx
+sx
+mR
+yw
+LU
+ci
+Lo
+zk
+OH
+bF
+Pc
+bF
+bF
+Zd
+lI
 yO
 yO
 yO
@@ -23580,9 +25412,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 uL
 HU
 NN
@@ -23611,9 +25443,9 @@ Tf
 Ip
 us
 uL
-FK
-FK
-FK
+sx
+sx
+sx
 Gl
 Gl
 Gl
@@ -23634,22 +25466,22 @@ Gl
 Gl
 Gl
 Gl
+Db
+sx
+sx
+RC
+jf
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-EK
-yO
+lg
+Lo
+jd
+PJ
+Yc
+nQ
+fS
+PJ
+ZZ
+lI
 yO
 yO
 yO
@@ -23837,9 +25669,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 uL
 pY
 YE
@@ -23868,9 +25700,9 @@ wc
 Tf
 Tf
 uL
-FK
-FK
-FK
+sx
+sx
+sx
 Gl
 Gl
 Gl
@@ -23891,22 +25723,22 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+sx
 de
 de
-de
-de
-de
-de
-de
-Ll
-Ll
+Kg
+Kg
+Kg
+Kg
+Kg
 Wy
-Ll
+Wy
+Wy
+Wy
 Ic
-yO
+lI
 yO
 yO
 yO
@@ -24094,9 +25926,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+sx
+sx
+Db
 uL
 rJ
 YE
@@ -24125,9 +25957,9 @@ Tf
 Ip
 Qg
 uL
-FK
-FK
-FK
+Db
+sx
+sx
 Gl
 Gl
 Gl
@@ -24148,20 +25980,20 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+sx
+sx
 de
+ZO
 Co
 Co
 Co
 Co
-Co
-Co
+ZO
 Ll
-YO
-YO
-YO
+KF
+mq
+nn
 Ic
 yO
 yO
@@ -24351,9 +26183,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+Db
+Db
 uL
 pV
 IV
@@ -24382,9 +26214,9 @@ Tf
 Tf
 Nm
 uL
-FK
-FK
-FK
+Db
+Db
+sx
 Gl
 Gl
 Gl
@@ -24405,20 +26237,20 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+sx
+sx
 de
 Co
+MC
+Ap
+rX
 Co
 Co
-Co
-Co
-Co
-Ll
+HT
 YO
-YO
-YO
+mS
+Uk
 Ic
 yO
 yO
@@ -24608,9 +26440,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+Db
+sx
 uL
 dd
 FW
@@ -24639,9 +26471,9 @@ Tf
 Ip
 FA
 uL
-FK
-FK
-FK
+sx
+sx
+sx
 Gl
 Gl
 Gl
@@ -24662,20 +26494,20 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+sx
+sx
 de
 Co
 Co
-Co
-Co
-Co
+hT
+ox
+Cv
 Co
 Ll
+Up
 YO
-YO
-YO
+OE
 Ic
 yO
 yO
@@ -24865,9 +26697,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+sx
 uL
 we
 oa
@@ -24896,9 +26728,9 @@ Ks
 uL
 uL
 uL
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -24919,20 +26751,20 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+Db
+sx
 de
 Co
-Co
-Co
-Co
+tZ
+ox
+hT
 Co
 Co
 Ll
-YO
-YO
-YO
+oZ
+EA
+yM
 Ic
 yO
 yO
@@ -25122,9 +26954,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+sx
+sx
+Db
 uL
 lv
 KU
@@ -25153,9 +26985,9 @@ Dd
 Zg
 GY
 uL
-FK
-FK
-FK
+sx
+sx
+Db
 Gl
 Gl
 Gl
@@ -25176,15 +27008,15 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+sx
+sx
 pU
 Co
 Co
-Co
-Co
-Co
+oR
+oR
+Dl
 Co
 Ll
 Ll
@@ -25379,9 +27211,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+sx
+Db
+Db
 uL
 gT
 oa
@@ -25410,9 +27242,9 @@ NC
 Tf
 tn
 uL
-FK
-FK
-FK
+sx
+sx
+sx
 Gl
 Gl
 Gl
@@ -25433,20 +27265,20 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+sx
+sx
 eu
 Co
 Co
 Co
 Co
 Co
-Co
+mk
 de
-Qn
-Qn
-Qn
+cV
+cV
+cV
 tL
 yO
 yO
@@ -25636,9 +27468,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+sx
+sx
+Db
 uL
 tR
 rQ
@@ -25667,9 +27499,9 @@ qM
 OB
 ho
 uL
-FK
-FK
-FK
+Db
+sx
+sx
 Gl
 Gl
 Gl
@@ -25690,14 +27522,14 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+sx
+sx
 pU
 Co
 Co
-Co
-Co
+Ap
+yf
 Co
 Co
 nd
@@ -25893,9 +27725,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 uL
 dr
 rK
@@ -25924,9 +27756,9 @@ uL
 uL
 uL
 uL
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -25947,20 +27779,20 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+Db
+sx
 de
 Co
-Co
-Co
-Co
-Co
+tZ
+hT
+ox
+rX
 Co
 nd
 Qn
 Qn
-Qn
+ly
 tL
 yO
 yO
@@ -26150,9 +27982,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+sx
 uL
 uL
 uL
@@ -26181,9 +28013,9 @@ tB
 Cp
 Sp
 uL
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -26204,20 +28036,20 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+sx
+Db
 de
 Co
-Co
-Co
-Co
-Co
+ha
+hT
+ox
+Cv
 Co
 nd
 Qn
 Qn
-Qn
+Le
 tL
 yO
 yO
@@ -26407,12 +28239,12 @@ yO
 yO
 yO
 im
+Eo
 tK
 tK
 tK
 tK
-tK
-tK
+Eo
 uL
 YE
 YE
@@ -26438,9 +28270,9 @@ EH
 FB
 EH
 uL
-FK
-FK
-FK
+sx
+sx
+Db
 Gl
 Gl
 Gl
@@ -26461,20 +28293,20 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+Db
+sx
 de
 Co
 Co
-Co
-Co
+oR
+rX
 Co
 Co
 nd
 Qn
 Qn
-Qn
+aX
 tL
 yO
 yO
@@ -26664,7 +28496,7 @@ yO
 yO
 yO
 im
-tK
+Eo
 tK
 tK
 tK
@@ -26695,9 +28527,9 @@ MG
 ul
 Al
 uL
-FK
-FK
-FK
+sx
+Db
+Db
 Gl
 Gl
 Gl
@@ -26718,9 +28550,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+Db
+sx
 de
 Co
 Co
@@ -26731,7 +28563,7 @@ Co
 nd
 Qn
 Qn
-Qn
+ko
 tL
 yO
 yO
@@ -26921,11 +28753,11 @@ yO
 yO
 yO
 im
+Eo
 tK
 tK
 tK
-tK
-tK
+Eo
 tK
 uL
 sC
@@ -26952,9 +28784,9 @@ Gg
 qv
 Ja
 uL
-FK
-FK
-FK
+sx
+Db
+Db
 Gl
 Gl
 Gl
@@ -26975,20 +28807,20 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+sx
 de
 kB
-nd
-nd
-nd
-nd
-nd
+wK
+wK
+wK
+wK
+wK
 de
+SA
 Qn
-Qn
-Qn
+wS
 tL
 yO
 yO
@@ -27179,10 +29011,10 @@ yO
 yO
 im
 Il
-tK
+Lv
 Il
 Il
-tK
+Wi
 Il
 uL
 ca
@@ -27209,9 +29041,9 @@ aE
 Pm
 pT
 uL
-FK
-FK
-FK
+sx
+sx
+sx
 Gl
 Gl
 Gl
@@ -27232,9 +29064,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+Db
 de
 Qn
 Qn
@@ -27242,10 +29074,10 @@ Qn
 Qn
 Qn
 Qn
+VS
 Qn
 Qn
-Qn
-Qn
+qm
 tL
 yO
 yO
@@ -27435,12 +29267,12 @@ yO
 yO
 yO
 im
-tK
-tK
+Ki
+sc
 Il
-tK
-tK
-tK
+iF
+Dx
+cT
 uL
 sC
 sC
@@ -27466,9 +29298,9 @@ iu
 aZ
 ez
 uL
-FK
-FK
-FK
+sx
+sx
+sx
 Gl
 Gl
 Gl
@@ -27489,20 +29321,20 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+Db
+Db
 de
 Qn
 Qn
+Ee
+Ee
 Qn
 Qn
+Ee
+Ee
 Qn
-Qn
-Qn
-Qn
-Qn
-Qn
+qm
 tL
 yO
 yO
@@ -27692,12 +29524,12 @@ yO
 yO
 yO
 im
-tK
-tK
-tK
-tK
-tK
-tK
+QW
+cR
+nW
+RF
+Jh
+PZ
 uL
 eJ
 eJ
@@ -27723,9 +29555,9 @@ po
 qC
 bt
 uL
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -27746,20 +29578,20 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+sx
+Db
 de
+lw
+Qn
+Ee
+LN
 Qn
 Qn
+Ee
+Ee
 Qn
-Qn
-Qn
-Qn
-Qn
-Qn
-Qn
-Qn
+wR
 tL
 yO
 yO
@@ -27949,12 +29781,12 @@ yO
 yO
 yO
 im
-tK
-tK
-tK
-tK
-tK
-tK
+Go
+cR
+Rn
+RF
+Jh
+PZ
 uL
 sC
 sC
@@ -27980,43 +29812,43 @@ SV
 SV
 SV
 uL
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+sx
+sx
+Db
+sx
+Db
+sx
+sx
+Db
+Db
+Db
+sx
+sx
+Db
+Db
+Db
+Db
+sx
+sx
+Db
+Db
+Db
+Db
+sx
+sx
+sx
+sx
 de
 Qn
 Qn
+Ee
+Ee
 Qn
 Qn
+Ee
+Ee
 Qn
-Qn
-Qn
-Qn
-Qn
-Qn
+bG
 tL
 yO
 yO
@@ -28206,12 +30038,12 @@ yO
 yO
 yO
 im
-tK
-tK
-tK
-tK
-tK
-tK
+KL
+cR
+iv
+RF
+Jh
+PZ
 uL
 ca
 Ur
@@ -28237,32 +30069,32 @@ Jj
 Jj
 Jj
 as
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+Db
+sx
+Db
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+Db
+sx
+Db
 de
 Qn
 Qn
@@ -28273,7 +30105,7 @@ Qn
 Qn
 Qn
 Qn
-Qn
+bG
 tL
 yO
 yO
@@ -28463,12 +30295,12 @@ yO
 yO
 yO
 im
-tK
-tK
+od
+pJ
 Il
-tK
-tK
-tK
+nE
+rV
+lj
 uL
 sC
 sC
@@ -28494,43 +30326,43 @@ Kr
 Kr
 xs
 uL
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+Db
+Db
+Db
+Db
+Db
+sx
+sx
+Db
+Db
+Db
+sx
+Db
+Db
 de
+fv
+zN
+NS
+NS
+ff
+ff
 Qn
 Qn
 Qn
-Qn
-Qn
-Qn
-Qn
-Qn
-Qn
-Qn
+Ci
 tL
 yO
 yO
@@ -28724,7 +30556,7 @@ im
 im
 im
 im
-tK
+SI
 im
 SV
 SV
@@ -28751,9 +30583,9 @@ Kr
 Kr
 uL
 SV
-FK
-FK
-FK
+Db
+sx
+sx
 Gl
 Gl
 Gl
@@ -28774,9 +30606,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+sx
+sx
 Sz
 Sz
 Sz
@@ -29008,9 +30840,9 @@ SV
 SV
 SV
 SV
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -29031,9 +30863,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+sx
 Sz
 Fg
 Fg
@@ -29041,10 +30873,10 @@ Fg
 Fg
 Fg
 Sz
+Rc
+Rc
 Vf
-Vf
-Vf
-Vf
+Rc
 tL
 yO
 yO
@@ -29265,9 +31097,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -29288,9 +31120,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+Db
 Sz
 Fg
 Fg
@@ -29298,7 +31130,7 @@ Fg
 Fg
 Fg
 Sz
-Vf
+Bc
 Vf
 Vf
 Vf
@@ -29522,9 +31354,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+sx
+sx
+Db
 Gl
 Gl
 Gl
@@ -29545,9 +31377,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+Db
 Sz
 Fg
 Fg
@@ -29555,9 +31387,9 @@ Fg
 Fg
 Fg
 Sz
+vW
 Vf
-Vf
-Vf
+Bc
 Vf
 tL
 yO
@@ -29779,9 +31611,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+sx
+Db
+Db
 Gl
 Gl
 Gl
@@ -29802,9 +31634,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+Db
+Db
 Sz
 Fg
 Fg
@@ -29813,7 +31645,7 @@ Fg
 Fg
 Sz
 Vf
-Vf
+Bc
 Vf
 Vf
 tL
@@ -30036,9 +31868,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+sx
+Db
+Db
 Gl
 Gl
 Gl
@@ -30059,9 +31891,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+sx
+Db
 Sz
 Fg
 Fg
@@ -30069,10 +31901,10 @@ Fg
 Fg
 Fg
 Sz
+sS
+sS
 Vf
-Vf
-Vf
-Vf
+aD
 tL
 yO
 yO
@@ -30293,9 +32125,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -30316,9 +32148,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+Db
 Sz
 Sz
 Sz
@@ -30550,9 +32382,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -30573,9 +32405,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+sx
 Sz
 LG
 LG
@@ -30807,9 +32639,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -30830,9 +32662,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+Db
+sx
 Sz
 LG
 LG
@@ -31064,9 +32896,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -31087,9 +32919,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+sx
 Sz
 LG
 LG
@@ -31321,9 +33153,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+Db
 Gl
 Gl
 Gl
@@ -31344,9 +33176,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+Db
 Sz
 QD
 qN
@@ -31578,9 +33410,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+sx
+sx
 Gl
 Gl
 Gl
@@ -31601,9 +33433,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+Db
+Db
 Sz
 VA
 VA
@@ -31835,9 +33667,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+Db
+sx
 Gl
 Gl
 Gl
@@ -31858,9 +33690,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+Db
+Db
 Sz
 VA
 VA
@@ -32092,9 +33924,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+Db
+Db
+sx
 Gl
 Gl
 Gl
@@ -32115,9 +33947,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+sx
+sx
+Db
 aB
 VA
 VA
@@ -32349,9 +34181,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+sx
+sx
+Db
 Gl
 Gl
 Gl
@@ -32372,9 +34204,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+sx
+Db
 He
 VA
 VA
@@ -32606,9 +34438,9 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
+sx
+Db
+Db
 Gl
 Gl
 Gl
@@ -32629,9 +34461,9 @@ Gl
 Gl
 Gl
 Gl
-FK
-FK
-FK
+Db
+Db
+sx
 aB
 VA
 VA
@@ -32863,32 +34695,32 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+sx
+sx
+sx
+Db
+sx
+sx
+Db
+Db
+Db
+Db
+sx
+sx
+Db
+Db
+sx
+sx
+sx
+Db
+Db
+Db
+Db
+Db
+sx
+sx
+Db
+sx
 Sz
 VA
 VA
@@ -33120,32 +34952,32 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+Db
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
+sx
 Sz
 VA
 VA
@@ -33377,32 +35209,32 @@ yO
 yO
 yO
 EK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+Db
+sx
+sx
+sx
+Db
+Db
+sx
+Db
+Db
+Db
+Db
+sx
+Db
+Db
+Db
+Db
+Db
+sx
+sx
+Db
+Db
+Db
+Db
+Db
+Db
+Db
 Sz
 Sz
 Sz
@@ -33902,7 +35734,7 @@ Gu
 RM
 DO
 tK
-tK
+Eo
 DO
 Ug
 Gu
@@ -34161,7 +35993,7 @@ Rl
 tK
 tK
 Rl
-bJ
+PO
 mz
 DU
 Zk
@@ -34415,7 +36247,7 @@ bJ
 mz
 DU
 ei
-tK
+Eo
 tK
 Zb
 bJ
@@ -34672,12 +36504,12 @@ bJ
 mz
 DU
 Rl
-tK
+Eo
 tK
 Rl
-bJ
+PO
 mz
-DU
+xh
 Zk
 ML
 ML
@@ -34929,8 +36761,8 @@ bJ
 mz
 DU
 DO
-tK
-tK
+Eo
+Eo
 DO
 bJ
 mz
@@ -35448,7 +37280,7 @@ Gu
 Gu
 aL
 mz
-DU
+xh
 Qi
 yO
 yO
@@ -35705,7 +37537,7 @@ mz
 mz
 mz
 mz
-DU
+xh
 Qi
 yO
 yO
@@ -35955,7 +37787,7 @@ Qi
 DO
 LI
 wp
-wp
+ur
 wp
 wp
 wp
@@ -36212,11 +38044,11 @@ aK
 DO
 cC
 jZ
+jA
 jZ
+jA
 jZ
-jZ
-jZ
-jZ
+jA
 jZ
 jZ
 Ul
@@ -36467,14 +38299,14 @@ aK
 aK
 aK
 DO
-nB
+VP
 oT
 oT
 oT
 oT
+nK
 oT
-oT
-oT
+nK
 oT
 Ui
 Qi
@@ -36981,12 +38813,12 @@ aK
 aK
 aK
 Od
-nB
+VP
 oT
 oT
+nK
 oT
-oT
-oT
+nK
 oT
 oT
 oT
@@ -37241,11 +39073,11 @@ ON
 nB
 oT
 oT
+nK
 oT
 oT
 oT
-oT
-oT
+nK
 oT
 Ui
 Qi
@@ -37495,8 +39327,8 @@ aK
 aK
 aK
 DO
-nB
-oT
+VP
+nK
 oT
 oT
 oT
@@ -37752,7 +39584,7 @@ aK
 aK
 aK
 DO
-nB
+VP
 oT
 oT
 oT
@@ -37760,7 +39592,7 @@ oT
 oT
 oT
 oT
-oT
+nK
 Ui
 Qi
 yO

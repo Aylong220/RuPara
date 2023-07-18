@@ -1,5 +1,11 @@
 /obj/structure/closet/secure_closet/freezer
 	desc = "It's a card-locked refrigerative storage unit. This one is lead-lined."
+	icon_state = "fridge1"
+	icon_closed = "fridge"
+	icon_locked = "fridge1"
+	icon_opened = "fridgeopen"
+	icon_broken = "fridgebroken"
+	icon_off = "fridge1"
 
 /obj/structure/closet/secure_closet/freezer/update_icon()
 	if(broken)

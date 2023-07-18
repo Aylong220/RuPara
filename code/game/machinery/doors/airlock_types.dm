@@ -570,6 +570,10 @@
 	overlays_file = null
 	assemblytype = null
 	normal_integrity = INDESTRUCTIBLE
+	doorDeni = null
+	boltUp = null
+	boltDown = null
+	paintable = FALSE
 
 /obj/machinery/door/airlock/highsecurity/red/welder_act(mob/user, obj/item/I)
 	if(shock_user(user, 75))
