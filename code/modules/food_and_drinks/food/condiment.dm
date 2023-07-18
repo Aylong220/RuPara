@@ -164,6 +164,9 @@
 	list_reagents = list("milk" = 50)
 	possible_states = list()
 
+/obj/item/reagent_containers/food/condiment/milk/empty
+	list_reagents = null
+
 /obj/item/reagent_containers/food/condiment/flour
 	name = "flour sack"
 	desc = "A big bag of flour. Good for baking!"
@@ -171,6 +174,9 @@
 	item_state = "flour"
 	list_reagents = list("flour" = 30)
 	possible_states = list()
+
+/obj/item/reagent_containers/food/condiment/flour/empty
+	list_reagents = null
 
 /obj/item/reagent_containers/food/condiment/soymilk
 	name = "soy milk"
@@ -180,6 +186,9 @@
 	list_reagents = list("soymilk" = 50)
 	possible_states = list()
 
+/obj/item/reagent_containers/food/condiment/soymilk/empty
+	list_reagents = null
+
 /obj/item/reagent_containers/food/condiment/rice
 	name = "rice sack"
 	desc = "A big bag of rice. Good for cooking!"
@@ -187,6 +196,9 @@
 	item_state = "flour"
 	list_reagents = list("rice" = 30)
 	possible_states = list()
+
+/obj/item/reagent_containers/food/condiment/rice/empty
+	list_reagents = null
 
 /obj/item/reagent_containers/food/condiment/soysauce
 	name = "soy sauce"

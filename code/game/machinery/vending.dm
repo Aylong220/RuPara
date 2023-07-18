@@ -896,6 +896,9 @@
 	ads_list = list("Выпьем!","Бухло пойдёт вам на пользу!","Алкоголь — друг человека.","Очень рад вас обслужить!","Хотите отличного холодного пива?","Ничто так не лечит, как бухло!","Пригубите!","Выпейте!","Возьмите пивка!","Пиво пойдёт вам на пользу!","Только лучший алкоголь!","Бухло лучшего качества с 2053 года!","Вино со множеством наград!","Максимум алкоголя!","Мужчины любят пиво","Тост: «За прогресс!»")
 	refill_canister = /obj/item/vending_refill/boozeomat
 
+/obj/machinery/vending/boozeomat/empty
+	products = list()
+
 /obj/machinery/vending/boozeomat/syndicate_access
 	req_access = list(ACCESS_SYNDICATE)
 
@@ -918,6 +921,9 @@
 
 /obj/machinery/vending/coffee/free
 	prices = list()
+
+/obj/machinery/vending/coffee/empty
+	products = list()
 
 /obj/machinery/vending/coffee/item_slot_check(mob/user, obj/item/I)
 	if(!(istype(I, /obj/item/reagent_containers/glass) || istype(I, /obj/item/reagent_containers/food/drinks)))
@@ -977,6 +983,9 @@
 /obj/machinery/vending/snack/free
 	prices = list()
 
+/obj/machinery/vending/snack/empty
+	products = list()
+
 /obj/machinery/vending/chinese
 	name = "\improper Mr. Chang"
 	desc = "A self-serving Chinese food machine, for all your Chinese food needs."
@@ -1008,6 +1017,9 @@
 
 /obj/machinery/vending/cola/free
 	prices = list()
+
+/obj/machinery/vending/cola/empty
+	products = list()
 
 /obj/machinery/vending/cart
 	name = "\improper PTech"
@@ -1087,6 +1099,9 @@
 
 /obj/machinery/vending/cigarette/free
 	prices = list()
+
+/obj/machinery/vending/cigarette/empty
+	products = list()
 
 /obj/machinery/vending/cigarette/syndicate
 	products = list(/obj/item/storage/fancy/cigarettes/cigpack_syndicate = 7,
