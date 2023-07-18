@@ -15669,7 +15669,6 @@
 	command = "cycle_exterior";
 	dir = 8;
 	frequency = 1379;
-	layer = 3.3;
 	master_tag = "sol_airlock";
 	name = "exterior access button";
 	pixel_x = -10;
@@ -17138,7 +17137,6 @@
 	command = "cycle_interior";
 	dir = 4;
 	frequency = 1379;
-	layer = 3.3;
 	master_tag = "sol_airlock";
 	name = "interior access button";
 	pixel_x = -25;
@@ -57854,10 +57852,6 @@
 /obj/item/storage/box/buck{
 	pixel_y = 3
 	},
-/obj/item/storage/box/slug{
-	pixel_x = -3;
-	pixel_y = 6
-	},
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -77227,7 +77221,6 @@
 /obj/item/stack/sheet/runed_metal{
 	amount = 50
 	},
-/obj/item/whetstone/cult,
 /obj/item/melee/cultblade,
 /obj/item/restraints/legcuffs/bola/cult,
 /obj/effect/landmark/event/revenantspawn,
