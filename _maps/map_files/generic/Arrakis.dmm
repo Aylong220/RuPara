@@ -182,17 +182,14 @@
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave1)
 "aO" = (
-/obj/machinery/power/apc/unpowered{
-	dir = 4;
-	pixel_x = 26
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
 	},
-/obj/machinery/light_switch{
-	pixel_y = 24;
-	name = "north light switch"
-	},
-/obj/effect/decal/cleanable/dust,
-/turf/simulated/floor/carpet,
-/area/arrakis/bunker/bridge)
+/area/arrakis/bunker/medbay)
 "aU" = (
 /obj/docking_port/stationary{
 	dir = 4;
@@ -246,11 +243,6 @@
 "bf" = (
 /obj/structure/closet/emcloset,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	dir = 8;
-	name = "east fire alarm";
-	pixel_x = 24
-	},
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "darkblue"
@@ -279,6 +271,12 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dust,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -490,6 +488,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/junction{
+	icon_state = "pipe-y";
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whiteblue"
@@ -629,22 +631,22 @@
 	},
 /area/arrakis/bunker/rnd)
 "cH" = (
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "darkblue"
 	},
-/obj/effect/decal/cleanable/dust,
-/turf/simulated/floor/carpet,
 /area/arrakis/bunker/medbay)
 "cJ" = (
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/obj/effect/decal/cleanable/dust,
-/obj/machinery/power/apc/unpowered{
-	pixel_y = -26
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whitebluecorner"
 	},
-/turf/simulated/floor/carpet,
 /area/arrakis/bunker/medbay)
 "cL" = (
 /obj/effect/decal/cleanable/dust,
@@ -665,6 +667,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whitebluefull"
 	},
@@ -752,11 +757,6 @@
 /area/arrakis/bunker/kitchen)
 "cY" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	dir = 4;
-	name = "west light switch";
-	pixel_x = -24
-	},
 /obj/item/twohanded/required/kirbyplants/norandom/dead,
 /turf/simulated/floor/plasteel{
 	dir = 9;
@@ -805,6 +805,12 @@
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "dj" = (
@@ -914,6 +920,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whiteblue"
 	},
@@ -1127,11 +1136,6 @@
 /obj/machinery/computer/rdservercontrol{
 	dir = 1
 	},
-/obj/machinery/light_switch{
-	name = "south light switch";
-	pixel_y = -24;
-	dir = 1
-	},
 /turf/simulated/floor/plasteel/dark,
 /area/toxins/server)
 "eA" = (
@@ -1241,9 +1245,6 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/machinery/door/airlock/psych/glass{
 	id = "psych";
 	id_tag = "psych_bolt";
@@ -1297,6 +1298,9 @@
 "fj" = (
 /obj/machinery/disposal,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "whiteblue"
@@ -1315,11 +1319,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/glass,
-/obj/machinery/firealarm{
-	dir = 8;
-	name = "east fire alarm";
-	pixel_x = 24
-	},
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "whiteblue"
@@ -1410,6 +1409,10 @@
 /obj/effect/decal/cleanable/glass{
 	layer = 2
 	},
+/obj/machinery/power/apc/unpowered{
+	pixel_y = -26
+	},
+/obj/structure/cable,
 /turf/simulated/floor/plasteel{
 	icon_state = "whiteblue"
 	},
@@ -1786,10 +1789,6 @@
 	pixel_y = 2
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	dir = 1;
-	pixel_y = 26
-	},
 /obj/structure/table/glass,
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria"
@@ -1816,6 +1815,9 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -2019,11 +2021,6 @@
 "ia" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	dir = 4;
-	name = "west fire alarm";
-	pixel_x = -24
-	},
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria"
 	},
@@ -2070,13 +2067,25 @@
 	},
 /turf/simulated/floor/engine,
 /area/arrakis/bunker/rnd)
+"ii" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/arrakis/bunker/medbay)
 "ik" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	dir = 8;
-	name = "east fire alarm";
-	pixel_x = 24
-	},
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "whiteblue"
@@ -2110,11 +2119,6 @@
 	},
 /obj/machinery/atmospherics/unary/portables_connector,
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 26
-	},
 /turf/simulated/floor/plasteel/dark,
 /area/toxins/server)
 "iv" = (
@@ -2126,6 +2130,18 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker)
+"iy" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/arrakis/bunker/medbay)
 "iz" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -2141,6 +2157,12 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dust,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whitebluefull"
 	},
@@ -2214,6 +2236,12 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -2239,6 +2267,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
@@ -2253,6 +2284,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
@@ -2274,9 +2308,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood{
 	icon_state = "fancy-wood-cherry"
@@ -2307,6 +2338,7 @@
 	req_access = list(5)
 	},
 /obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/machinery/damaged,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -2444,6 +2476,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whiteyellowfull"
 	},
@@ -2550,8 +2585,30 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whitebluefull"
+	},
+/area/arrakis/bunker/medbay)
+"kg" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
 "kh" = (
@@ -2675,6 +2732,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whitebluefull"
 	},
@@ -2753,11 +2813,6 @@
 	pixel_y = 2
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	dir = 4;
-	name = "west fire alarm";
-	pixel_x = -24
-	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whiteyellow"
@@ -2865,14 +2920,12 @@
 /area/arrakis/bunker/rnd)
 "lw" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	dir = 1;
-	pixel_y = 26
-	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
+	icon_state = "white"
 	},
-/area/arrakis/bunker/kitchen)
+/area/arrakis/bunker/medbay)
 "lx" = (
 /obj/item/flashlight/lamp/green{
 	on = 0;
@@ -2916,10 +2969,6 @@
 "lA" = (
 /obj/effect/decal/warning_stripes/southeastcorner,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	name = "north light switch";
-	pixel_x = -24
-	},
 /obj/machinery/access_button{
 	command = "cycle_interior";
 	frequency = 1379;
@@ -2996,6 +3045,19 @@
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/medbay)
+"lR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
 "lS" = (
@@ -3174,15 +3236,12 @@
 /area/arrakis/bunker/rnd)
 "mx" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	name = "north fire alarm";
-	pixel_y = 24
-	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "darkblue"
+	icon_state = "whitebluecorner";
+	dir = 1
 	},
-/area/arrakis/bunker/bridge)
+/area/arrakis/bunker/medbay)
 "mz" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -3306,8 +3365,6 @@
 /area/arrakis/outside/Outside4)
 "mY" = (
 /obj/structure/closet/secure_closet/paramedic,
-/obj/item/defibrillator,
-/obj/item/clothing/glasses/hud/health,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	dir = 5;
@@ -3410,10 +3467,6 @@
 /obj/structure/rack{
 	dir = 1
 	},
-/obj/machinery/power/apc/unpowered{
-	dir = 8;
-	pixel_x = -26
-	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/janitor)
 "nv" = (
@@ -3499,6 +3552,15 @@
 "nP" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whiteblue"
 	},
@@ -3526,11 +3588,6 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	dir = 4;
-	name = "west fire alarm";
-	pixel_x = -24
-	},
 /obj/machinery/light,
 /turf/simulated/floor/plasteel{
 	dir = 10;
@@ -3631,6 +3688,15 @@
 "og" = (
 /turf/simulated/wall/indestructible/reinforced,
 /area/arrakis/bunker/brig)
+"oh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/cleanable/dust,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/arrakis/bunker/medbay)
 "ok" = (
 /obj/structure/table/glass,
 /obj/machinery/door_control{
@@ -3811,11 +3877,8 @@
 /area/arrakis/bunker/bridge)
 "oY" = (
 /obj/effect/decal/cleanable/dust,
-/obj/machinery/light_switch{
-	name = "east light switch";
-	pixel_x = 24;
-	dir = 8
-	},
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "whiteblue"
@@ -3826,10 +3889,6 @@
 /obj/structure/closet/jcloset,
 /obj/item/key/janitor,
 /obj/item/storage/box/lights/mixed,
-/obj/machinery/firealarm{
-	name = "north fire alarm";
-	pixel_y = 24
-	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/janitor)
 "pb" = (
@@ -3920,6 +3979,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whiteblue"
@@ -3962,6 +4024,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/junction,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -4077,6 +4140,10 @@
 	pixel_y = -32
 	},
 /obj/structure/table/glass,
+/obj/structure/disposalpipe/junction{
+	icon_state = "pipe-y";
+	dir = 1
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whiteblue"
 	},
@@ -4187,6 +4254,9 @@
 /obj/machinery/light,
 /obj/machinery/disposal,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "whiteblue"
@@ -4197,6 +4267,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -4242,6 +4313,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/firedoor,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -4285,11 +4362,6 @@
 	},
 /area/arrakis/bunker/medbay)
 "qC" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	name = "east fire alarm";
-	pixel_x = 24
-	},
 /obj/machinery/light/small{
 	dir = 4
 	},
@@ -4444,14 +4516,21 @@
 	},
 /area/arrakis/bunker/medbay)
 "rh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	dir = 1;
-	pixel_y = 26
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "whiteblue"
+	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
 "ri" = (
@@ -4525,6 +4604,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "whiteblue"
@@ -4567,12 +4647,6 @@
 	},
 /area/arrakis/bunker/medbay)
 "rF" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plasteel{
@@ -4587,6 +4661,12 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -4694,6 +4774,9 @@
 	pixel_y = 12;
 	pixel_x = -12
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -4739,9 +4822,6 @@
 /area/arrakis/bunker/rnd)
 "sh" = (
 /obj/machinery/photocopier,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/carpet,
 /area/arrakis/bunker/medbay)
@@ -4758,13 +4838,12 @@
 /turf/simulated/floor/engine,
 /area/arrakis/bunker/medbay)
 "sp" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -5034,17 +5113,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "darkbluecorners"
 	},
 /area/arrakis/bunker/medbay)
 "tv" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel{
@@ -5158,6 +5235,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whiteblue"
@@ -5211,17 +5289,12 @@
 /area/arrakis/bunker/medbay)
 "ud" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	dir = 8;
-	name = "east light switch";
-	pixel_x = 24
-	},
-/obj/item/twohanded/required/kirbyplants/norandom/dead,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
-	dir = 5;
-	icon_state = "darkblue"
+	icon_state = "whitebluecorner";
+	dir = 4
 	},
-/area/arrakis/bunker/bridge)
+/area/arrakis/bunker/medbay)
 "ue" = (
 /obj/effect/decal/cleanable/dust,
 /obj/effect/mob_spawn/human/corpse/miner,
@@ -5452,6 +5525,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whitebluefull"
 	},
@@ -5493,10 +5569,6 @@
 /obj/structure/bed/dogbed/runtime,
 /mob/living/simple_animal/pet/cat/Runtime,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	dir = 1;
-	pixel_y = 26
-	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "darkblue"
@@ -5533,14 +5605,12 @@
 	},
 /area/arrakis/bunker/bridge)
 "vG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	dir = 8;
-	pixel_x = -26
-	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "whiteblue"
+	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
 "vH" = (
@@ -5595,20 +5665,31 @@
 	layer = 2
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
 "vW" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	dir = 1;
-	pixel_y = 26
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
+	icon_state = "white"
 	},
-/area/arrakis/bunker/kitchen)
+/area/arrakis/bunker/medbay)
 "vY" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/closet/crate,
@@ -5746,6 +5827,13 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 4;
+	icon_state = "pipe-j2"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -5838,6 +5926,22 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/kitchen)
+"wN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "whiteblue"
+	},
+/area/arrakis/bunker/medbay)
 "wO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -5932,11 +6036,10 @@
 	},
 /area/arrakis/bunker/hydro)
 "xi" = (
-/obj/machinery/power/apc{
-	name = "south bump";
-	pixel_y = -24
-	},
 /obj/structure/cable,
+/obj/machinery/power/apc/unpowered{
+	pixel_y = -26
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "podfloor_dark"
 	},
@@ -6129,12 +6232,22 @@
 	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/bridge)
+"yh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/arrakis/bunker/medbay)
 "yi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whiteblue"
@@ -6157,17 +6270,20 @@
 	},
 /area/arrakis/bunker/rnd)
 "yp" = (
-/obj/machinery/light_switch{
-	dir = 1;
-	name = "south light switch";
-	pixel_y = -24
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dust,
-/turf/simulated/floor/engine,
-/area/arrakis/bunker/rnd)
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitebluecorner"
+	},
+/area/arrakis/bunker/medbay)
 "yq" = (
 /obj/effect/decal/warning_stripes/east,
 /obj/effect/decal/cleanable/dust,
@@ -6209,6 +6325,17 @@
 	},
 /turf/simulated/floor/plasteel/freezer,
 /area/arrakis/bunker/rnd)
+"yD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/arrakis/bunker/medbay)
 "yF" = (
 /obj/structure/spider/stickyweb,
 /obj/item/stack/ore/plasma,
@@ -6229,12 +6356,9 @@
 	},
 /area/arrakis/bunker/medbay)
 "yJ" = (
-/obj/structure/closet/secure_closet/medical3,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	dir = 1;
-	pixel_y = 26
-	},
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whitebluecorner"
@@ -6352,6 +6476,9 @@
 /obj/structure/table/glass,
 /obj/item/hand_labeler,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whiteblue"
 	},
@@ -6365,6 +6492,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "dark"
@@ -6578,10 +6709,6 @@
 	},
 /area/arrakis/bunker/rnd)
 "Ab" = (
-/obj/machinery/firealarm{
-	name = "north fire alarm";
-	pixel_y = 24
-	},
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/computer/arcade,
 /turf/simulated/floor/wood,
@@ -6612,11 +6739,6 @@
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/cave/cave)
 "Al" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	name = "south fire alarm";
-	pixel_y = -24
-	},
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 9
 	},
@@ -6641,14 +6763,14 @@
 	},
 /area/arrakis/bunker/rnd)
 "AA" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	name = "west fire alarm";
-	pixel_x = -24
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
 	},
-/obj/effect/decal/cleanable/dust,
-/turf/simulated/floor/wood{
-	icon_state = "fancy-wood-cherry"
+/turf/simulated/floor/plasteel{
+	dir = 6;
+	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/medbay)
 "AC" = (
@@ -6709,6 +6831,12 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dust,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/hallway)
 "AN" = (
@@ -6739,11 +6867,6 @@
 /area/arrakis/bunker/rnd)
 "AQ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	name = "south light switch";
-	pixel_y = -24;
-	dir = 1
-	},
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "darkblue"
@@ -6754,6 +6877,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -6819,6 +6943,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/decal/cleanable/dust,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -6828,12 +6953,10 @@
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave/cave1)
 "Bw" = (
-/obj/structure/closet/secure_closet/medical2,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	dir = 8;
-	name = "east fire alarm";
-	pixel_x = 24
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
 	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
@@ -7067,11 +7190,6 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	dir = 4;
-	name = "west light switch";
-	pixel_x = -24
-	},
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria"
 	},
@@ -7128,6 +7246,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	icon_state = "whitebluefull"
 	},
@@ -7146,9 +7265,6 @@
 /obj/item/pen{
 	pixel_x = -5;
 	pixel_y = 8
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -7388,11 +7504,6 @@
 "DT" = (
 /obj/structure/closet/emcloset,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	dir = 4;
-	name = "west fire alarm";
-	pixel_x = -24
-	},
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "darkblue"
@@ -7521,6 +7632,9 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/junction{
+	icon_state = "pipe-y"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -7581,10 +7695,6 @@
 "EB" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	pixel_y = 24;
-	name = "north light switch"
-	},
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "whiteblue"
@@ -7655,11 +7765,7 @@
 /area/arrakis/bunker/rnd)
 "EW" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	name = "east light switch";
-	pixel_x = 24;
-	dir = 8
-	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "whiteblue"
@@ -7761,10 +7867,8 @@
 /area/arrakis/bunker/medbay)
 "Fu" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	dir = 1;
-	pixel_y = 26
-	},
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "whiteblue"
@@ -7787,6 +7891,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -7843,14 +7950,14 @@
 /area/arrakis/bunker/hallway)
 "FH" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/structure/disposalpipe/junction{
 	dir = 4;
-	name = "west fire alarm";
-	pixel_x = -24
+	icon_state = "pipe-j2"
 	},
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "whiteblue"
+	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
 "FI" = (
@@ -7864,11 +7971,6 @@
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
 /obj/item/reagent_containers/food/drinks/drinkingglass/soda,
 /obj/item/reagent_containers/food/drinks/drinkingglass/soda,
-/obj/machinery/light_switch{
-	dir = 4;
-	name = "west light switch";
-	pixel_x = -24
-	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/carpet,
 /area/arrakis/bunker/medbay)
@@ -8009,6 +8111,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "whiteblue"
@@ -8079,6 +8184,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
@@ -8107,10 +8213,6 @@
 "GE" = (
 /obj/structure/closet/paramedic,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	pixel_y = 24;
-	name = "north light switch"
-	},
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "whiteblue"
@@ -8233,9 +8335,6 @@
 	pixel_y = 10
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	pixel_y = -26
-	},
 /obj/structure/table/glass,
 /obj/machinery/light,
 /turf/simulated/floor/plasteel{
@@ -8344,6 +8443,7 @@
 	pixel_x = 8;
 	pixel_y = 6
 	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "darkblue"
@@ -8379,6 +8479,9 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/junction{
+	icon_state = "pipe-y"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -8485,10 +8588,8 @@
 /area/arrakis/bunker/medbay)
 "Ie" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	dir = 8;
-	pixel_x = -26
-	},
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whiteyellow"
@@ -8587,6 +8688,10 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whiteyellow"
@@ -8610,10 +8715,6 @@
 	pixel_y = 2
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	pixel_y = 24;
-	name = "north light switch"
-	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "whiteblue"
@@ -8628,6 +8729,12 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/door/firedoor,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -8732,8 +8839,19 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
+	},
+/area/arrakis/bunker/medbay)
+"Jg" = (
+/obj/structure/table/glass,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
 "Jh" = (
@@ -9388,13 +9506,10 @@
 	},
 /area/arrakis/bunker/bar)
 "LH" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -9477,6 +9592,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
@@ -9499,11 +9617,6 @@
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_y = 4;
 	pixel_x = 6
-	},
-/obj/machinery/light_switch{
-	dir = 4;
-	name = "west light switch";
-	pixel_x = -24
 	},
 /turf/simulated/floor/plasteel{
 	dir = 9;
@@ -9565,6 +9678,7 @@
 "Mr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -9636,6 +9750,21 @@
 /obj/machinery/monkey_recycler,
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
+"MN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/arrakis/bunker/medbay)
 "MO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/alarm{
@@ -9767,11 +9896,6 @@
 /area/arrakis/cave)
 "Nm" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	dir = 1;
-	name = "south fire alarm";
-	pixel_y = -24
-	},
 /obj/machinery/vending/clothing/departament/science,
 /turf/simulated/floor/plasteel{
 	icon_state = "whitehall"
@@ -9779,13 +9903,9 @@
 /area/arrakis/bunker/rnd)
 "Nn" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	dir = 4;
-	pixel_x = 26
-	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
-	dir = 4;
-	icon_state = "whiteblue"
+	icon_state = "white"
 	},
 /area/arrakis/bunker/medbay)
 "No" = (
@@ -10028,11 +10148,6 @@
 	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	dir = 8;
-	name = "east fire alarm";
-	pixel_x = 24
-	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -10111,6 +10226,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "darkblue"
@@ -10317,21 +10435,20 @@
 	},
 /area/arrakis/bunker/rnd)
 "Pg" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/twohanded/required/kirbyplants/norandom/dead,
-/obj/machinery/light_switch{
-	pixel_y = 24;
-	name = "north light switch"
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
-/obj/machinery/power/apc/unpowered{
-	dir = 8;
-	pixel_x = -26
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/simulated/floor/plasteel{
-	dir = 9;
-	icon_state = "darkblue"
+	icon_state = "white"
 	},
-/area/arrakis/bunker/bridge)
+/area/arrakis/bunker/medbay)
 "Ph" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -10421,14 +10538,21 @@
 	},
 /area/arrakis/bunker/rnd)
 "Py" = (
-/obj/effect/decal/cleanable/dust,
-/obj/item/flag/nt,
-/obj/machinery/firealarm{
-	name = "north fire alarm";
-	pixel_y = 24
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
 	},
-/turf/simulated/floor/plasteel,
-/area/arrakis/bunker/hallway)
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/junction{
+	dir = 2;
+	icon_state = "pipe-j2"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/arrakis/bunker/medbay)
 "Pz" = (
 /obj/structure/chair/office/light{
 	dir = 4
@@ -10448,6 +10572,7 @@
 /area/arrakis/bunker/rnd)
 "PD" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkbluecorners"
@@ -10606,6 +10731,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "whiteblue"
@@ -10641,6 +10769,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dust,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	icon_state = "whiteblue"
 	},
@@ -11007,6 +11136,9 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "darkblue"
@@ -11188,11 +11320,6 @@
 	pixel_x = -4;
 	pixel_y = 2
 	},
-/obj/machinery/light_switch{
-	dir = 4;
-	name = "west light switch";
-	pixel_x = -24
-	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whiteyellow"
@@ -11213,6 +11340,10 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -11420,6 +11551,21 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
+"SZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dust,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/arrakis/bunker/medbay)
 "Ta" = (
 /obj/machinery/bodyscanner,
 /obj/effect/decal/cleanable/dirt,
@@ -11458,11 +11604,6 @@
 /area/arrakis/bunker/medbay)
 "Tm" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	name = "east light switch";
-	pixel_x = 24;
-	dir = 8
-	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -11527,6 +11668,9 @@
 /obj/machinery/light,
 /obj/machinery/disposal,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "whiteblue"
@@ -11571,11 +11715,6 @@
 "TN" = (
 /obj/structure/table/glass,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	dir = 8;
-	name = "east fire alarm";
-	pixel_x = 24
-	},
 /obj/machinery/light{
 	dir = 4
 	},
@@ -11593,6 +11732,9 @@
 "TQ" = (
 /obj/machinery/disposal,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "darkblue"
@@ -11647,11 +11789,6 @@
 	pixel_x = -8
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/firealarm{
-	dir = 8;
-	name = "east fire alarm";
-	pixel_x = 24
-	},
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "whiteblue"
@@ -11683,6 +11820,10 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkblue"
@@ -11739,10 +11880,6 @@
 "Up" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/l3closet/janitor,
-/obj/machinery/light_switch{
-	name = "north light switch";
-	pixel_y = 24
-	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/janitor)
 "Ur" = (
@@ -11807,22 +11944,12 @@
 	name = "north newscaster";
 	pixel_y = 34
 	},
-/obj/machinery/light_switch{
-	name = "east light switch";
-	pixel_x = 24;
-	dir = 8
-	},
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria"
 	},
 /area/arrakis/bunker/rnd)
 "UC" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	name = "west fire alarm";
-	pixel_x = -24
-	},
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -32
 	},
@@ -11877,11 +12004,6 @@
 	},
 /area/arrakis/bunker/medbay)
 "UH" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	name = "south fire alarm";
-	pixel_y = -24
-	},
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/decal/warning_stripes/yellow,
 /turf/simulated/floor/plasteel{
@@ -11937,6 +12059,9 @@
 	req_access = list(5)
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whiteblue"
 	},
@@ -12033,6 +12158,12 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dust,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -12045,6 +12176,10 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "whiteblue"
@@ -12091,17 +12226,6 @@
 	pixel_y = 6
 	},
 /obj/item/mmi,
-/obj/machinery/firealarm{
-	dir = 1;
-	name = "south fire alarm";
-	pixel_y = -24
-	},
-/obj/machinery/light_switch{
-	name = "custom light switch";
-	pixel_y = -24;
-	dir = 1;
-	pixel_x = -8
-	},
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "whitepurple"
@@ -12270,9 +12394,6 @@
 /obj/machinery/hologram/holopad,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood{
 	icon_state = "fancy-wood-cherry"
@@ -12437,13 +12558,19 @@
 /area/arrakis/bunker/medbay)
 "WU" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/unpowered{
-	dir = 1;
-	pixel_y = 26
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 4;
+	icon_state = "pipe-j2"
 	},
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "darkblue"
+	dir = 8;
+	icon_state = "whitebluecorner"
 	},
 /area/arrakis/bunker/medbay)
 "WV" = (
@@ -12480,6 +12607,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel{
@@ -12722,6 +12852,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	icon_state = "whiteblue"
 	},
@@ -12753,6 +12884,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	icon_state = "whitebluefull"
 	},
@@ -12790,6 +12922,7 @@
 	pixel_x = -5;
 	pixel_y = 8
 	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkblue"
@@ -12845,6 +12978,12 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -12869,6 +13008,9 @@
 /area/arrakis/bunker/medbay)
 "Yv" = (
 /obj/effect/decal/cleanable/dust,
+/obj/structure/disposalpipe/junction{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whitebluecorner"
 	},
@@ -12982,6 +13124,24 @@
 	icon_state = "purple"
 	},
 /area/arrakis/bunker/rnd)
+"YV" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/arrakis/bunker/medbay)
 "YX" = (
 /obj/structure/chair/stool{
 	dir = 1
@@ -13117,9 +13277,6 @@
 /obj/item/twohanded/required/kirbyplants,
 /obj/structure/sign/poster/official/fruit_bowl{
 	pixel_y = -32
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/carpet,
@@ -15519,7 +15676,7 @@ qx
 YG
 FI
 DF
-vG
+DF
 Ky
 YG
 sq
@@ -15527,7 +15684,7 @@ ZR
 aq
 YG
 Xp
-AA
+TO
 lx
 EQ
 FJ
@@ -16021,9 +16178,9 @@ Db
 YG
 hV
 tt
-oB
-oB
-YD
+cH
+cH
+AA
 YG
 UE
 KR
@@ -16043,7 +16200,7 @@ eY
 jc
 Wn
 Da
-cH
+qg
 ZC
 YG
 sx
@@ -16276,7 +16433,7 @@ sx
 sx
 sx
 YG
-WU
+Qm
 Ma
 ZP
 CU
@@ -16294,7 +16451,7 @@ tV
 wq
 YG
 pX
-Vt
+SZ
 un
 dg
 dW
@@ -16551,14 +16708,14 @@ hi
 rB
 YG
 pX
-rI
+Pg
 bI
 YG
 Bg
 La
 mI
 HB
-cJ
+qg
 YG
 Db
 Db
@@ -16808,7 +16965,7 @@ Sx
 xG
 YG
 Eu
-rI
+Pg
 bI
 Gv
 Gv
@@ -17065,7 +17222,7 @@ Vv
 Xw
 YG
 pX
-rI
+Pg
 un
 Gv
 qc
@@ -17322,7 +17479,7 @@ cM
 YG
 YG
 pX
-rI
+Pg
 un
 Gv
 ZU
@@ -17579,7 +17736,7 @@ pk
 HJ
 YG
 jP
-rI
+Pg
 bI
 Mo
 ex
@@ -17818,25 +17975,25 @@ sx
 Db
 Db
 YG
-rh
+pX
 Er
-Sa
+aO
 Mr
-Sa
+aO
 qi
-Sa
-Sa
+aO
+aO
 pz
-Sa
-Sa
+aO
+aO
 Bu
-Sa
+aO
 LH
-Hj
+FH
 Jd
 YG
 jP
-Er
+YV
 dT
 vl
 Qc
@@ -18076,7 +18233,7 @@ sx
 Db
 YG
 xQ
-Vv
+wN
 AC
 AC
 Mw
@@ -18088,8 +18245,8 @@ AC
 AC
 zE
 nN
-Sx
-Fq
+Ei
+yp
 xo
 YG
 pX
@@ -18349,14 +18506,14 @@ rF
 nP
 YG
 YG
-rh
+pX
 rI
 bI
 Gv
 co
 gH
 TN
-Nn
+AC
 gq
 Gv
 Db
@@ -18591,7 +18748,7 @@ Db
 YG
 Md
 pk
-FH
+DF
 zj
 hj
 qh
@@ -18601,9 +18758,9 @@ RY
 WR
 YG
 Fu
-PR
-Sx
-cA
+mx
+Nn
+WU
 nV
 YG
 Ni
@@ -18847,9 +19004,9 @@ sx
 Db
 YG
 Cm
-rI
-Ei
-Ei
+kg
+Nn
+Nn
 AY
 pW
 YG
@@ -18860,7 +19017,7 @@ uK
 PR
 bQ
 tv
-Ei
+ii
 HA
 it
 pX
@@ -18868,7 +19025,7 @@ Vt
 NQ
 YG
 GE
-vG
+DF
 tC
 jM
 ZG
@@ -19116,12 +19273,12 @@ wz
 zn
 YP
 Sa
-pz
+lw
 sp
 WD
 it
 jP
-Er
+vW
 Ny
 tj
 HL
@@ -19365,7 +19522,7 @@ zv
 Ei
 Ei
 hB
-Vz
+Jg
 YG
 cs
 yG
@@ -19374,7 +19531,7 @@ YG
 dG
 Ei
 cz
-Sx
+MN
 HP
 Tk
 PR
@@ -19619,7 +19776,7 @@ sx
 YG
 CR
 AC
-Nn
+AC
 NF
 PU
 TJ
@@ -19632,9 +19789,9 @@ Nf
 Ei
 WY
 HM
-ef
+vG
 Je
-ef
+vG
 wt
 bI
 YG
@@ -19888,7 +20045,7 @@ YG
 Rr
 Ei
 oM
-Sx
+MN
 Fq
 OC
 cL
@@ -20402,7 +20559,7 @@ wn
 cL
 Ei
 Ei
-Ei
+yh
 XV
 it
 jP
@@ -20657,8 +20814,8 @@ nh
 zw
 YG
 oY
-nN
-Ei
+ud
+Nn
 Yv
 Nj
 YG
@@ -21159,7 +21316,7 @@ Db
 sx
 sx
 Gv
-Qm
+yD
 PD
 XQ
 HG
@@ -21173,8 +21330,8 @@ fF
 DF
 PR
 Ei
-cA
-FH
+cJ
+DF
 Id
 rf
 rI
@@ -21424,20 +21581,20 @@ zf
 Gr
 XN
 ru
-ef
-ef
-LH
-ef
-ef
-Nq
-ef
+vG
+vG
+Py
+vG
+vG
+oh
+iy
 Nq
 Is
 ef
 Yq
 XJ
 CY
-ru
+lR
 Nd
 Jw
 LC
@@ -21691,7 +21848,7 @@ AC
 AC
 eM
 VV
-Sx
+rh
 bI
 YG
 EB
@@ -22205,7 +22362,7 @@ FP
 Gv
 iC
 PR
-Sx
+rh
 HP
 hI
 HC
@@ -23016,7 +23173,7 @@ IP
 Ql
 Zy
 Lo
-aO
+JC
 fm
 fm
 JC
@@ -23233,7 +23390,7 @@ Fi
 Gv
 fI
 nN
-Sx
+rh
 iz
 ob
 Eg
@@ -23264,7 +23421,7 @@ Cb
 Cb
 Cb
 kh
-Py
+qf
 sx
 sx
 Db
@@ -25072,7 +25229,7 @@ hO
 Ql
 RX
 Lo
-Pg
+cY
 fR
 fR
 fR
@@ -25843,7 +26000,7 @@ Pn
 bF
 Zy
 Lo
-mx
+os
 bF
 uz
 qS
@@ -26867,7 +27024,7 @@ Db
 sx
 sx
 Lo
-ud
+jd
 PJ
 bf
 Lo
@@ -31444,7 +31601,7 @@ Il
 uL
 uh
 ca
-yp
+nc
 uL
 UA
 My
@@ -32007,7 +32164,7 @@ sx
 sx
 Db
 de
-lw
+Qn
 Qn
 Ee
 LN
@@ -33812,7 +33969,7 @@ Fg
 Fg
 Fg
 Sz
-vW
+Vf
 Vf
 Bc
 Vf
