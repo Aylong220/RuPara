@@ -308,7 +308,6 @@
 	name = "dune sand"
 	icon = 'icons/misc/desert.dmi'
 	icon_state = "sand"
-	baseturf = /turf/simulated/floor/indestructible/dune_sand/dug
 	temperature = 325
 	planetary_atmos = TRUE
 	footstep = FOOTSTEP_SAND
@@ -354,7 +353,7 @@
 /turf/simulated/floor/indestructible/dune_sand/remove_plating()
 	return
 
-/turf/simulated/floor/crowbar_act(mob/user, obj/item/I)
+/turf/simulated/floor/indestructible/dune_sand/crowbar_act(mob/user, obj/item/I)
 	return
 
 /turf/simulated/floor/indestructible/dune_sand/ex_act(severity)

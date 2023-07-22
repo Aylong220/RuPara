@@ -264,7 +264,7 @@
 	user.remove_alt_appearance("sneaking_mission")
 
 /obj/item/twohanded/required/kirbyplants/norandom/New()
-	..()
+	return
 
 /obj/item/twohanded/required/kirbyplants/norandom/dead
 	name = "\improper Potted plant"

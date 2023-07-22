@@ -135,7 +135,7 @@
 
 /obj/machinery/power/apc/unpowered
 	name = "\improper Unpowered APC"
-	operating = 0
+	cell_type = 1000
 
 /obj/item/apc_electronics
 	name = "power control module"

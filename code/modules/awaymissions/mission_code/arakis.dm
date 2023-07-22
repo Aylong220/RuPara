@@ -80,50 +80,63 @@
 	always_unpowered = FALSE
 
 /area/arrakis/bunker/hallway
-	name = "\improper Arrakis Vault Hallway"
+	name = "\improper Vault Hallway"
 	icon_state = "desert_hall"
 
 /area/arrakis/bunker/brig
-	name = "\improper Arrakis Vault Security"
+	name = "\improper Vault Security"
 	icon_state = "desert_brig"
 
 /area/arrakis/bunker/engie
-	name = "\improper Arrakis Vault Engieneering"
+	name = "\improper Vault Engieneering"
 	icon_state = "desert_engie"
 
 /area/arrakis/bunker/hydro
-	name = "\improper Arrakis Vault Hydroponics"
+	name = "\improper Vault Hydroponics"
 	icon_state = "desert_hydro"
 
 /area/arrakis/bunker/rnd
-	name = "\improper Arrakis Vault Research"
+	name = "\improper Vault Research"
 	icon_state = "desert_science"
 
 /area/arrakis/bunker/medbay
-	name = "\improper Arrakis Vault Medbay"
+	name = "\improper Vault Medbay"
 	icon_state = "desert_medbay"
 
 /area/arrakis/bunker/kitchen
-	name = "\improper Arrakis Vault Kitchen"
+	name = "\improper Vault Kitchen"
 	icon_state = "desert_kitchen"
 
 /area/arrakis/bunker/bar
-	name = "\improper Arrakis Vault Bar"
+	name = "\improper Vault Bar"
 	icon_state = "desert_bar"
 
 /area/arrakis/bunker/clowns
-	name = "\improper Arrakis Vault Theatre"
+	name = "\improper Vault Theatre"
 	icon_state = "desert_theatre"
 
 /area/arrakis/bunker/janitor
-	name = "\improper Arrakis Vault Janitor"
+	name = "\improper Vault Janitor"
 	icon_state = "desert_janitor"
 
 /area/arrakis/bunker/bridge
-	name = "\improper Arrakis Vault Bridge"
+	name = "\improper Vault Bridge"
 	icon_state = "desert_bridge"
 
+/area/arrakis/bunker/dorms
+	name = "\improper Vault Dorms"
+	icon_state = "dorms"
+
+/area/arrakis/bunker/cryo
+	name = "\improper Vault Cryo"
+	icon_state = "Sleep"
+
+/area/arrakis/bunker/bedrooms
+	name = "\improper Vault Bedrooms"
+	icon_state = "dorms"
+
 /area/arrakis/bunker/tanya_cyborg_blyat_lab
-	name = "\improper Arrakis Vault Secret Lab"
-	icon_state = ""
+	name = "\improper Vault Secret Lab"
+	icon_state = "purple"
 	requires_power = FALSE
+	dynamic_lighting = DYNAMIC_LIGHTING_FORCED

@@ -4,7 +4,7 @@
 	luminosity = 1
 
 	var/intact = TRUE
-	var/turf/baseturf = /turf/space
+	var/turf/baseturf = /turf/simulated/floor/indestructible/dune_sand //Да, мне похуй
 	var/slowdown = 0 //negative for faster, positive for slower
 	var/transparent_floor = FALSE //used to check if pipes should be visible under the turf or not
 
