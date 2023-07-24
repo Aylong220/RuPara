@@ -16,6 +16,7 @@
 /area/arrakis/outside/Outside1
 	name = "\improper Arrakis Arrival"
 	icon_state = "awaycontent1"
+	ambientsounds = DESERT_SOUNDS_START
 
 /area/arrakis/outside/Outside2
 	name = "\improper Arrakis Dunes 2"
@@ -53,6 +54,7 @@
 	name = "\improper Arrakis Cave"
 	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
 	icon_state = "space_near"
+	ambientsounds = DESERT_SOUNDS_ROCK
 
 /area/arrakis/cave/cave
 	name = "\improper Arrakis Cave"
@@ -78,6 +80,7 @@
 	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
 	requires_power = TRUE
 	always_unpowered = FALSE
+	ambientsounds = DESERT_SOUNDS_VAULT
 
 /area/arrakis/bunker/hallway
 	name = "\improper Vault Hallway"
@@ -140,3 +143,4 @@
 	icon_state = "purple"
 	requires_power = FALSE
 	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
+	ambientsounds = DESERT_SOUNDS_SECRET

@@ -82,7 +82,17 @@
 									'sound/ambience/ambidanger.ogg', 'sound/ambience/ambidanger2.ogg', 'sound/ambience/ambimaint.ogg',\
 									'sound/ambience/ambiatmos.ogg', 'sound/ambience/ambiatmos2.ogg', 'sound/ambience/ambiodd.ogg')
 
-#define DESERT_SOUNDS list('sound/ambience/desert/desert.ogg', 'sound/ambience/desert/desert1.ogg', 'sound/ambience/desert/desert2.ogg')
+#define DESERT_SOUNDS_START list('sound/ambience/desert/welcometohell.ogg')
+
+#define DESERT_SOUNDS list('sound/ambience/desert/desert1.ogg', 'sound/ambience/desert/desert2.ogg', 'sound/ambience/desert/desert3.ogg', 'sound/ambience/desert/desert4.ogg',\
+	'sound/ambience/desert/desert5.ogg', 'sound/ambience/desert/desert6.ogg', 'sound/ambience/desert/desert7.ogg', 'sound/ambience/desert/desert8.ogg', 'sound/ambience/desert/desert9.ogg')
+
+#define DESERT_SOUNDS_ROCK list('sound/ambience/desert/rock1.ogg', 'sound/ambience/desert/rock2.ogg', 'sound/ambience/desert/rock3.ogg')
+
+#define DESERT_SOUNDS_VAULT list('sound/ambience/desert/vault1.ogg', 'sound/ambience/desert/vault2.ogg', 'sound/ambience/desert/vault3.ogg', 'sound/ambience/desert/vault4.ogg',\
+	'sound/ambience/desert/vault5.ogg', 'sound/ambience/desert/vault6.ogg', 'sound/ambience/desert/vault7.ogg')
+
+#define DESERT_SOUNDS_SECRET list('sound/ambience/desert/whatwefound.ogg')
 
 
 #define CREEPY_SOUNDS list('sound/effects/ghost.ogg', 'sound/effects/ghost2.ogg', 'sound/effects/heart_beat.ogg', 'sound/effects/screech.ogg',\
