@@ -3113,32 +3113,18 @@
 	},
 /area/arrakis/bunker/medbay)
 "ahW" = (
-/obj/item/radio/intercom/custom{
-	pixel_x = -28;
-	pixel_y = -10
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.8
 	},
-/obj/item/radio/intercom/private{
-	pixel_x = 28;
-	pixel_y = -10
+/obj/machinery/light{
+	dir = 8
 	},
-/obj/item/radio/intercom{
-	dir = 1;
-	name = "south station intercom (General)";
-	pixel_y = -22
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "navybluealt"
 	},
-/obj/machinery/requests_console{
-	department = "AI";
-	departmentType = 5;
-	name = "AI Requests Console";
-	pixel_x = 32;
-	pixel_y = -32
-	},
-/obj/machinery/newscaster/security_unit{
-	pixel_x = -32;
-	pixel_y = -32
-	},
-/obj/effect/landmark/start/ai,
-/turf/simulated/floor/bluegrid,
 /area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "ahZ" = (
 /obj/structure/disposalpipe/segment,
@@ -7851,15 +7837,12 @@
 	},
 /area/arrakis/bunker/medbay)
 "auz" = (
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/structure/chair/office/dark{
+	dir = 1
 	},
-/obj/machinery/door/window/southright{
-	dir = 1;
-	name = "AI Core Door";
-	req_access = list(16)
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
 	},
-/turf/simulated/floor/bluegrid,
 /area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "auA" = (
 /obj/machinery/vending/coffee/empty{
@@ -13820,28 +13803,16 @@
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/rnd)
 "aLK" = (
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_y = 4
 	},
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/item/pen/multi/fountain{
+	pixel_y = 6
 	},
-/obj/structure/window/reinforced{
-	dir = 4
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
 	},
-/obj/machinery/camera/motion{
-	c_tag = "AI Core";
-	dir = 1;
-	network = list("SS13","MiniSat");
-	start_active = 1
-	},
-/obj/machinery/power/apc{
-	cell_type = 5000;
-	name = "south bump Important Area";
-	pixel_y = -26
-	},
-/turf/simulated/floor/bluegrid,
 /area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "aLL" = (
 /turf/simulated/wall,
@@ -15199,25 +15170,16 @@
 	},
 /area/arrakis/bunker/kitchen)
 "aPH" = (
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/drinks/mug/comms{
+	pixel_y = 8;
+	pixel_x = 2;
+	list_reagents = list("tea"=30);
+	layer = 4.1
 	},
-/obj/structure/window/reinforced{
-	dir = 8
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
 	},
-/obj/machinery/turretid/lethal{
-	check_synth = 1;
-	name = "AI Chamber Turret Control";
-	pixel_x = 5;
-	pixel_y = -24;
-	req_access = list(75)
-	},
-/obj/machinery/flasher{
-	id = "AI";
-	pixel_x = -8;
-	pixel_y = -24
-	},
-/turf/simulated/floor/bluegrid,
 /area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "aPK" = (
 /obj/item/trash/plate,
@@ -16354,7 +16316,10 @@
 	},
 /area/arrakis/bunker/medbay)
 "aTb" = (
-/turf/simulated/wall,
+/mob/living/simple_animal/bot/cleanbot,
+/turf/simulated/floor/plasteel{
+	icon_state = "navybluealt"
+	},
 /area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "aTc" = (
 /obj/effect/decal/cleanable/dust,
@@ -17178,7 +17143,10 @@
 	},
 /area/arrakis/bunker/medbay)
 "aVy" = (
-/obj/machinery/hologram/holopad,
+/obj/structure/table/reinforced,
+/obj/machinery/computer/med_data/laptop{
+	pixel_y = 2
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -18644,8 +18612,10 @@
 /turf/simulated/floor/wood/fancy/oak,
 /area/arrakis/bunker/bar)
 "aZA" = (
-/obj/machinery/computer/aifixer{
-	dir = 4
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.6
 	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -18990,6 +18960,17 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/arrakis/podhangars)
+"bqI" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.6
+	},
+/turf/simulated/floor/plasteel{
+	dir = 6;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "brh" = (
 /obj/structure/disposalpipe/junction{
 	dir = 8;
@@ -19608,6 +19589,17 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/bridge)
+"czY" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.7
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "cBe" = (
 /obj/structure/mineral_door/wood,
 /turf/simulated/floor/plasteel{
@@ -20457,6 +20449,17 @@
 	icon_state = "darkred"
 	},
 /area/arrakis/bunker/brig)
+"dPK" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.9
+	},
+/turf/simulated/floor/plasteel{
+	dir = 10;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "dPT" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -21432,6 +21435,17 @@
 	icon_state = "grimy"
 	},
 /area/arrakis/bunker/brig)
+"fkb" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.2
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "fkj" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -21697,6 +21711,17 @@
 	icon_state = "darkredfull"
 	},
 /area/arrakis/bunker/brig)
+"fOf" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.4
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "fPj" = (
 /obj/structure/flora/tree/cactus/little,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -24085,6 +24110,18 @@
 	},
 /turf/simulated/floor/carpet/green,
 /area/arrakis/bunker/bedrooms)
+"jyP" = (
+/obj/structure/table/reinforced,
+/obj/item/flashlight/lamp/green{
+	pixel_y = 5
+	},
+/obj/item/documents/nanotrasen{
+	pixel_y = -13
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "jzj" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -24270,6 +24307,16 @@
 	icon_state = "red"
 	},
 /area/arrakis/bunker/brig)
+"jWA" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.2
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "jWH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -24503,6 +24550,17 @@
 /obj/structure/rack,
 /turf/simulated/floor/wood,
 /area/arrakis/cave)
+"kEi" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.4
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "kFJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -25156,6 +25214,13 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/brig)
+"lOf" = (
+/obj/structure/table/reinforced,
+/obj/item/documents/nanotrasen,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "lQf" = (
 /turf/simulated/floor/carpet/black,
 /area/arrakis/cave)
@@ -25337,6 +25402,13 @@
 	icon_state = "whitegreenfull"
 	},
 /area/arrakis/bunker/cryo)
+"mpm" = (
+/obj/machinery/computer/aifixer,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "mpu" = (
 /obj/machinery/door/airlock/research{
 	name = "Mech Bay";
@@ -25523,6 +25595,17 @@
 	icon_state = "podfloor_dark"
 	},
 /area/arrakis/bunker/rnd)
+"mGY" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.5
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "mHn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/disposal,
@@ -26009,6 +26092,16 @@
 	icon_state = "neutralfull"
 	},
 /area/arrakis/bunker/hallway)
+"nud" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.5
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "nvC" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -26036,6 +26129,16 @@
 	icon_state = "darkgreen"
 	},
 /area/arrakis/bunker/hydro)
+"nwo" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "nyy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -26226,6 +26329,20 @@
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/chasm,
 /area/arrakis/outside/Outside5)
+"nPz" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.3
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "nPN" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/disposalpipe/segment,
@@ -26629,6 +26746,20 @@
 	icon_state = "cult"
 	},
 /area/arrakis/bunker/brig)
+"ooE" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.5
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "opg" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -29591,6 +29722,19 @@
 	icon_state = "darkred"
 	},
 /area/arrakis/bunker/brig)
+"tfQ" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "tgs" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8;
@@ -30273,6 +30417,16 @@
 /obj/structure/flora/rock/pile,
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/outside/Outside2)
+"uvL" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "uxl" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -30816,6 +30970,17 @@
 	icon_state = "darkbluecorners"
 	},
 /area/arrakis/bunker/medbay)
+"vwn" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.3
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "vwS" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -30964,6 +31129,17 @@
 	icon_state = "cult"
 	},
 /area/arrakis/bunker/brig)
+"vLI" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.1
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "vMn" = (
 /obj/structure/railing{
 	color = "#e0ac7b";
@@ -31115,6 +31291,13 @@
 	icon_state = "purple"
 	},
 /area/arrakis/bunker/rnd)
+"vUh" = (
+/obj/machinery/computer/aiupload,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "vUE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/alarm{
@@ -31210,6 +31393,17 @@
 	dir = 1
 	},
 /area/arrakis/bunker/rnd)
+"vZw" = (
+/obj/machinery/light,
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "vZW" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/optable,
@@ -31716,6 +31910,16 @@
 	icon_state = "darkred"
 	},
 /area/arrakis/bunker/brig)
+"wTI" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya";
+	layer = 3.3
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "wTL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -32368,6 +32572,16 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/bedrooms)
+"yii" = (
+/obj/structure/AIcore{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya"
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "navybluealt"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 "ylp" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria"
@@ -32378,6 +32592,15 @@
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave)
+"ymi" = (
+/obj/structure/AIcore/deactivated{
+	icon = 'icons/misc/desert2.dmi';
+	icon_state = "tanya"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/arrakis/bunker/tanya_cyborg_blyat_lab)
 
 (1,1,1) = {"
 ayO
@@ -34675,14 +34898,14 @@ pyU
 aDo
 ago
 aPe
-akZ
 aPe
-aPe
-aPe
+nPz
+fOf
+mGY
 aZA
-akZ
-aPe
-ake
+czY
+ahW
+dPK
 aDo
 ayO
 ayO
@@ -35188,15 +35411,15 @@ epM
 rGB
 aDo
 aOE
-apc
-apc
-apc
-apc
-apc
-apc
-apc
 aNv
-aaY
+apc
+ymi
+nwo
+jWA
+wTI
+uvL
+nud
+vZw
 aDo
 ayO
 ayO
@@ -35703,14 +35926,14 @@ aKL
 aDo
 aHo
 aqm
-aGX
 aqm
-aqm
-aqm
-aqm
-aGX
-aqm
-agD
+tfQ
+vLI
+fkb
+vwn
+kEi
+ooE
+bqI
 aDo
 ayO
 ayO
@@ -36217,10 +36440,10 @@ aXb
 aDo
 ago
 aPe
+aPe
 akZ
 aPe
 aPe
-akZ
 aPe
 aPe
 akZ
@@ -36731,10 +36954,10 @@ aXb
 aDo
 aHo
 aqm
+aqm
 aGX
 aqm
 aqm
-aGX
 aqm
 atw
 apc
@@ -36987,10 +37210,10 @@ aBy
 aXb
 aDo
 aDo
+aDo
+aDo
+aDo
 aLc
-aDo
-aDo
-aDo
 aDo
 aDo
 aIT
@@ -37250,9 +37473,9 @@ aPe
 aPe
 ake
 aDo
-aOE
+aIT
 aNv
-aaY
+axZ
 aDo
 ayO
 ayO
@@ -37507,9 +37730,9 @@ apc
 apc
 aaY
 aDo
-aIT
+aOE
 apc
-axZ
+aaY
 aDo
 ayO
 ayO
@@ -37757,12 +37980,12 @@ aFU
 aBy
 aqo
 aDo
-aIT
+mpm
 apc
-apc
+jyP
 aPH
-aTb
-aTb
+apc
+axZ
 aDo
 aHo
 aqm
@@ -38014,11 +38237,11 @@ aFU
 aIK
 aqo
 aDo
-aIT
+yii
 apc
 aVy
 auz
-ahW
+apc
 aTb
 aDo
 aDo
@@ -38271,12 +38494,12 @@ ayE
 aBy
 aXb
 aDo
-aIT
+vUh
 apc
-apc
+lOf
 aLK
-aTb
-aTb
+apc
+axZ
 aDo
 ago
 aPe
@@ -47380,7 +47603,7 @@ ayO
 ayO
 ayO
 ayO
-adM
+ayO
 asV
 asV
 asV
@@ -47637,7 +47860,7 @@ ayO
 ayO
 ayO
 ayO
-adM
+ayO
 asV
 asV
 asV
@@ -47892,7 +48115,7 @@ ayO
 ayO
 ayO
 ayO
-adM
+ayO
 adM
 asV
 asV
@@ -48149,8 +48372,8 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
+ayO
+ayO
 asV
 asV
 asV
@@ -48663,7 +48886,7 @@ ayO
 ayO
 ayO
 ayO
-adM
+ayO
 asV
 asV
 asV
@@ -48918,7 +49141,7 @@ ayO
 ayO
 ayO
 ayO
-adM
+ayO
 adM
 asV
 asV
@@ -49176,7 +49399,7 @@ ayO
 ayO
 ayO
 adM
-asV
+ayO
 asV
 asV
 asV
@@ -49431,7 +49654,7 @@ ayO
 ayO
 ayO
 ayO
-adM
+ayO
 asV
 asV
 asV
@@ -49686,9 +49909,9 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-asV
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -49943,9 +50166,9 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
-asV
+ayO
+ayO
+ayO
 bPm
 asV
 asV
@@ -50198,10 +50421,10 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-asV
-asV
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -50455,10 +50678,10 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -50710,9 +50933,9 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-asV
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -50967,8 +51190,8 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
+ayO
+ayO
 asV
 asV
 asV
@@ -51224,8 +51447,8 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
+ayO
+ayO
 asV
 asV
 asV
@@ -51478,9 +51701,9 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-adM
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -51701,7 +51924,6 @@ ayO
 ayO
 ayO
 ayO
-adM
 ayO
 ayO
 ayO
@@ -51733,12 +51955,13 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 bPm
 asV
 asV
@@ -51958,8 +52181,6 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
 ayO
 ayO
 ayO
@@ -51990,9 +52211,11 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -52212,12 +52435,6 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-adM
-asV
-asV
-adM
 ayO
 ayO
 ayO
@@ -52243,13 +52460,19 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-adM
-adM
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -52468,16 +52691,6 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-adM
-adM
-adM
 ayO
 ayO
 ayO
@@ -52497,16 +52710,26 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -52724,18 +52947,6 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-adM
 ayO
 ayO
 ayO
@@ -52752,17 +52963,29 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-bPm
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -52979,22 +53202,6 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-adM
-adM
 ayO
 ayO
 ayO
@@ -53006,20 +53213,36 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -53236,47 +53459,47 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
-asV
-asV
-asV
-asV
-bPm
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-adM
-adM
 ayO
 ayO
 ayO
 ayO
 ayO
-adM
-adM
-adM
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-bPm
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -53492,48 +53715,48 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-adM
-adM
-adM
-adM
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -53749,48 +53972,48 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-bPm
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -54006,47 +54229,47 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
-asV
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-bPm
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -54262,49 +54485,49 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-adM
-adM
 ayO
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -54519,48 +54742,48 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
 ayO
 ayO
 ayO
-adM
-adM
-asV
-asV
-asV
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -54783,41 +55006,41 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-adM
 ayO
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -55041,38 +55264,38 @@ ayO
 ayO
 ayO
 ayO
-adM
 ayO
 ayO
 ayO
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-adM
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -55301,36 +55524,36 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-adM
-adM
-asV
-adM
-asV
-adM
 ayO
 ayO
-adM
-adM
-asV
-asV
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -55558,37 +55781,37 @@ aBe
 ayO
 ayO
 ayO
-adM
-ayO
-ayO
-ayO
-adM
-ayO
-adM
 ayO
 ayO
 ayO
 ayO
 ayO
-adM
-adM
 ayO
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -55815,7 +56038,6 @@ aBe
 ayO
 ayO
 ayO
-adM
 ayO
 ayO
 ayO
@@ -55828,22 +56050,23 @@ ayO
 ayO
 ayO
 ayO
-adM
 ayO
 ayO
-adM
-asV
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -56088,21 +56311,21 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
 ayO
-adM
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -56346,19 +56569,19 @@ ayO
 ayO
 ayO
 ayO
-adM
 ayO
 ayO
-adM
-asV
-asV
-asV
-adM
-adM
-asV
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -56607,15 +56830,15 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-adM
 ayO
 ayO
-adM
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -56866,14 +57089,14 @@ ayO
 ayO
 ayO
 ayO
-adM
 ayO
-adM
 ayO
-adM
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -57125,12 +57348,12 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-adM
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -57385,10 +57608,10 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
-asV
-asV
+ayO
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -57642,9 +57865,9 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
-asV
+ayO
+ayO
+ayO
 asV
 asV
 asV
@@ -57899,8 +58122,8 @@ ayO
 ayO
 ayO
 ayO
-adM
-asV
+ayO
+ayO
 asV
 asV
 asV
@@ -58156,9 +58379,9 @@ ayO
 ayO
 ayO
 ayO
-adM
-adM
-asV
+ayO
+ayO
+ayO
 asV
 adM
 asV
