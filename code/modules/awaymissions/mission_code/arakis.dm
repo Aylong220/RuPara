@@ -74,6 +74,14 @@
 /area/arrakis/cave/cave5
 	name = "\improper Arrakis Cave 5"
 
+/area/arrakis/podhangars
+	name = "\improper Arrakis Pod Hangars"
+	icon_state = "awaycontent18"
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	requires_power = TRUE
+	always_unpowered = FALSE
+	ambientsounds = RUINS_SOUNDS
+
 /area/arrakis/bunker
 	name = "\improper Arrakis Vault Enter"
 	icon_state = "desert_entry"
