@@ -98,6 +98,11 @@
 	name = "\improper Vault Security"
 	icon_state = "desert_brig"
 
+/area/arrakis/bunker/brig/bsa
+	name = "\improper BlueSpace Artillery"
+	requires_power = FALSE
+	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
+
 /area/arrakis/bunker/engie
 	name = "\improper Vault Engieneering"
 	icon_state = "desert_engie"
