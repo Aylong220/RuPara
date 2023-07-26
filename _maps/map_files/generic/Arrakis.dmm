@@ -19071,6 +19071,16 @@
 	},
 /turf/simulated/floor/wood/fancy/oak,
 /area/arrakis/bunker/bedrooms)
+"buQ" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/structure/railing{
+	color = "#e0ac7b";
+	name = "ржавые перила"
+	},
+/turf/simulated/floor/wood/birch{
+	icon_state = "wood-birch-broken7"
+	},
+/area/arrakis/outside/mining_town)
 "bvB" = (
 /obj/machinery/light{
 	dir = 8
@@ -19261,22 +19271,6 @@
 	},
 /turf/simulated/floor/carpet/black,
 /area/arrakis/cave)
-"bJn" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/item/twohanded/spear{
-	pixel_x = -3;
-	pixel_y = -14
-	},
-/obj/item/reagent_containers/glass/bucket{
-	pixel_x = 6;
-	pixel_y = -4
-	},
-/obj/item/stack/tape_roll{
-	pixel_x = -7;
-	pixel_y = 7
-	},
-/turf/simulated/floor/wood/birch,
-/area/arrakis/outside/mining_town)
 "bJw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -21099,6 +21093,22 @@
 "eBo" = (
 /turf/simulated/wall/rust,
 /area/arrakis/bunker/dorms)
+"eCH" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/item/fish/glofish{
+	pixel_x = -8
+	},
+/obj/item/fish/goldfish{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/obj/structure/railing/corner{
+	color = "#e0ac7b";
+	name = "ржавые перила"
+	},
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/wood/birch,
+/area/arrakis/outside/mining_town)
 "eCJ" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -21386,6 +21396,13 @@
 	},
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/outside/Outside4)
+"eYk" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/decal/snow/sand/edge{
+	dir = 5
+	},
+/turf/simulated/floor/wood/birch,
+/area/arrakis/outside/mining_town)
 "eYP" = (
 /obj/structure/chair/sofa/pew/left{
 	dir = 8
@@ -21636,6 +21653,16 @@
 	},
 /turf/simulated/floor/wood/fancy/cherry,
 /area/arrakis/bunker/bar)
+"fpI" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/structure/railing{
+	color = "#e0ac7b";
+	name = "ржавые перила"
+	},
+/turf/simulated/floor/wood/birch{
+	icon_state = "wood-birch-broken3"
+	},
+/area/arrakis/outside/mining_town)
 "frh" = (
 /obj/structure/table,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -22041,6 +22068,15 @@
 	icon_state = "red"
 	},
 /area/arrakis/bunker/brig)
+"gdj" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/decal/snow/sand/edge{
+	dir = 1
+	},
+/turf/simulated/floor/wood/birch{
+	icon_state = "wood-birch-broken4"
+	},
+/area/arrakis/outside/mining_town)
 "gdk" = (
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 1";
@@ -22836,13 +22872,14 @@
 	icon_state = "Dark"
 	},
 /area/arrakis/bunker/rnd)
-"hcu" = (
+"hcv" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/decal/snow/sand/edge{
 	dir = 1
 	},
-/obj/item/chair/stool,
-/turf/simulated/floor/wood/birch,
+/turf/simulated/floor/wood/birch{
+	icon_state = "wood-birch-broken5"
+	},
 /area/arrakis/outside/mining_town)
 "hcI" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -24786,13 +24823,6 @@
 	icon_state = "red"
 	},
 /area/arrakis/bunker/brig)
-"kmQ" = (
-/obj/item/stack/cable_coil/white{
-	pixel_x = 16;
-	icon_state = "coil1"
-	},
-/turf/simulated/floor/beach/water/desert_water,
-/area/arrakis/outside/mining_town)
 "knE" = (
 /obj/structure/flora/rock,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -24807,13 +24837,6 @@
 "kpE" = (
 /turf/simulated/floor/carpet/red,
 /area/arrakis/cave)
-"kqQ" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/effect/decal/snow/sand/edge{
-	dir = 1
-	},
-/turf/simulated/floor/wood/birch,
-/area/arrakis/outside/mining_town)
 "krq" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/simulated/floor/plating,
@@ -25171,6 +25194,23 @@
 	icon_state = "darkred"
 	},
 /area/arrakis/bunker/brig)
+"kZT" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/item/twohanded/spear{
+	pixel_x = -3;
+	pixel_y = -14;
+	desc = "Кажется это копье было приспособлено под нужды рыболовства..."
+	},
+/obj/item/reagent_containers/glass/bucket{
+	pixel_x = 6;
+	pixel_y = -4
+	},
+/obj/item/stack/tape_roll{
+	pixel_x = -7;
+	pixel_y = 7
+	},
+/turf/simulated/floor/wood/birch,
+/area/arrakis/outside/mining_town)
 "lbd" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -25179,14 +25219,6 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/arrakis/bunker/bedrooms)
-"lcQ" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/effect/decal/snow/sand/edge{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/generic,
-/turf/simulated/floor/wood/birch,
-/area/arrakis/outside/mining_town)
 "lcX" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -25710,6 +25742,16 @@
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/outside/Outside5)
+"miC" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/structure/railing{
+	color = "#e0ac7b";
+	name = "ржавые перила"
+	},
+/turf/simulated/floor/wood/birch{
+	icon_state = "wood-birch-broken2"
+	},
+/area/arrakis/outside/mining_town)
 "mjL" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -25767,6 +25809,17 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/toxins/server)
+"mlS" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/structure/railing{
+	color = "#e0ac7b";
+	name = "ржавые перила"
+	},
+/obj/effect/decal/snow/sand/edge{
+	dir = 4
+	},
+/turf/simulated/floor/wood/birch,
+/area/arrakis/outside/mining_town)
 "mmq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -26218,6 +26271,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel/dark,
 /area/arrakis/podhangars)
+"mWv" = (
+/obj/item/stack/cable_coil/white{
+	pixel_x = 16;
+	icon_state = "coil1";
+	name = "леска";
+	desc = "Рыболовная леска. Очень крепкая."
+	},
+/turf/simulated/floor/beach/water/desert_water,
+/area/arrakis/outside/mining_town)
 "mXM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -27337,13 +27399,6 @@
 	icon_state = "whiteblue"
 	},
 /area/arrakis/bunker/medbay)
-"oyh" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/effect/decal/snow/sand/edge{
-	dir = 5
-	},
-/turf/simulated/floor/wood/birch,
-/area/arrakis/outside/mining_town)
 "oyW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
@@ -28154,6 +28209,15 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/brig)
+"pCz" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/decal/snow/sand/edge{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/item/trash/semki,
+/turf/simulated/floor/wood/birch,
+/area/arrakis/outside/mining_town)
 "pDg" = (
 /obj/structure/lattice/catwalk{
 	smooth = 0;
@@ -29746,14 +29810,6 @@
 /obj/structure/flora/tree/desert/big,
 /turf/simulated/floor/indestructible/dune_sand,
 /area/arrakis/outside/Outside5)
-"sjI" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/railing{
-	color = "#e0ac7b";
-	name = "ржавые перила"
-	},
-/turf/simulated/floor/wood/birch,
-/area/arrakis/outside/mining_town)
 "skt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/securearea{
@@ -30516,15 +30572,6 @@
 	icon_state = "neutralfull"
 	},
 /area/arrakis/bunker/hallway)
-"tCm" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/effect/decal/snow/sand/edge{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/generic,
-/obj/item/trash/semki,
-/turf/simulated/floor/wood/birch,
-/area/arrakis/outside/mining_town)
 "tDb" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/wall/indestructible/rock/dune_rock,
@@ -30616,22 +30663,6 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/arrakis/bunker/brig)
-"tLM" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/item/fish/glofish{
-	pixel_x = -8
-	},
-/obj/item/fish/goldfish{
-	pixel_x = -4;
-	pixel_y = -4
-	},
-/obj/structure/railing/corner{
-	color = "#e0ac7b";
-	name = "ржавые перила"
-	},
-/obj/effect/decal/cleanable/generic,
-/turf/simulated/floor/wood/birch,
-/area/arrakis/outside/mining_town)
 "tMd" = (
 /obj/machinery/door/window/brigdoor{
 	base_state = "rightsecure";
@@ -31346,6 +31377,14 @@
 	icon_state = "yellow"
 	},
 /area/arrakis/bunker/engie)
+"uYL" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/decal/snow/sand/edge{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/wood/birch,
+/area/arrakis/outside/mining_town)
 "uZe" = (
 /obj/structure/table/reinforced,
 /obj/item/book/manual/security_space_law{
@@ -32112,17 +32151,6 @@
 	icon_state = "darkbluecorners"
 	},
 /area/arrakis/bunker/medbay)
-"wfX" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/railing{
-	color = "#e0ac7b";
-	name = "ржавые перила"
-	},
-/obj/effect/decal/snow/sand/edge{
-	dir = 4
-	},
-/turf/simulated/floor/wood/birch,
-/area/arrakis/outside/mining_town)
 "wga" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
@@ -32366,6 +32394,14 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker)
+"wEx" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/decal/snow/sand/edge{
+	dir = 1
+	},
+/obj/item/chair/stool,
+/turf/simulated/floor/wood/birch,
+/area/arrakis/outside/mining_town)
 "wFj" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -32817,13 +32853,6 @@
 	icon_state = "cult"
 	},
 /area/arrakis/bunker/brig)
-"xqk" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1;
-	color = "#b9fc7b"
-	},
-/turf/simulated/floor/beach/water/desert_water,
-/area/arrakis/outside/mining_town)
 "xqs" = (
 /obj/effect/landmark/tiles/burnturf,
 /turf/simulated/floor/plasteel{
@@ -32927,6 +32956,13 @@
 	icon_state = "darkred"
 	},
 /area/arrakis/bunker/brig)
+"xyH" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1;
+	color = "#b9fc7b"
+	},
+/turf/simulated/floor/beach/water/desert_water,
+/area/arrakis/outside/mining_town)
 "xyT" = (
 /obj/structure/railing{
 	dir = 4;
@@ -40833,7 +40869,7 @@ aIg
 aYs
 huU
 jQo
-kmQ
+mWv
 jQo
 jQo
 jQo
@@ -41088,9 +41124,9 @@ aIg
 aIg
 aIg
 aYs
-kqQ
-bJn
-xqk
+gdj
+kZT
+xyH
 jQo
 jQo
 jQo
@@ -41345,9 +41381,9 @@ aIg
 aIg
 aIg
 aYs
-hcu
-tLM
-xqk
+wEx
+eCH
+xyH
 jQo
 jQo
 jQo
@@ -41602,9 +41638,9 @@ aIg
 aIg
 aIg
 aYs
-lcQ
-sjI
-xqk
+uYL
+miC
+xyH
 jQo
 jQo
 jQo
@@ -41859,9 +41895,9 @@ aIg
 aIg
 aIg
 aYs
-tCm
-sjI
-xqk
+pCz
+fpI
+xyH
 jQo
 jQo
 jQo
@@ -42116,9 +42152,9 @@ aIg
 aIg
 aIg
 aYs
-kqQ
-sjI
-xqk
+hcv
+buQ
+xyH
 jQo
 jQo
 jQo
@@ -42373,9 +42409,9 @@ aIg
 aIg
 aIg
 aYs
-oyh
-wfX
-xqk
+eYk
+mlS
+xyH
 jQo
 jQo
 jQo
