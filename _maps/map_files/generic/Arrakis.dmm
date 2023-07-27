@@ -19453,6 +19453,10 @@
 	icon_state = "darkred"
 	},
 /area/arrakis/bunker/brig)
+"ceL" = (
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/indestructible/dune_sand/dug,
+/area/arrakis/cave)
 "ckk" = (
 /obj/structure/flora/rock/pile,
 /turf/simulated/floor/beach/water/desert_water,
@@ -19675,10 +19679,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/mecha/working/clarke{
 	max_integrity = 150;
-	ruin_mecha = 1;
-	icon_state = "orangey"
+	ruin_mecha = 1
 	},
 /obj/effect/decal/cleanable/blood/oil,
+/obj/effect/decal/cleanable/shreds,
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
@@ -23858,6 +23862,10 @@
 	icon_state = "darkblue"
 	},
 /area/arrakis/bunker/medbay)
+"izt" = (
+/obj/machinery/conveyor/north,
+/turf/simulated/floor/indestructible/dune_sand/smooth,
+/area/arrakis/cave)
 "izF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
@@ -25129,6 +25137,10 @@
 	icon_state = "darkred"
 	},
 /area/arrakis/bunker/brig)
+"kNx" = (
+/obj/item/stack/ore/iron,
+/turf/simulated/floor/indestructible/dune_sand/dug,
+/area/arrakis/cave)
 "kNN" = (
 /turf/simulated/floor/plasteel{
 	dir = 4;
@@ -25375,11 +25387,9 @@
 	},
 /area/arrakis/outside/Outside2)
 "leS" = (
-/obj/structure/barricade/wooden/crude{
-	layer = 4
-	},
-/turf/simulated/wall/mineral/wood,
-/area/arrakis/outside/Outside5)
+/obj/structure/barricade/wooden,
+/turf/simulated/floor/indestructible/dune_sand,
+/area/arrakis/cave)
 "leW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/multi_tile/glass{
@@ -25963,6 +25973,11 @@
 	},
 /turf/simulated/floor/wood/fancy/oak,
 /area/arrakis/bunker/bedrooms)
+"mnv" = (
+/obj/machinery/conveyor/north,
+/obj/item/stack/ore/iron,
+/turf/simulated/floor/indestructible/dune_sand/smooth,
+/area/arrakis/cave)
 "mow" = (
 /obj/machinery/door/airlock{
 	id_tag = "Cryogenics";
@@ -26035,7 +26050,7 @@
 /area/arrakis/bunker/brig)
 "msv" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate/secure/loot,
+/obj/structure/closet/crate/secure,
 /obj/item/storage/belt,
 /obj/item/storage/belt/mining/alt,
 /obj/item/storage/bag/ore,
@@ -28401,6 +28416,13 @@
 	icon_state = "asteroidfloor"
 	},
 /area/arrakis/mining_storage_outpost)
+"pCU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/plasteel{
+	icon_state = "asteroidfloor"
+	},
+/area/arrakis/mining_storage_outpost)
 "pDg" = (
 /obj/structure/lattice/catwalk{
 	smooth = 0;
@@ -28814,6 +28836,11 @@
 	icon_state = "darkred"
 	},
 /area/arrakis/bunker/brig)
+"qlk" = (
+/obj/machinery/conveyor/north,
+/obj/item/stack/ore,
+/turf/simulated/floor/indestructible/dune_sand/smooth,
+/area/arrakis/cave)
 "qlN" = (
 /obj/structure/lattice/catwalk{
 	smooth = 0;
@@ -29331,6 +29358,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel/dark,
 /area/arrakis/podhangars)
+"raN" = (
+/mob/living/simple_animal/hostile/scarybat/batswarm,
+/turf/simulated/floor/indestructible/dune_sand,
+/area/arrakis/cave)
 "rbk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/public/glass{
@@ -30550,6 +30581,13 @@
 /mob/living/simple_animal/hostile/lizard/gator,
 /turf/simulated/floor/beach/water/desert_water,
 /area/arrakis/outside/mining_town)
+"sXB" = (
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude{
+	layer = 4
+	},
+/turf/simulated/floor/indestructible/dune_sand,
+/area/arrakis/cave)
 "taz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -30986,6 +31024,11 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/arrakis/bunker/dorms)
+"tOe" = (
+/obj/effect/decal/cleanable/dust,
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/floor/wood/fancy/oak,
+/area/arrakis/outside/Outside5)
 "tOD" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/disposalpipe/segment{
@@ -31559,6 +31602,13 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/brig)
+"uIS" = (
+/obj/effect/decal/cleanable/dust,
+/obj/effect/decal/cleanable/ash,
+/turf/simulated/floor/plasteel{
+	icon_state = "asteroidfloor"
+	},
+/area/arrakis/mining_storage_outpost)
 "uKY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -31643,6 +31693,14 @@
 	icon_state = "cult"
 	},
 /area/arrakis/bunker/brig)
+"uTw" = (
+/obj/machinery/conveyor/north,
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude{
+	layer = 4
+	},
+/turf/simulated/floor/indestructible/dune_sand/smooth,
+/area/arrakis/cave)
 "uTy" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/outside/Outside7)
@@ -48996,8 +49054,8 @@ asV
 asV
 asV
 fKq
-leS
-gUp
+iEG
+tOe
 gRC
 dUp
 xYr
@@ -49760,7 +49818,7 @@ ayO
 ayO
 adM
 adM
-grL
+bPm
 asV
 asV
 voI
@@ -50273,7 +50331,7 @@ ayO
 ayO
 ayO
 adM
-adM
+asV
 asV
 asV
 asV
@@ -50784,8 +50842,8 @@ ayO
 ayO
 ayO
 ayO
-rpS
-rpS
+kaG
+kaG
 rpS
 rpS
 eoF
@@ -51041,7 +51099,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 rpS
@@ -51298,7 +51356,7 @@ ayO
 ayO
 ayO
 ayO
-bPm
+grL
 asV
 asV
 rpS
@@ -51554,7 +51612,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 asV
@@ -51811,7 +51869,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 asV
@@ -52065,9 +52123,9 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
-asV
+adM
+adM
+adM
 asV
 asV
 asV
@@ -52321,16 +52379,16 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
 adM
+asV
+asV
+asV
+asV
+asV
+asV
+asV
+asV
+asV
 kaG
 ayO
 ayO
@@ -52578,15 +52636,15 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
 adM
+asV
+asV
+asV
+asV
+asV
+asV
+asV
+asV
 adM
 ayO
 ayO
@@ -52833,8 +52891,8 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
+adM
+adM
 asV
 asV
 kKX
@@ -53091,7 +53149,7 @@ ayO
 ayO
 ayO
 ayO
-bPm
+grL
 asV
 asV
 asV
@@ -53099,7 +53157,7 @@ asV
 asV
 asV
 asV
-adM
+asV
 adM
 ayO
 ayO
@@ -53345,17 +53403,17 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
 adM
+adM
+adM
+asV
+asV
+asV
+asV
+asV
+asV
+asV
+asV
 adM
 ayO
 ayO
@@ -53602,16 +53660,16 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
 adM
+asV
+asV
+asV
+asV
+asV
+asV
+asV
+asV
+asV
 adM
 ayO
 ayO
@@ -53859,6 +53917,7 @@ ayO
 ayO
 ayO
 ayO
+adM
 asV
 asV
 asV
@@ -53868,7 +53927,6 @@ asV
 asV
 asV
 adM
-adM
 ayO
 ayO
 ayO
@@ -53885,7 +53943,7 @@ ayO
 ayO
 ayO
 ayO
-nQd
+aBe
 npm
 ayO
 gUs
@@ -54115,7 +54173,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 asV
@@ -54372,7 +54430,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 asV
@@ -54385,13 +54443,13 @@ adM
 ayO
 ayO
 ayO
+leS
+sXB
+leS
+leS
+sXB
 ayO
 ayO
-ayO
-ayO
-ayO
-ayO
-nQd
 ayO
 aBe
 neV
@@ -54629,7 +54687,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 bPm
 asV
 asV
@@ -54640,20 +54698,20 @@ kZU
 tLQ
 jJk
 gkE
+uTw
+izt
+izt
+izt
+qlk
+qlk
+mnv
+izt
 ayO
-ayO
-ayO
-ayO
-ayO
-gtE
 aBe
 aBe
 aBe
 aBe
-aBe
-aBe
-aBe
-oEZ
+kNx
 aBe
 ayO
 ayO
@@ -54886,7 +54944,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 asV
@@ -54896,15 +54954,15 @@ asV
 asV
 csw
 asV
-adM
-dHN
-aBe
-aBe
-ayO
-aBe
-aBe
+asV
+sXB
+aHr
+aHr
+aHr
+ceL
+raN
 mpU
-bij
+aHr
 aBe
 aBe
 aBe
@@ -55143,7 +55201,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 asV
@@ -55152,18 +55210,18 @@ boS
 asV
 asV
 asV
-adM
+asV
 adM
 dHN
-npm
-aBe
-aBe
-aBe
-aBe
+coJ
+aHr
+bij
+aHr
+aHr
 kUQ
 aHr
+aHr
 aBe
-ayO
 ayO
 ayO
 ayO
@@ -55399,8 +55457,8 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
+adM
+adM
 asV
 ubY
 asV
@@ -55413,14 +55471,14 @@ adM
 ayO
 ayO
 iwk
-aBe
+aHr
+aHr
+aHr
+lhf
 aBe
 ayO
-aBe
-aBe
-aBe
-aBe
 npm
+ayO
 ayO
 ayO
 ayO
@@ -55657,7 +55715,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 asV
@@ -55674,7 +55732,7 @@ oEZ
 aBe
 aBe
 aBe
-lhf
+ayO
 ayO
 ayO
 ayO
@@ -55913,7 +55971,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 asV
@@ -55927,7 +55985,7 @@ adM
 ayO
 ayO
 ayO
-aBe
+ayO
 gtE
 ayO
 ayO
@@ -56170,7 +56228,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 asV
@@ -56180,7 +56238,7 @@ boS
 asV
 asV
 asV
-adM
+asV
 gJN
 ayO
 ayO
@@ -56425,9 +56483,9 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
-asV
+adM
+adM
+adM
 asV
 bPm
 asV
@@ -56683,8 +56741,8 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
+adM
+adM
 asV
 asV
 asV
@@ -56941,11 +56999,11 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
-asV
-asV
 adM
+asV
+asV
+asV
+asV
 adM
 pdo
 tnR
@@ -57196,9 +57254,9 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
-asV
+adM
+adM
+adM
 hAq
 asV
 asV
@@ -57455,7 +57513,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 asV
@@ -57472,7 +57530,7 @@ adM
 asV
 asV
 asV
-adM
+asV
 adM
 ayO
 ayO
@@ -57711,8 +57769,8 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
+adM
+adM
 asV
 asV
 sdb
@@ -57968,8 +58026,8 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
+adM
+adM
 asV
 asV
 asV
@@ -58226,7 +58284,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 asV
 asV
 asV
@@ -58483,8 +58541,8 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
+adM
+adM
 asV
 asV
 adM
@@ -58501,7 +58559,7 @@ llm
 asV
 asV
 csw
-adM
+asV
 adM
 ayO
 ayO
@@ -58741,10 +58799,10 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
-asV
 adM
+asV
+asV
+asV
 adM
 kQZ
 uLg
@@ -58755,7 +58813,7 @@ jmH
 uLg
 wdy
 adM
-adM
+asV
 asV
 asV
 asV
@@ -58997,8 +59055,8 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
+adM
+adM
 asV
 asV
 asV
@@ -59253,8 +59311,8 @@ ayO
 ayO
 ayO
 ayO
-asV
-asV
+adM
+adM
 asV
 asV
 bPm
@@ -59263,7 +59321,7 @@ asV
 adM
 uLg
 oFP
-kyE
+uIS
 eCS
 rWx
 rWx
@@ -59511,7 +59569,7 @@ ayO
 ayO
 ayO
 ayO
-asV
+adM
 adM
 asV
 asV
@@ -59519,7 +59577,7 @@ asV
 asV
 adM
 uLg
-rWx
+pCU
 kyE
 rWx
 dsr
@@ -59530,7 +59588,7 @@ adM
 asV
 asV
 bPm
-adM
+asV
 adM
 ayO
 ayO
@@ -60040,7 +60098,7 @@ adM
 adM
 adM
 adM
-adM
+asV
 asV
 asV
 asV
@@ -60303,7 +60361,7 @@ asV
 asV
 asV
 asV
-asV
+adM
 ayO
 ayO
 ayO
@@ -60560,7 +60618,7 @@ asV
 asV
 asV
 asV
-asV
+adM
 ayO
 ayO
 ayO
@@ -60806,19 +60864,19 @@ adM
 asV
 asV
 asV
+bPm
+asV
+asV
+adM
+adM
+adM
+adM
+adM
 asV
 asV
 asV
 asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+adM
 ayO
 ayO
 ayO
@@ -61065,18 +61123,18 @@ asV
 asV
 asV
 asV
+adM
+adM
+ayO
+ayO
+ayO
+adM
+adM
 asV
 asV
 asV
 asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+adM
 ayO
 ayO
 ayO
@@ -61321,20 +61379,20 @@ asV
 adM
 asV
 asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
-asV
+adM
+adM
+ayO
+ayO
+ayO
+ayO
+ayO
+adM
+adM
 asV
 bPm
 asV
 asV
-asV
+adM
 ayO
 ayO
 ayO
@@ -61578,20 +61636,20 @@ adM
 ayO
 adM
 asV
-bPm
-asV
-asV
+adM
 ayO
 ayO
-asV
 ayO
+ayO
+ayO
+ayO
+ayO
+adM
 asV
 asV
 asV
 asV
-asV
-asV
-asV
+adM
 ayO
 ayO
 ayO
@@ -61835,15 +61893,15 @@ adM
 adM
 asV
 asV
-asV
-asV
+adM
 ayO
 ayO
 ayO
 ayO
 ayO
-asV
-asV
+ayO
+ayO
+adM
 asV
 asV
 asV
@@ -62092,15 +62150,15 @@ ayO
 ayO
 adM
 asV
-asV
-asV
+adM
+adM
 ayO
 ayO
 ayO
 ayO
 ayO
-ayO
-asV
+adM
+adM
 asV
 asV
 asV
@@ -62350,13 +62408,13 @@ ayO
 ayO
 adM
 asV
-asV
-asV
+adM
 ayO
 ayO
 ayO
 ayO
-asV
+ayO
+adM
 asV
 asV
 asV
@@ -62607,13 +62665,13 @@ adM
 adM
 asV
 asV
-asV
-asV
+adM
+adM
 ayO
 ayO
 ayO
-asV
-asV
+adM
+adM
 asV
 asV
 asV
@@ -62865,11 +62923,11 @@ ayO
 adM
 asV
 asV
-asV
-asV
-asV
-asV
-asV
+adM
+adM
+adM
+adM
+adM
 asV
 asV
 asV
