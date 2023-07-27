@@ -82,6 +82,14 @@
 	always_unpowered = FALSE
 	ambientsounds = RUINS_SOUNDS
 
+/area/arrakis/mining_storage_outpost
+	name = "\improper Arrakis Mining Outpost"
+	icon_state = "awaycontent28"
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	requires_power = TRUE
+	always_unpowered = TRUE
+	ambientsounds = RUINS_SOUNDS
+
 /area/arrakis/bunker
 	name = "\improper Arrakis Vault Enter"
 	icon_state = "desert_entry"
