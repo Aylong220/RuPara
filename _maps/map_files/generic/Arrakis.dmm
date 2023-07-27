@@ -396,7 +396,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "abe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light{
@@ -554,7 +554,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "abv" = (
 /obj/machinery/atmospherics/unary/cold_sink/freezer,
 /obj/effect/decal/cleanable/dirt,
@@ -700,7 +700,7 @@
 "abV" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "abW" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/decal/cleanable/dirt,
@@ -819,7 +819,7 @@
 "acn" = (
 /obj/structure/flora/tree/cactus/little,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aco" = (
 /obj/structure/rack,
 /obj/item/storage/firstaid/toxin{
@@ -1004,7 +1004,7 @@
 "acJ" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/simulated/floor/plating,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "acK" = (
 /obj/effect/decal/cleanable/spiderling_remains,
 /turf/simulated/floor/plating,
@@ -1046,7 +1046,7 @@
 /turf/simulated/floor/indestructible/plating{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "acQ" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1086,7 +1086,7 @@
 /area/arrakis/bunker/hallway)
 "acU" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside6)
+/area/arrakis/outside/outside6)
 "acV" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/chair/comfy/brown,
@@ -1424,7 +1424,7 @@
 /area/arrakis/bunker/rnd)
 "adM" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "adN" = (
 /obj/machinery/constructable_frame/machine_frame,
 /turf/simulated/floor/plating,
@@ -1449,7 +1449,7 @@
 "adQ" = (
 /obj/item/stack/ore/gold,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "adR" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/table_frame/wood,
@@ -1600,7 +1600,7 @@
 /area/arrakis/bunker/engie)
 "aeo" = (
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside7)
+/area/arrakis/outside/outside7)
 "aep" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/cooker/deepfryer,
@@ -1678,7 +1678,7 @@
 /area/arrakis/bunker/medbay)
 "aeA" = (
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "aeB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1813,7 +1813,7 @@
 "aeT" = (
 /obj/item/stack/ore/glass,
 /turf/simulated/floor/indestructible/dune_sand/dug,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aeU" = (
 /obj/effect/decal/warning_stripes/northeastcorner,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -3130,7 +3130,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "aib" = (
 /obj/structure/chair/comfy/teal{
 	dir = 1
@@ -3473,7 +3473,7 @@
 /obj/effect/decal/snow/sand/edge,
 /obj/item/stack/ore/glass,
 /turf/simulated/floor/plating,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "aiU" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4408,7 +4408,7 @@
 /area/arrakis/bunker/kitchen)
 "alp" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "alq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -4783,7 +4783,7 @@
 "amp" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "amq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5048,7 +5048,7 @@
 /area/arrakis/bunker/rnd)
 "amX" = (
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "ana" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/patch_packs{
@@ -6078,7 +6078,7 @@
 /obj/effect/turf_decal/sand,
 /obj/item/stack/ore/glass,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "apL" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/table_frame/wood,
@@ -7076,7 +7076,7 @@
 "asm" = (
 /obj/structure/flora/tree/desert/big,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "asn" = (
 /obj/machinery/chem_master,
 /obj/effect/decal/warning_stripes/southeast,
@@ -7249,7 +7249,7 @@
 "asQ" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "asR" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -7288,7 +7288,7 @@
 /area/arrakis/bunker/medbay)
 "asV" = (
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "asW" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -7473,7 +7473,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "atw" = (
 /turf/simulated/floor/plasteel{
 	dir = 4;
@@ -7630,11 +7630,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/dispenser/oxygen,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "atU" = (
 /obj/item/stack/cable_coil/yellow,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "atV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/hologram/holopad,
@@ -7691,7 +7691,7 @@
 "aug" = (
 /obj/structure/flora/tree/cactus/flat,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "auh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -7896,7 +7896,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "auJ" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/table/wood,
@@ -7962,11 +7962,11 @@
 "auT" = (
 /obj/structure/flora/tree/cactus/circle,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "auU" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "auW" = (
 /obj/item/trash/raisins,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -7989,7 +7989,7 @@
 "avb" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "avc" = (
 /obj/effect/landmark/tiles/burnturf,
 /turf/simulated/floor/engine,
@@ -8116,7 +8116,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "avx" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/hivebot,
@@ -8139,7 +8139,7 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "avB" = (
 /obj/machinery/smartfridge/secure/extract,
 /obj/effect/mapping_helpers/machinery/damaged,
@@ -8630,7 +8630,7 @@
 "awZ" = (
 /obj/effect/mob_spawn/human/corpse/miner,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "axa" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
@@ -8657,7 +8657,7 @@
 "axd" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand/dug,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "axe" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -8750,7 +8750,7 @@
 "axu" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "axv" = (
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'HIGH VOLTAGE'";
@@ -9146,7 +9146,7 @@
 /area/arrakis/bunker/hallway)
 "ayF" = (
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside6)
+/area/arrakis/outside/outside6)
 "ayG" = (
 /obj/structure/table,
 /obj/item/roller{
@@ -9488,10 +9488,10 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "azy" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "azz" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -9970,7 +9970,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "aAK" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/unary/vent_pump/on,
@@ -10100,7 +10100,7 @@
 "aBd" = (
 /obj/effect/mob_spawn/human/corpse/miner,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aBe" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave)
@@ -10542,7 +10542,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "aCk" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/decal/cleanable/dust,
@@ -10658,7 +10658,7 @@
 "aCH" = (
 /obj/structure/flora/tree/cactus,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aCI" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -10783,7 +10783,7 @@
 "aDa" = (
 /obj/item/stack/rods,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aDf" = (
 /obj/machinery/light{
 	dir = 4
@@ -11358,7 +11358,7 @@
 /area/arrakis/bunker/rnd)
 "aEM" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "aEN" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /obj/effect/decal/warning_stripes/yellow,
@@ -11919,7 +11919,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "aGs" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -12015,7 +12015,7 @@
 /area/arrakis/bunker/hallway)
 "aGD" = (
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aGF" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/table_frame/wood,
@@ -12678,7 +12678,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "aIQ" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -12870,7 +12870,7 @@
 "aJs" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "aJt" = (
 /turf/simulated/floor/plasteel{
 	dir = 4;
@@ -13068,7 +13068,7 @@
 "aJS" = (
 /mob/living/simple_animal/hostile/pirate/ranged,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aJU" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -13247,7 +13247,7 @@
 "aKs" = (
 /obj/item/pickaxe,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "aKt" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/disposalpipe/junction{
@@ -13577,7 +13577,7 @@
 "aLh" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aLi" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/filingcabinet,
@@ -13698,7 +13698,7 @@
 "aLA" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "aLB" = (
 /turf/simulated/wall/indestructible/reinforced,
 /area/toxins/server)
@@ -14506,7 +14506,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "aNS" = (
 /obj/machinery/computer/communications{
 	dir = 8
@@ -14975,7 +14975,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "aPn" = (
 /obj/item/trash/cheesie,
 /turf/simulated/floor/indestructible/dune_sand,
@@ -15000,7 +15000,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "aPr" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/disposalpipe/segment{
@@ -15437,7 +15437,7 @@
 /obj/effect/mob_spawn/human/corpse/miner,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aQG" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/chair/sofa/pew,
@@ -15961,10 +15961,10 @@
 	pixel_y = -32;
 	color = "#381e13";
 	desc = "Неопрятные, дырявые шторы, которые сделаны из шкуры и кожи.";
-	name = "кожанные шторы"
+	name = "шторы из кожи"
 	},
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "aSf" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/simulated/floor/plating,
@@ -15979,7 +15979,7 @@
 "aSi" = (
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aSl" = (
 /obj/effect/decal/warning_stripes/west,
 /obj/effect/decal/warning_stripes/yellow/partial{
@@ -16164,7 +16164,7 @@
 "aSK" = (
 /obj/structure/flora/tree/desert/joshua,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "aSL" = (
 /obj/machinery/hologram/holopad,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -16315,7 +16315,7 @@
 "aTh" = (
 /obj/item/gun/projectile/revolver/capgun,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aTj" = (
 /obj/machinery/light,
 /obj/effect/mapping_helpers/machinery/damaged,
@@ -16534,7 +16534,7 @@
 /area/arrakis/bunker/engie)
 "aTT" = (
 /turf/simulated/floor/indestructible/dune_sand/dug,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aTV" = (
 /obj/structure/closet/crate,
 /obj/effect/decal/cleanable/dust,
@@ -16542,7 +16542,7 @@
 /area/arrakis/cave)
 "aTW" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "aTX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -16639,7 +16639,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "aUo" = (
 /obj/machinery/cell_charger,
 /obj/item/stock_parts/cell,
@@ -17187,7 +17187,7 @@
 "aVN" = (
 /obj/structure/flora/tree/desert/joshua,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aVO" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -18038,7 +18038,7 @@
 /area/arrakis/bunker/engie)
 "aXZ" = (
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "aYa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/greenglow,
@@ -18585,7 +18585,7 @@
 "aZE" = (
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside1)
+/area/arrakis/outside/outside1)
 "aZG" = (
 /obj/effect/decal/warning_stripes/eastsouthwest,
 /obj/vehicle/ambulance,
@@ -18822,7 +18822,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "bij" = (
 /obj/item/kitchen/knife/combat,
 /turf/simulated/floor/indestructible/dune_sand,
@@ -18895,24 +18895,24 @@
 	icon_state = "asteroidwarning";
 	dir = 1
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "bnn" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/shovel,
 /turf/simulated/floor/indestructible/dune_sand/dug,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "boH" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/decal/snow/sand/edge,
-/obj/machinery/light,
+/obj/machinery/light_construct,
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "boS" = (
 /obj/machinery/conveyor/east,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "bpt" = (
 /obj/structure/table_frame,
 /obj/effect/decal/cleanable/dirt,
@@ -18932,7 +18932,7 @@
 	amount = 5
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "bqI" = (
 /obj/structure/AIcore/deactivated{
 	icon = 'icons/misc/desert2.dmi';
@@ -18954,7 +18954,7 @@
 "brG" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "bth" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -18984,7 +18984,7 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "btD" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -19058,7 +19058,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "bxJ" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -19081,7 +19081,7 @@
 "bxX" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside3)
+/area/arrakis/outside/outside3)
 "byg" = (
 /obj/structure/chair{
 	dir = 8
@@ -19182,7 +19182,7 @@
 	icon_state = "asteroidwarning";
 	dir = 1
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "bGk" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -19225,7 +19225,7 @@
 "bIa" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "bIx" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -19291,11 +19291,11 @@
 "bOF" = (
 /obj/item/storage/toolbox/emergency/old,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "bPm" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "bQP" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/simulated/floor/indestructible/dune_sand,
@@ -19303,7 +19303,7 @@
 "bTQ" = (
 /obj/structure/flora/tree/cactus,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "bTW" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -19340,7 +19340,7 @@
 	pixel_x = 24
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "bWz" = (
 /obj/item/emptysandbag{
 	pixel_x = -19;
@@ -19358,7 +19358,7 @@
 	layer = 2.9
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "bYa" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -19460,13 +19460,13 @@
 "ckk" = (
 /obj/structure/flora/rock/pile,
 /turf/simulated/floor/beach/water/desert_water,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "cmn" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "cmL" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -19514,7 +19514,7 @@
 "cqJ" = (
 /obj/structure/flora/tree/cactus/flat,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "cqU" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/donut_box{
@@ -19561,21 +19561,21 @@
 "csw" = (
 /obj/structure/flora/rock/pile,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "csH" = (
 /obj/structure/grille{
 	color = "#e0ac7b"
 	},
 /obj/structure/lattice,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "csN" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "csR" = (
 /obj/machinery/light{
 	dir = 1
@@ -19594,7 +19594,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "ctT" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/disposalpipe/segment,
@@ -19686,7 +19686,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "cBI" = (
 /obj/structure/table,
 /obj/item/storage/fancy/donut_box/empty,
@@ -19756,7 +19756,7 @@
 	},
 /obj/effect/turf_decal/sand/plating,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "cJL" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -19795,13 +19795,13 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "cKp" = (
 /obj/structure/fence/door/opened{
 	dir = 1
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "cMM" = (
 /obj/machinery/door/window/brigdoor/westright{
 	pixel_x = -6
@@ -19815,7 +19815,7 @@
 "cOp" = (
 /obj/structure/flora/rock/pile,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "cPn" = (
 /obj/item/stack/rods,
 /turf/simulated/floor/beach/water/desert_water,
@@ -19896,11 +19896,11 @@
 	anchored = 1;
 	pixel_y = -32;
 	color = "#381e13";
-	name = "кожанные шторы";
+	name = "шторы из кожи";
 	desc = "Неопрятные, дырявые шторы, которые сделаны из шкуры и кожи."
 	},
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "cUJ" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -19942,7 +19942,7 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "cYv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -19963,7 +19963,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "daN" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -20068,7 +20068,7 @@
 	color = "#aaaaaa"
 	},
 /turf/simulated/floor/indestructible/dune_sand/dug,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "diL" = (
 /obj/machinery/photocopier/faxmachine/longrange{
 	department = "Internal Affairs Office";
@@ -20147,7 +20147,7 @@
 "dpo" = (
 /obj/item/pod_parts/pod_frame/aft_port,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "dpt" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -20212,7 +20212,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "dsJ" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
@@ -20234,7 +20234,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "duL" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering";
@@ -20439,7 +20439,7 @@
 "dFo" = (
 /obj/structure/flora/tree/cactus,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "dGl" = (
 /obj/machinery/door/airlock{
 	name = "Bedroom";
@@ -20475,7 +20475,7 @@
 	},
 /obj/structure/lattice,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "dHN" = (
 /obj/structure/barricade/wooden,
 /obj/structure/barricade/wooden/crude{
@@ -20500,7 +20500,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "dIC" = (
 /obj/structure/window/plasmareinforced{
 	dir = 8
@@ -20691,7 +20691,7 @@
 /obj/item/hemostat,
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "dUU" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -20770,7 +20770,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "ecm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
@@ -20874,7 +20874,7 @@
 	color = "#e0ac7b"
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "efN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -20903,7 +20903,7 @@
 /obj/item/stack/rods/fifty,
 /obj/item/storage/toolbox/electrical,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "enz" = (
 /obj/structure/chair{
 	dir = 8
@@ -20919,7 +20919,7 @@
 "eoF" = (
 /obj/structure/fence,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "epM" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -20957,7 +20957,7 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "erk" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -20986,7 +20986,7 @@
 	color = "#aaaaaa"
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "esl" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering";
@@ -21010,7 +21010,7 @@
 "esE" = (
 /obj/structure/fence/post,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "etv" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel{
@@ -21093,7 +21093,7 @@
 "exG" = (
 /obj/structure/fence/corner,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "eBf" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -21135,7 +21135,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "eDD" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/disposalpipe/segment,
@@ -21152,7 +21152,7 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "eGl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/disposal,
@@ -21415,7 +21415,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "eYP" = (
 /obj/structure/chair/sofa/pew/left{
 	dir = 8
@@ -21583,7 +21583,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "fiw" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -21602,7 +21602,7 @@
 /turf/simulated/floor/wood/fancy/oak{
 	icon_state = "fancy-wood-oak-broken2"
 	},
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "fkb" = (
 /obj/structure/AIcore/deactivated{
 	icon = 'icons/misc/desert2.dmi';
@@ -21617,7 +21617,7 @@
 "fkj" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "fku" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/decal/cleanable/dust,
@@ -21629,7 +21629,7 @@
 /obj/item/instrument/guitar,
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "flH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
@@ -21648,14 +21648,10 @@
 	color = "#aaaaaa"
 	},
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "fox" = (
 /turf/simulated/wall/indestructible/rusted,
-/area/arrakis/podhangars)
-"foz" = (
-/obj/effect/mapping_helpers/light,
-/turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/cave)
+/area/arrakis/outside/podhangars)
 "foR" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/chair/comfy/brown{
@@ -21701,7 +21697,7 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "fva" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -21764,12 +21760,12 @@
 "fAE" = (
 /obj/item/screwdriver,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "fAL" = (
 /obj/structure/closet/crate,
 /obj/item/lazarus_injector,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "fEi" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/cable{
@@ -21855,7 +21851,7 @@
 	layer = 2.9
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "fKm" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -21868,7 +21864,7 @@
 "fKq" = (
 /obj/item/reagent_containers/glass/bucket/wooden,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "fKt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -21915,10 +21911,10 @@
 	pixel_x = -32;
 	color = "#381e13";
 	desc = "Неопрятные, дырявые шторы, которые сделаны из шкуры и кожи.";
-	name = "кожанные шторы"
+	name = "шторы из кожи"
 	},
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "fNR" = (
 /obj/machinery/door/airlock/security{
 	name = "Restroom";
@@ -21949,7 +21945,7 @@
 "fPj" = (
 /obj/structure/flora/tree/cactus/little,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "fPv" = (
 /obj/structure/chair{
 	dir = 1
@@ -21964,14 +21960,14 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "fRo" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "fRV" = (
 /obj/effect/landmark/tiles/burnturf,
 /turf/simulated/floor/plasteel{
@@ -22006,7 +22002,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "fUr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -22073,6 +22069,10 @@
 	icon_state = "grimy"
 	},
 /area/arrakis/bunker/brig)
+"fWq" = (
+/obj/effect/mapping_helpers/light,
+/turf/simulated/floor/indestructible/dune_sand/smooth,
+/area/arrakis/outside/mining_town)
 "fWF" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "rampbottom"
@@ -22139,12 +22139,6 @@
 	icon_state = "darkredalt"
 	},
 /area/arrakis/bunker)
-"gee" = (
-/obj/structure/grille{
-	color = "#e0ac7b"
-	},
-/turf/simulated/floor/beach/water/desert_water,
-/area/arrakis/outside/Outside5)
 "gey" = (
 /obj/machinery/door/airlock/security{
 	name = "Evidence Storage";
@@ -22221,13 +22215,13 @@
 "ggV" = (
 /obj/item/pod_parts/pod_frame/aft_starboard,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "gig" = (
 /obj/item/stack/ore/glass,
 /turf/simulated/floor/indestructible/plating{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "gjd" = (
 /obj/structure/closet/secure_closet/security{
 	broken = 1;
@@ -22246,7 +22240,7 @@
 /obj/machinery/conveyor/north,
 /obj/item/stack/ore,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "gom" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -22258,7 +22252,7 @@
 "goM" = (
 /obj/item/stack/ore/glass,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "gpl" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -22307,11 +22301,11 @@
 "gqT" = (
 /obj/structure/largecrate,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "grL" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "gsF" = (
 /obj/structure/railing{
 	dir = 6
@@ -22502,7 +22496,7 @@
 	icon_state = "asteroidwarning";
 	dir = 1
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "gDE" = (
 /obj/machinery/door/airlock/security/glass{
 	id_tag = "BrigRight";
@@ -22661,13 +22655,13 @@
 "gJN" = (
 /obj/structure/flora/rock,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "gJP" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "gLs" = (
 /obj/machinery/requests_console{
 	department = "Internal Affairs Office";
@@ -22701,7 +22695,7 @@
 "gOO" = (
 /obj/structure/fence,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "gPS" = (
 /obj/structure/table,
 /obj/item/stack/packageWrap{
@@ -22720,7 +22714,7 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "gRF" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/cans/beer{
@@ -22797,7 +22791,7 @@
 "gUp" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "gUs" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -22830,7 +22824,7 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "darkfull"
 	},
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "gWq" = (
 /obj/structure/rack/gunrack,
 /obj/effect/decal/cleanable/dirt,
@@ -22844,7 +22838,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "gXT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -22973,7 +22967,7 @@
 	layer = 4
 	},
 /turf/simulated/floor/plating,
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "hjg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -22993,7 +22987,7 @@
 /turf/simulated/floor/indestructible/plating{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "hkN" = (
 /obj/machinery/door/airlock/security{
 	name = "Brig";
@@ -23044,7 +23038,7 @@
 /obj/machinery/constructable_frame,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "hnK" = (
 /obj/machinery/door/airlock{
 	name = "Bedroom";
@@ -23142,7 +23136,7 @@
 "htQ" = (
 /obj/item/stack/ore/diamond,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "hua" = (
 /obj/structure/mecha_wreckage/ripley,
 /obj/effect/decal/cleanable/blood/oil,
@@ -23201,10 +23195,10 @@
 	icon_state = "asteroidwarning";
 	dir = 6
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "hvZ" = (
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "hxR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -23241,11 +23235,11 @@
 "hAq" = (
 /obj/structure/flora/tree/cactus,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "hAH" = (
 /obj/structure/fence,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "hBj" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
@@ -23347,13 +23341,13 @@
 "hHS" = (
 /obj/structure/flora/rock,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "hHU" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 5
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "hHV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -23416,7 +23410,7 @@
 "hKJ" = (
 /obj/structure/flora/ausbushes/reedbush,
 /turf/simulated/floor/beach/water/desert_water,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "hKP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -23459,7 +23453,7 @@
 "hON" = (
 /obj/structure/flora/tree/desert/dead,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "hQp" = (
 /obj/structure/closet/secure_closet/security{
 	broken = 1;
@@ -23506,7 +23500,7 @@
 "hTc" = (
 /obj/structure/flora/tree/cactus/flat,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "hTB" = (
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -23539,7 +23533,7 @@
 "hVx" = (
 /obj/structure/flora/tree/cactus/circle,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "hVV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
@@ -23589,7 +23583,7 @@
 /area/arrakis/bunker/dorms)
 "iae" = (
 /turf/simulated/floor/indestructible/dune_sand/dug,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "iaR" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel,
@@ -23632,14 +23626,14 @@
 	name = "ржавые перила"
 	},
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "idZ" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/closet/cardboard,
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "iem" = (
 /obj/machinery/vending/security,
 /obj/effect/decal/cleanable/dirt,
@@ -23715,12 +23709,12 @@
 /obj/effect/turf_decal/sand,
 /obj/item/pod_parts/pod_frame/fore_port,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "imN" = (
 /turf/simulated/floor/indestructible{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "ina" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	welded = 1;
@@ -23733,7 +23727,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "inl" = (
 /obj/machinery/vending/clothing/departament/law,
 /obj/effect/turf_decal/siding/wood{
@@ -23745,7 +23739,7 @@
 "ipc" = (
 /obj/structure/flora/tree/desert/joshua,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "ipT" = (
 /obj/structure/extinguisher_cabinet{
 	name = "east extinguisher cabinet";
@@ -23811,7 +23805,7 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "iwk" = (
 /obj/item/stack/ore/silver,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -23880,15 +23874,15 @@
 /obj/item/gps/mining,
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "iAs" = (
 /obj/structure/fence/cut/large,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "iAS" = (
 /obj/effect/decal/cleanable/flour,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "iBy" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -23903,7 +23897,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "iCV" = (
 /obj/effect/decal/warning_stripes/west,
 /obj/effect/decal/warning_stripes/yellow/partial{
@@ -23938,12 +23932,12 @@
 /area/arrakis/bunker/brig)
 "iEG" = (
 /turf/simulated/wall/mineral/wood,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "iHH" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/decal/snow/sand/edge,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "iHP" = (
 /obj/structure/filingcabinet,
 /obj/item/toy/figure/magistrate{
@@ -23987,7 +23981,7 @@
 	amount = 10
 	},
 /turf/simulated/floor/plating,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "iIK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -24116,7 +24110,7 @@
 "iSe" = (
 /obj/structure/flora/tree/cactus/flat,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "iSu" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/disposalpipe/segment{
@@ -24157,14 +24151,16 @@
 	name = "ржавые перила"
 	},
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "iVo" = (
-/obj/effect/mapping_helpers/light,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
+/obj/structure/boulder{
+	max_integrity = 50;
+	name = "каменный завал";
+	desc = "Большие булыжники. Кажется они все потрескались, их явно можно разломать чем-то тяжёлым.";
+	pixel_x = -14
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/cave)
 "iVO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -24212,7 +24208,7 @@
 "iYe" = (
 /obj/item/stack/ore,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "iYq" = (
 /obj/machinery/requests_console{
 	name = "Detective Requests Console";
@@ -24249,7 +24245,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "jcJ" = (
 /obj/structure/table/reinforced,
 /obj/item/stamp/law,
@@ -24372,7 +24368,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "jmS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -24391,7 +24387,8 @@
 /obj/structure/boulder{
 	max_integrity = 50;
 	name = "каменный завал";
-	desc = "Большие булыжники. Кажется они все потрескались, их явно можно разломать чем-то тяжёлым."
+	desc = "Большие булыжники. Кажется они все потрескались, их явно можно разломать чем-то тяжёлым.";
+	pixel_y = -2
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave)
@@ -24474,11 +24471,11 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "jvy" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "jwn" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -24604,7 +24601,7 @@
 "jJk" = (
 /obj/machinery/conveyor/north,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "jKK" = (
 /obj/structure/lattice/catwalk{
 	smooth = 0;
@@ -24650,7 +24647,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "jPI" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
@@ -24662,7 +24659,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "jQo" = (
 /turf/simulated/floor/beach/water/desert_water,
 /area/arrakis/outside/mining_town)
@@ -24694,7 +24691,7 @@
 /obj/structure/table,
 /obj/item/stack/sheet/glass/fifty,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "jUE" = (
 /obj/structure/table/wood,
 /obj/item/eftpos,
@@ -24819,7 +24816,7 @@
 "kaG" = (
 /obj/structure/barricade/sandbags,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "kcL" = (
 /obj/item/gun/energy/kinetic_accelerator{
 	pixel_x = 4;
@@ -24830,7 +24827,7 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "kdb" = (
 /obj/structure/lattice/catwalk{
 	smooth = 0;
@@ -24844,7 +24841,7 @@
 	name = "ржавые перила"
 	},
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "kdv" = (
 /obj/structure/table/wood,
 /obj/machinery/bottler{
@@ -24870,7 +24867,7 @@
 "keR" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "kgk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
@@ -24906,7 +24903,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "khW" = (
 /obj/machinery/light{
 	dir = 4
@@ -24928,7 +24925,7 @@
 "knE" = (
 /obj/structure/flora/rock,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "kpz" = (
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/plasteel{
@@ -24942,7 +24939,7 @@
 "krq" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/simulated/floor/plating,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "ksO" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/light,
@@ -24956,7 +24953,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "kyn" = (
 /obj/structure/grille{
 	color = "#e0ac7b"
@@ -24968,7 +24965,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "kzk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/redcross{
@@ -24993,7 +24990,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "kCK" = (
 /obj/structure/chair/sofa/right{
 	dir = 4
@@ -25010,7 +25007,7 @@
 "kDZ" = (
 /obj/structure/fence/post,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "kEi" = (
 /obj/structure/AIcore/deactivated{
 	icon = 'icons/misc/desert2.dmi';
@@ -25083,7 +25080,7 @@
 "kKX" = (
 /obj/structure/flora/tree/desert/dead,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "kKZ" = (
 /obj/structure/table,
 /obj/item/storage/box/tapes,
@@ -25180,7 +25177,7 @@
 /turf/simulated/floor/wood/fancy/oak{
 	icon_state = "fancy-wood-oak-broken4"
 	},
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "kPH" = (
 /obj/structure/chair/sofa/pew/right{
 	dir = 8
@@ -25201,7 +25198,7 @@
 "kQZ" = (
 /obj/structure/flora/tree/cactus/circle,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "kRx" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Brig";
@@ -25320,7 +25317,7 @@
 /obj/machinery/conveyor/north,
 /obj/item/stack/ore/iron,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "lbd" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -25348,7 +25345,7 @@
 "ldl" = (
 /obj/structure/sign/mining,
 /turf/simulated/wall/indestructible/reinforced/rusted,
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "ldp" = (
 /mob/living/simple_animal/bot/cleanbot,
 /turf/simulated/floor/plasteel{
@@ -25385,7 +25382,7 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "leS" = (
 /obj/structure/barricade/wooden,
 /turf/simulated/floor/indestructible/dune_sand,
@@ -25436,7 +25433,7 @@
 "lgh" = (
 /obj/structure/bonfire/dense,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "lgx" = (
 /obj/structure/closet/crate,
 /turf/simulated/floor/wood,
@@ -25513,11 +25510,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "llm" = (
 /obj/effect/decal/remains,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "llF" = (
 /obj/structure/chair{
 	dir = 1
@@ -25532,7 +25529,7 @@
 	color = "#9b5839"
 	},
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "lmg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
@@ -25566,7 +25563,7 @@
 /turf/simulated/floor/wood/fancy/oak{
 	icon_state = "fancy-wood-oak-broken"
 	},
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "lub" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -25609,7 +25606,7 @@
 /turf/simulated/floor/indestructible/plating{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "lxA" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -25641,13 +25638,13 @@
 	},
 /obj/item/clothing/shoes/sandal,
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "lCj" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/simulated/floor/indestructible{
 	icon_state = "asteroidwarning"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "lCm" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -25701,7 +25698,7 @@
 	},
 /obj/item/stock_parts/cell/high,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "lEk" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -25732,7 +25729,7 @@
 "lGn" = (
 /obj/effect/decal/snow/sand/edge,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "lIF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/computer/secure_data,
@@ -25816,7 +25813,7 @@
 "lWo" = (
 /obj/structure/closet/crate/miningcar,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "lWp" = (
 /obj/structure/barricade/wooden,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -25868,7 +25865,7 @@
 "mex" = (
 /mob/living/simple_animal/hostile/lizard/gator,
 /turf/simulated/floor/beach/water/desert_water,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "mfC" = (
 /obj/item/grown/log/tree,
 /obj/item/grown/log/tree{
@@ -25877,7 +25874,7 @@
 	},
 /obj/item/hatchet/wooden,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "mgP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/hydroseeds,
@@ -25886,16 +25883,6 @@
 	icon_state = "darkgreen"
 	},
 /area/arrakis/bunker/hydro)
-"miz" = (
-/obj/item/reagent_containers/glass/beaker/waterbottle/large{
-	pixel_x = 2;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/glass/beaker/waterbottle/large{
-	pixel_x = -8
-	},
-/turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
 "mjL" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -25926,7 +25913,7 @@
 	},
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "mkG" = (
 /obj/machinery/recharge_station,
 /obj/effect/decal/cleanable/dirt,
@@ -26015,7 +26002,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "mpU" = (
 /obj/item/stack/ore/iron,
 /turf/simulated/floor/indestructible/dune_sand,
@@ -26058,10 +26045,10 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "muK" = (
 /turf/simulated/floor/indestructible/dune_sand/dug,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "mve" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -26092,14 +26079,14 @@
 /turf/simulated/floor/wood/fancy/oak{
 	icon_state = "fancy-wood-oak-broken5"
 	},
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "mzv" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/decal/snow/sand/edge,
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "mAj" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -26242,7 +26229,7 @@
 /turf/simulated/floor/indestructible/plating{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "mIk" = (
 /obj/structure/railing{
 	color = "#e0ac7b";
@@ -26284,7 +26271,7 @@
 /area/arrakis/bunker/brig)
 "mJS" = (
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "mLg" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -26429,14 +26416,14 @@
 /obj/machinery/mecha_part_fabricator/spacepod,
 /obj/effect/mapping_helpers/machinery/damaged,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "mVg" = (
 /obj/structure/computerframe{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "mXg" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/decal/snow/sand/edge,
@@ -26447,7 +26434,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "mXM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -26540,7 +26527,7 @@
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/chicken_soup,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "nbb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -26599,7 +26586,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "neq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -26635,7 +26622,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "nlo" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -26847,7 +26834,7 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "nEm" = (
 /obj/structure/dresser,
 /obj/item/grenade/frag{
@@ -26856,7 +26843,7 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "nGk" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -26999,7 +26986,7 @@
 "nOz" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "nPz" = (
 /obj/structure/AIcore/deactivated{
 	icon = 'icons/misc/desert2.dmi';
@@ -27133,7 +27120,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "nYf" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -27256,7 +27243,7 @@
 	icon_state = "asteroidwarning";
 	dir = 10
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "oeA" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Vault Door Control";
@@ -27383,7 +27370,7 @@
 /area/arrakis/bunker)
 "omB" = (
 /turf/simulated/floor/beach/water/desert_water,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "omY" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -27409,7 +27396,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/belt/utility,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "oox" = (
 /obj/machinery/vending/clothing/departament/law,
 /obj/effect/decal/cleanable/dirt,
@@ -27526,7 +27513,7 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "ovH" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/decal/cleanable/dirt,
@@ -27608,7 +27595,7 @@
 	name = "ржавые перила"
 	},
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "oCE" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -27705,36 +27692,21 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "oFY" = (
 /obj/machinery/conveyor/east,
 /obj/effect/decal/cleanable/dust,
 /obj/structure/plasticflaps,
 /turf/simulated/floor/engine,
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "oGz" = (
 /obj/structure/flora/tree/cactus,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "oGI" = (
-/obj/structure/boulder{
-	max_integrity = 50;
-	pixel_x = 44;
-	name = "каменный завал";
-	desc = "Большие булыжники. Кажется они все потрескались, их явно можно разломать чем-то тяжёлым."
-	},
-/obj/structure/lattice/catwalk{
-	smooth = 0;
-	color = "#e0ac7b";
-	name = "ржавый мост";
-	desc = "Очень ржавый, скрипучий мост, который кажется вот-вот развалится."
-	},
-/obj/effect/turf_decal/tile/neutral{
-	color = "black";
-	icon_state = "tile_full"
-	},
-/turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/cave)
+/obj/effect/mapping_helpers/light,
+/turf/simulated/floor/indestructible/dune_sand,
+/area/arrakis/outside/mining_town)
 "oHX" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Brig";
@@ -27832,7 +27804,7 @@
 	layer = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "oLJ" = (
 /obj/machinery/door/airlock{
 	name = "Bedroom";
@@ -27880,7 +27852,7 @@
 	icon_state = "tile_full"
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "oRP" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -27954,7 +27926,7 @@
 	name = "ржавые перила"
 	},
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "oWI" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/light{
@@ -27977,7 +27949,7 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "asteroidwarning"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "oYW" = (
 /obj/machinery/door/airlock/security/glass{
 	id_tag = "BrigRight";
@@ -28011,7 +27983,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "paG" = (
 /obj/structure/chair/sofa/pew/left{
 	dir = 8
@@ -28043,7 +28015,7 @@
 "pdo" = (
 /obj/machinery/conveyor/east,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "pdt" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -28152,7 +28124,7 @@
 	icon_state = "asteroidwarning";
 	dir = 1
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "poH" = (
 /obj/machinery/door/airlock/research{
 	autoclose = 0;
@@ -28173,9 +28145,10 @@
 "ppj" = (
 /obj/structure/boulder{
 	max_integrity = 50;
-	pixel_y = -6;
 	name = "каменный завал";
-	desc = "Большие булыжники. Кажется они все потрескались, их явно можно разломать чем-то тяжёлым."
+	desc = "Большие булыжники. Кажется они все потрескались, их явно можно разломать чем-то тяжёлым.";
+	pixel_x = -2;
+	pixel_y = -6
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
 /area/arrakis/cave)
@@ -28266,7 +28239,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "pub" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8;
@@ -28377,7 +28350,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "pBj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -28402,7 +28375,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "pCj" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -28415,14 +28388,14 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "pCU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "pDg" = (
 /obj/structure/lattice/catwalk{
 	smooth = 0;
@@ -28547,7 +28520,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "pOp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -28570,7 +28543,7 @@
 "pOQ" = (
 /obj/structure/flora/tree/cactus/circle,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "pOU" = (
 /obj/effect/spawner/window/reinforced,
 /obj/machinery/door/poddoor/shutters{
@@ -28618,11 +28591,11 @@
 	color = "#aaaaaa"
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "pUq" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "pUK" = (
 /obj/structure/cable{
 	d2 = 2;
@@ -28665,13 +28638,13 @@
 "pWr" = (
 /obj/effect/turf_decal/sand,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "pYB" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "pYC" = (
 /obj/machinery/gameboard,
 /obj/effect/decal/cleanable/dust,
@@ -28703,7 +28676,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "qbO" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/simulated/floor/carpet/black,
@@ -28711,18 +28684,18 @@
 "qdm" = (
 /obj/effect/turf_decal/weather/dirt,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "qdE" = (
 /obj/structure/chair/sofa/right{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "qgp" = (
 /obj/structure/fence/post,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "qgL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/command{
@@ -28766,7 +28739,7 @@
 	name = "ржавые перила"
 	},
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "qiC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -28858,7 +28831,7 @@
 	icon_state = "tile_full"
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "qml" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/chair/office/dark,
@@ -28876,7 +28849,7 @@
 "qmE" = (
 /obj/structure/flora/tree/cactus/circle,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "qmQ" = (
 /obj/machinery/computer/cryopod{
 	pixel_y = 32
@@ -28909,7 +28882,7 @@
 	name = "Mining Outpost - Storage"
 	},
 /turf/simulated/floor/plasteel,
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "qqO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light{
@@ -28947,7 +28920,7 @@
 "qud" = (
 /obj/effect/mapping_helpers/light,
 /turf/simulated/floor/beach/water/desert_water,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "qux" = (
 /obj/structure/railing{
 	dir = 4;
@@ -29039,7 +29012,7 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/engine,
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "qCN" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -28
@@ -29100,7 +29073,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "qIP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -29124,7 +29097,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "qJm" = (
 /obj/structure/window/reinforced,
 /obj/effect/decal/cleanable/dirt,
@@ -29145,7 +29118,7 @@
 "qJH" = (
 /obj/structure/fence/post,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "qJM" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/security_space_law{
@@ -29212,13 +29185,18 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "qMG" = (
-/obj/structure/grille{
-	color = "#e0ac7b"
+/obj/effect/decal/cleanable/dust,
+/obj/item/reagent_containers/glass/beaker/waterbottle/large{
+	pixel_x = -8
 	},
-/turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/obj/item/reagent_containers/glass/beaker/waterbottle/large{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/turf/simulated/floor/wood/fancy/oak,
+/area/arrakis/outside/hermit_shack)
 "qNp" = (
 /obj/effect/decal/cleanable/dust,
 /obj/item/storage/box/survival_mining,
@@ -29268,7 +29246,7 @@
 "qSl" = (
 /obj/structure/flora/tree/desert/african,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "qUn" = (
 /obj/effect/decal/cleanable/dust,
 /obj/item/storage/backpack/satchel_explorer{
@@ -29278,13 +29256,13 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "qVa" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/floor/indestructible/dune_sand/dug,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "qVD" = (
 /turf/simulated/floor/plasteel{
 	dir = 6;
@@ -29302,7 +29280,7 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "qWd" = (
 /obj/structure/lattice/catwalk{
 	smooth = 0;
@@ -29357,7 +29335,7 @@
 /obj/item/circuitboard/mecha/pod,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "raN" = (
 /mob/living/simple_animal/hostile/scarybat/batswarm,
 /turf/simulated/floor/indestructible/dune_sand,
@@ -29472,7 +29450,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "rjm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/multi_tile/glass{
@@ -29527,7 +29505,7 @@
 	},
 /obj/effect/turf_decal/sand/plating,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "roT" = (
 /obj/item/stack/sheet/mineral/sandbags,
 /obj/effect/decal/cleanable/dust,
@@ -29536,7 +29514,7 @@
 "rpS" = (
 /obj/structure/barricade/sandbags,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "rrj" = (
 /obj/machinery/kitchen_machine/oven{
 	pixel_y = 3
@@ -29676,7 +29654,7 @@
 "rzn" = (
 /obj/machinery/conveyor/northeast,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "rzF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
@@ -29834,7 +29812,7 @@
 "rPq" = (
 /obj/structure/flora/tree/desert/joshua,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "rPN" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/disposalpipe/segment,
@@ -29852,7 +29830,7 @@
 /obj/effect/mapping_helpers/machinery/damaged,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "rQo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -29875,7 +29853,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "rSs" = (
 /obj/effect/turf_decal/tile/neutral{
 	color = "black";
@@ -29888,7 +29866,7 @@
 	desc = "Очень ржавый, скрипучий мост, который кажется вот-вот развалится."
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "rSw" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "grimy"
@@ -29915,7 +29893,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "rUs" = (
 /obj/structure/table,
 /obj/item/reagent_containers/glass/beaker{
@@ -29953,7 +29931,7 @@
 /obj/effect/decal/cleanable/dust,
 /obj/item/stack/ore/gold,
 /turf/simulated/floor/engine,
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "rVS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light{
@@ -29970,7 +29948,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "rWX" = (
 /obj/effect/decal/warning_stripes/west,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -30028,7 +30006,7 @@
 /turf/simulated/floor/wood/fancy/oak{
 	icon_state = "fancy-wood-oak-broken3"
 	},
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "scE" = (
 /obj/effect/spawner/window/reinforced,
 /turf/simulated/floor,
@@ -30036,7 +30014,7 @@
 "sdb" = (
 /obj/structure/flora/tree/cactus/little,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "sdk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -30058,7 +30036,7 @@
 	pixel_x = -7
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "sfw" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/conveyor_switch,
@@ -30070,11 +30048,11 @@
 	icon_state = "asteroidwarning";
 	dir = 1
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "sgg" = (
 /obj/structure/flora/tree/cactus/little,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "sgp" = (
 /obj/structure/lattice/catwalk{
 	smooth = 0;
@@ -30083,11 +30061,11 @@
 	desc = "Очень ржавый, скрипучий мост, который кажется вот-вот развалится."
 	},
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "sji" = (
 /obj/structure/flora/tree/desert/big,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "skt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/securearea{
@@ -30328,7 +30306,7 @@
 /turf/simulated/floor/indestructible{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "sBW" = (
 /obj/structure/table_frame,
 /obj/effect/decal/cleanable/dirt,
@@ -30403,7 +30381,7 @@
 	pixel_x = 26
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "sGW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -30477,7 +30455,7 @@
 "sMv" = (
 /obj/structure/flora/tree/cactus/flat,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "sND" = (
 /mob/living/simple_animal/hostile/poison/giant_spider/hunter,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -30512,7 +30490,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "sRA" = (
 /obj/structure/chair/stool/bar{
 	dir = 1
@@ -30561,14 +30539,14 @@
 	pixel_x = -32;
 	color = "#381e13";
 	desc = "Неопрятные, дырявые шторы, которые сделаны из шкуры и кожи.";
-	name = "кожанные шторы"
+	name = "шторы из кожи"
 	},
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "sVR" = (
 /obj/item/stack/sheet/metal/fifty,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "sXf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -30633,7 +30611,7 @@
 /obj/effect/decal/snow/sand/edge,
 /obj/structure/girder,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "tfx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -30721,7 +30699,7 @@
 "tiI" = (
 /obj/structure/fence/cut/medium,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "tiJ" = (
 /obj/machinery/power/treadmill{
 	dir = 8
@@ -30736,7 +30714,7 @@
 	pixel_y = -8
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "tkl" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -30762,7 +30740,7 @@
 /obj/machinery/conveyor/east,
 /obj/item/stack/ore/silver,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "tkK" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -30806,7 +30784,7 @@
 	pixel_x = 33
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "tpI" = (
 /obj/item/flashlight/lantern{
 	pixel_x = 8
@@ -30853,7 +30831,7 @@
 "twR" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "txt" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -30908,7 +30886,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "tEC" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -30939,7 +30917,7 @@
 "tFF" = (
 /obj/machinery/hydroponics/soil,
 /turf/simulated/floor/indestructible/dune_sand/dug,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "tFK" = (
 /mob/living/simple_animal/hostile/poison/giant_spider,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
@@ -30997,7 +30975,7 @@
 "tLQ" = (
 /obj/machinery/conveyor/north,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "tMd" = (
 /obj/machinery/door/window/brigdoor{
 	base_state = "rightsecure";
@@ -31028,7 +31006,7 @@
 /obj/effect/decal/cleanable/dust,
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "tOD" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/disposalpipe/segment{
@@ -31078,7 +31056,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "tQz" = (
 /obj/structure/chair/comfy/black,
 /obj/effect/decal/cleanable/dust,
@@ -31178,7 +31156,7 @@
 "tVB" = (
 /obj/item/pod_parts/pod_frame/fore_starboard,
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "tWq" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dust,
@@ -31238,7 +31216,7 @@
 "ubY" = (
 /obj/structure/flora/tree/desert/joshua,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "ucc" = (
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -31299,7 +31277,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "uib" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -31310,7 +31288,7 @@
 "ukQ" = (
 /obj/structure/flora/tree/cactus/little,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "ulB" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Arcade"
@@ -31376,7 +31354,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "upk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -31440,7 +31418,7 @@
 "utW" = (
 /obj/structure/flora/rock/pile,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "uvL" = (
 /obj/structure/AIcore/deactivated{
 	icon = 'icons/misc/desert2.dmi';
@@ -31506,7 +31484,7 @@
 /turf/simulated/floor/indestructible/plating{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "uCT" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/plasteel{
@@ -31535,11 +31513,11 @@
 "uEm" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "uEp" = (
 /obj/item/stack/ore/iron,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside4)
+/area/arrakis/outside/outside4)
 "uEq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -31608,7 +31586,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "uKY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -31626,7 +31604,7 @@
 /area/arrakis/bunker/brig)
 "uLg" = (
 /turf/simulated/wall/indestructible/reinforced/rusted,
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "uPM" = (
 /obj/structure/lattice/catwalk{
 	smooth = 0;
@@ -31668,7 +31646,7 @@
 	name = "ржавые перила"
 	},
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "uRn" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -31703,7 +31681,7 @@
 /area/arrakis/cave)
 "uTy" = (
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside7)
+/area/arrakis/outside/outside7)
 "uTB" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/paper_bin,
@@ -31756,7 +31734,7 @@
 	icon_state = "tile_full"
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "uYp" = (
 /obj/item/taperecorder{
 	pixel_y = 4
@@ -31879,7 +31857,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "vjf" = (
 /obj/item/pen/multi,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -32005,7 +31983,7 @@
 "voI" = (
 /obj/item/stack/sheet/wood,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "vqS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -32046,7 +32024,7 @@
 "vvF" = (
 /obj/structure/flora/rock/jungle,
 /turf/simulated/floor/beach/water/desert_water,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "vwf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
@@ -32084,7 +32062,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "vzC" = (
 /obj/effect/decal/cleanable/dust,
 /obj/item/chair/wood{
@@ -32123,7 +32101,7 @@
 	icon_state = "asteroidwarning";
 	dir = 1
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "vBH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -32532,7 +32510,7 @@
 "wdy" = (
 /obj/structure/flora/tree/cactus/flat,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "wfT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -32553,7 +32531,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "wgJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -32609,7 +32587,7 @@
 /turf/simulated/floor/wood/fancy/oak{
 	icon_state = "fancy-wood-oak-broken7"
 	},
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "wkR" = (
 /obj/structure/chair,
 /obj/effect/decal/cleanable/dirt,
@@ -32846,7 +32824,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "wJf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -32917,7 +32895,7 @@
 "wNJ" = (
 /obj/structure/flora/tree/desert/medpine,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "wOq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/chair{
@@ -32948,12 +32926,6 @@
 	icon_state = "dark"
 	},
 /area/arrakis/bunker/brig)
-"wQU" = (
-/obj/structure/grille{
-	color = "#e0ac7b"
-	},
-/turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
 "wQW" = (
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 2";
@@ -33172,7 +33144,7 @@
 /turf/simulated/floor/indestructible/plating{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "xlH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -33253,7 +33225,7 @@
 	},
 /obj/structure/girder,
 /turf/simulated/floor/indestructible/dune_sand/smooth,
-/area/arrakis/podhangars)
+/area/arrakis/outside/podhangars)
 "xpE" = (
 /obj/effect/decal/cleanable/dust,
 /obj/effect/decal/warning_stripes/green/hollow,
@@ -33500,7 +33472,7 @@
 	color = "#aaaaaa"
 	},
 /turf/simulated/floor/chasm,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "xPI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -33650,7 +33622,7 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "asteroidfloor"
 	},
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "xYr" = (
 /obj/structure/coatrack,
 /obj/item/clothing/suit/browntrenchcoat{
@@ -33663,12 +33635,12 @@
 	},
 /obj/effect/decal/cleanable/dust,
 /turf/simulated/floor/wood/fancy/oak,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/hermit_shack)
 "xYy" = (
 /obj/effect/decal/cleanable/dust,
 /obj/machinery/conveyor/east,
 /turf/simulated/floor/engine,
-/area/arrakis/mining_storage_outpost)
+/area/arrakis/outside/mining_storage_outpost)
 "yby" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -33705,9 +33677,7 @@
 /area/arrakis/bunker/brig)
 "ydH" = (
 /obj/effect/turf_decal/sand/plating,
-/obj/item/fish/glofish{
-	pixel_x = -8
-	},
+/obj/item/fish/salmon,
 /obj/item/fish/goldfish{
 	pixel_x = -4;
 	pixel_y = -4
@@ -33731,7 +33701,7 @@
 "ygW" = (
 /obj/effect/turf_decal/weather/dirt,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside5)
+/area/arrakis/outside/outside5)
 "yhJ" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -32
@@ -33745,7 +33715,7 @@
 "yhP" = (
 /obj/structure/fence/door,
 /turf/simulated/floor/indestructible/dune_sand,
-/area/arrakis/outside/Outside2)
+/area/arrakis/outside/outside2)
 "yie" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -36214,7 +36184,7 @@ adM
 asV
 asV
 csw
-asV
+bPm
 asV
 asV
 asV
@@ -36472,14 +36442,14 @@ omB
 omB
 omB
 omB
-qud
+omB
 omB
 omB
 omB
 asV
 omB
 adM
-adM
+grL
 ayO
 ayO
 ayO
@@ -36993,7 +36963,7 @@ omB
 mex
 omB
 omB
-qud
+omB
 omB
 omB
 omB
@@ -37258,7 +37228,7 @@ omB
 omB
 omB
 omB
-asV
+bPm
 adM
 adM
 ayO
@@ -37503,8 +37473,8 @@ asV
 asV
 asV
 asV
+bPm
 asV
-asV
 omB
 omB
 omB
@@ -37515,7 +37485,7 @@ omB
 omB
 omB
 omB
-qud
+omB
 asV
 omB
 adM
@@ -38801,7 +38771,7 @@ ayO
 ayO
 asV
 asV
-asV
+bPm
 omB
 omB
 omB
@@ -39321,8 +39291,8 @@ asV
 omB
 omB
 omB
-qud
-asV
+omB
+bPm
 adM
 ayO
 ayO
@@ -40289,7 +40259,7 @@ aYs
 aYs
 aIg
 aIg
-aYs
+fWq
 jQo
 huU
 jQo
@@ -40826,9 +40796,9 @@ jQo
 jQo
 omB
 omB
-qud
 omB
 omB
+omB
 asV
 omB
 asV
@@ -40862,11 +40832,11 @@ ayO
 ayO
 ayO
 ayO
-wQU
-wQU
-gee
-gee
-qMG
+asV
+asV
+omB
+omB
+adM
 ayO
 ayO
 ayO
@@ -41063,7 +41033,7 @@ aYs
 dAj
 jQo
 jQo
-obs
+jQo
 jQo
 jQo
 jQo
@@ -41336,7 +41306,7 @@ jQo
 jQo
 jQo
 jQo
-jQo
+obs
 jQo
 omB
 omB
@@ -41345,7 +41315,7 @@ asV
 asV
 asV
 qmE
-asV
+bPm
 asV
 ayO
 ayO
@@ -42113,7 +42083,7 @@ ayO
 adM
 asV
 csw
-asV
+bPm
 asV
 efC
 asV
@@ -42350,7 +42320,7 @@ mSB
 wYH
 jQo
 jQo
-jQo
+obs
 jQo
 jQo
 jQo
@@ -42370,7 +42340,7 @@ ayO
 ayO
 adM
 dtG
-iVo
+dtG
 pNU
 bfE
 adM
@@ -43408,7 +43378,7 @@ xWG
 xWG
 aBe
 aHr
-foz
+aHr
 nQd
 aHr
 aHr
@@ -43638,7 +43608,7 @@ aYs
 aYs
 aYs
 aIg
-aIg
+oGI
 aIg
 aYs
 ayO
@@ -44692,7 +44662,7 @@ hvZ
 hvZ
 hvZ
 hvZ
-hvZ
+nOz
 hvZ
 hvZ
 ayO
@@ -45719,7 +45689,7 @@ asV
 asV
 adM
 jPb
-nOz
+hvZ
 hvZ
 hvZ
 hvZ
@@ -45984,7 +45954,7 @@ hvZ
 hvZ
 hvZ
 kdb
-sgp
+mjM
 sgp
 uQJ
 hvZ
@@ -46233,7 +46203,7 @@ asV
 asV
 asV
 asV
-adM
+grL
 pYB
 adM
 pYB
@@ -48028,7 +47998,7 @@ asV
 oLp
 iEG
 izM
-gUp
+qMG
 gUp
 gUp
 fls
@@ -48806,7 +48776,7 @@ aSe
 llH
 adM
 asV
-asV
+bPm
 qdm
 hvZ
 hvZ
@@ -49310,7 +49280,7 @@ tjd
 asV
 asV
 asV
-miz
+adM
 iEG
 iEG
 iEG
@@ -51895,7 +51865,7 @@ adM
 adM
 ayO
 ayO
-oGI
+iln
 iln
 ayO
 ayO
@@ -52409,7 +52379,7 @@ ayO
 ayO
 ayO
 ayO
-aBe
+iVo
 uyr
 ayO
 ayO
@@ -86094,7 +86064,7 @@ aXZ
 aXZ
 aXZ
 hAH
-aXZ
+auU
 aXZ
 alp
 alp

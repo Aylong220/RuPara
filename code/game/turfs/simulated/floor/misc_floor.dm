@@ -95,10 +95,6 @@
 	clawfootstep = FOOTSTEP_WATER
 	heavyfootstep = FOOTSTEP_WATER
 
-/turf/simulated/floor/beach/water/desert_water
-	icon = 'icons/misc/desert.dmi'
-	baseturf = /turf/simulated/floor/beach/water/desert_water
-
 /turf/simulated/floor/beach/water/Initialize(mapload)
 	. = ..()
 	var/image/overlay_image = image('icons/misc/beach.dmi', icon_state = "water5", layer = ABOVE_MOB_LAYER)
@@ -124,6 +120,12 @@
 		return
 	if(istype(A, /obj/effect/decal/cleanable)) // Better a typecheck than looping through thousands of turfs everyday
 		linkedcontroller.decalinpool += A
+
+/turf/simulated/floor/beach/water/desert_water
+	icon = 'icons/misc/desert.dmi'
+	baseturf = /turf/simulated/floor/beach/water/desert_water
+
+/turf/simulated/floor/beach/water/desert_water/Initialize(mapload)
 
 /turf/simulated/floor/noslip
 	name = "high-traction floor"

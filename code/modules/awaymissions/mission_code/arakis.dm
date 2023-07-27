@@ -13,32 +13,32 @@
 	icon_state = "syndie-outside"
 	ambientsounds = DESERT_SOUNDS
 
-/area/arrakis/outside/Outside1
+/area/arrakis/outside/outside1
 	name = "\improper Arrakis Arrival"
 	icon_state = "awaycontent1"
 	ambientsounds = DESERT_SOUNDS_START
 
-/area/arrakis/outside/Outside2
+/area/arrakis/outside/outside2
 	name = "\improper Arrakis Dunes 2"
 	icon_state = "awaycontent2"
 
-/area/arrakis/outside/Outside3
+/area/arrakis/outside/outside3
 	name = "\improper Arrakis Dunes 3"
 	icon_state = "awaycontent3"
 
-/area/arrakis/outside/Outside4
+/area/arrakis/outside/outside4
 	name = "\improper Arrakis Dunes 4"
 	icon_state = "awaycontent4"
 
-/area/arrakis/outside/Outside5
+/area/arrakis/outside/outside5
 	name = "\improper Arrakis Dunes 5"
 	icon_state = "awaycontent5"
 
-/area/arrakis/outside/Outside6
+/area/arrakis/outside/outside6
 	name = "\improper Arrakis Dunes 6"
 	icon_state = "awaycontent6"
 
-/area/arrakis/outside/Outside7
+/area/arrakis/outside/outside7
 	name = "\improper Arrakis Dunes 7"
 	icon_state = "awaycontent7"
 
@@ -49,6 +49,30 @@
 /area/arrakis/outside/shuttle
 	name = "\improper Arrakis Shuttle"
 	icon_state = "unknown"
+
+/area/arrakis/outside/podhangars
+	name = "\improper Arrakis Pod Hangars"
+	icon_state = "awaycontent18"
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	requires_power = TRUE
+	always_unpowered = FALSE
+	ambientsounds = RUINS_SOUNDS
+
+/area/arrakis/outside/mining_storage_outpost
+	name = "\improper Arrakis Mining Outpost"
+	icon_state = "awaycontent28"
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	requires_power = TRUE
+	always_unpowered = TRUE
+	ambientsounds = RUINS_SOUNDS
+
+/area/arrakis/outside/hermit_shack
+	name = "\improper Arrakis Hermit's Shack"
+	icon_state = "awaycontent30"
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	requires_power = TRUE
+	always_unpowered = TRUE
+	ambientsounds = RUINS_SOUNDS
 
 /area/arrakis/cave
 	name = "\improper Arrakis Cave"
@@ -73,22 +97,6 @@
 
 /area/arrakis/cave/cave5
 	name = "\improper Arrakis Cave 5"
-
-/area/arrakis/podhangars
-	name = "\improper Arrakis Pod Hangars"
-	icon_state = "awaycontent18"
-	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
-	requires_power = TRUE
-	always_unpowered = FALSE
-	ambientsounds = RUINS_SOUNDS
-
-/area/arrakis/mining_storage_outpost
-	name = "\improper Arrakis Mining Outpost"
-	icon_state = "awaycontent28"
-	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
-	requires_power = TRUE
-	always_unpowered = TRUE
-	ambientsounds = RUINS_SOUNDS
 
 /area/arrakis/bunker
 	name = "\improper Arrakis Vault Enter"
