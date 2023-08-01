@@ -14,6 +14,9 @@
 
 	outfit = /datum/outfit/job/chaplain
 
+	min_starting_funds = 700
+	max_starting_funds = 1000
+
 /datum/outfit/job/chaplain
 	name = "Chaplain"
 	jobtype = /datum/job/chaplain
